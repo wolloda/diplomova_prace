@@ -1,0 +1,2 @@
+5713974.meta-pbs.metacentrum.cz is running on node elmo3-1.hw.elixir-czech.cz in a scratch directory /scratch/wollf/job_5713974.meta-pbs.metacentrum.cz
+5713978.meta-pbs.metacentrum.cz is running on node elmo3-1.hw.elixir-czech.cz in a scratch directory /scratch/wollf/job_5713978.meta-pbs.metacentrum.cz

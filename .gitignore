@@ -1,0 +1,9 @@
+data/*
+Untitled.ipynb
+.ipynb_checkpoints
+__pycache__/
+.vscode/
+
+Mtree-Cophir-100k/
+MTree/
+tags
