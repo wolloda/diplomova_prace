@@ -1,0 +1,8 @@
+2021-03-22 14:45:10 INFO: Benchmark initialized
+2021-03-22 14:45:10 INFO: Buckets: [127, 40]
+2021-03-22 15:27:26 INFO: Benchmark initialized
+2021-03-22 15:27:26 INFO: Buckets: [127, 40]
+2021-03-22 15:34:45 INFO: Benchmark initialized
+2021-03-22 15:34:45 INFO: Buckets: [127, 40]
+2021-03-22 15:55:24 INFO: GMM with training spec: {'GMM': [{'comp': 127, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 40, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 1238.6577510796487 seconds (20.644295851327477 minutes)
+2021-03-22 16:10:48 INFO: GMM with training spec: {'GMM': [{'comp': 127, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 2, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 924.2077216859907 seconds (15.403462028099845 minutes)

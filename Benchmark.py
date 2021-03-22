@@ -4,13 +4,19 @@ from scipy.optimize import linear_sum_assignment
 from sklearn.model_selection import train_test_split
 
 import functools
-import logging
+from imports import logging
 
 from pathlib import Path
 from timeit import default_timer as timer
 
 from utils import get_knn_objects, get_sample_1k_objects
 from enums import DatasetDirs
+
+
+# NEW IMPORTS
+
+from mindex_new import mindex
+from profiset import *
 
 from LMI import LMI
 from knn_search import evaluate_knn_per_query
@@ -24,29 +30,26 @@ def rounded_accuracy(y_true, y_pred):
 class Benchmark:
     def __init__(self, model, dataset = DatasetDirs.COPHIR_1M, descriptors = -1, buckets = [], normalize = True):
         self.model = model
-
-        #self.DIR_PATH = f"/storage/brno6/home/tslaninakova/learned-indexes/MTree{dataset}/"
         self.DIR_PATH = f"{dataset.value}/"
+
         self.li = LMI(self.DIR_PATH, desc_values = descriptors)
         self.df = self.li.get_dataset(normalize = normalize)
+        logging.info(f"Dataset {self.DIR_PATH} loaded")
 
-        self.buckets = [self.df["L1"].max(), self.df["L2"].max()]
-        if buckets != []:
-            self.buckets = buckets
+        self.buckets = buckets if buckets else [self.df["L1"].max(), self.df["L2"].max()]
+
+        if descriptors == -1 and (dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k):
+            descriptors = 282
+        elif descriptors == -1 and (dataset == DatasetDirs.PROFI_1M or dataset == DatasetDirs.PROFI_100k):
+            descriptors = 4096
 
         self.destination = self.output_destination(dataset)
-
-        if descriptors == -1:
-            if dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k:
-                descriptors = 282
-            elif dataset == DatasetDirs.PROFI_1M:
-                descriptors = 4096
 
         #TODO: refactor
         if ((dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k) and descriptors != 282) or \
             (dataset == DatasetDirs.PROFI_1M and descriptors != 4096):
 
-            self.destination += f"/ENCODED-{len(self.df.columns) - 3}"
+            self.destination += f"/ENCODED-{descriptors}"
 
         Path(self.destination).mkdir(parents = True, exist_ok = True)
 
@@ -61,6 +64,37 @@ class Benchmark:
             self.df = self.get_encoded_df(self.df, descriptors)
 
         self.logger.info(f"Buckets: {self.buckets}")
+
+    def prepare_dataset(self, dataset, descriptors):
+        DATA_LOC = "/storage/brno6/home/tslaninakova/learned-indexes"
+
+        if dataset in [DatasetDirs.COPHIR_100k, DatasetDirs.COPHIR_1M]:
+            li = LMI(dataset.value, desc_value = descriptors)
+            df = self.li.get_dataset(normalize = normalize)
+            return (li, df)
+
+        elif dataset == DatasetDirs.PROFI_1M:
+            li = MIndex(PATH = f"{DATA_LOC}/", mindex = "MIndex1M-Profiset-leaf2000/")
+            li.labels = ["L1", "L2"]
+            index_df = load_indexes_profiset(f"{DATA_LOC}/MIndex1M-Profiset-leaf2000/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
+            index_df = index_df.sort_values(by=["object_id"])
+            objects = get_1M_profiset(index_path=f"{DATA_LOC}/MIndex1M-Profiset-leaf2000/", objects_path="f{DATA_LOC}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
+
+            df = pd.DataFrame(objects)
+            df["L1"] = index_df["L1"].values
+            df["L2"] = index_df["L2"].values
+            df["object_id"] = index_df["object_id"].values
+
+            return (li, df)
+
+        elif dataset == DatasetDirs.PROFI_100k:
+            li = MIndex(PATH = f"{DATA_LOC}/", mindex = "MIndex1M-Profiset-leaf200/")
+            li.labels = ["L1", "L2"]
+            index_df = load_indexes_profiset(f"{DATA_LOC}/MIndex1M-Profiset-leaf200/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
+            index_df = index_df.sort_values(by=["object_id"])
+            #TODO
+            objects = get_1M_profiset(index_path=f"{DATA_LOC}/MIndex1M-Profiset-leaf200/", objects_path="f{DATA_LOC}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
+            return (li, df)
 
     def get_logger(self):
         logger = logging.getLogger('benchmark')
@@ -197,7 +231,7 @@ class Benchmark:
         output_destination += "-".join(map(lambda x: str(x), self.buckets))
         return output_destination
 
-    def create_identifier(self, training_spec):
+    def create_identifier(self, spec):
         identifier = ""
         spec_keys = list(spec.keys())
         if "comp" in spec_keys:
@@ -211,12 +245,13 @@ class Benchmark:
         return identifier
 
 
-    def evaluate(self):
+    def evaluate(self, model_specs = []):
         final_results = {}
 
         object_checkpoints = [500, 1000, 3000, 5000, 10000, 50000, 100000, 200000, 300000, 500000, 750000]
         checkpoint_count = len(object_checkpoints) 
-        training_specs = self.load_config(self.model)
+
+        training_specs = model_specs if model_specs else self.load_config(self.model) 
 
         knns = self.li.load_knns()
         for training_spec in training_specs:

@@ -1,0 +1,31 @@
+2021-03-18 11:04:55 INFO: Benchmark initialized
+2021-03-18 11:04:55 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-18 11:04:55 INFO: Total specs to train: 12
+2021-03-20 00:33:46 INFO: Benchmark initialized
+2021-03-20 00:33:46 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-20 00:33:46 INFO: Total specs to train: 12
+2021-03-20 02:20:22 INFO: Benchmark initialized
+2021-03-20 02:20:22 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-20 02:20:22 INFO: Total specs to train: 12
+2021-03-21 19:27:02 INFO: Benchmark initialized
+2021-03-21 19:27:02 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-21 19:27:02 INFO: Total specs to train: 12
+2021-03-21 19:27:33 INFO: GMM with training spec: {'GMM': [{'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 30.767661228775978 seconds (0.5127943538129329 minutes)
+2021-03-21 20:11:17 INFO: Benchmark initialized
+2021-03-21 20:11:17 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-21 20:11:17 INFO: Total specs to train: 12
+2021-03-21 20:11:50 INFO: GMM with training spec: {'GMM': [{'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 32.6204550229013 seconds (0.5436742503816883 minutes)
+2021-03-21 22:43:50 INFO: Benchmark initialized
+2021-03-21 22:43:50 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-21 22:43:50 INFO: Total specs to train: 12
+2021-03-22 12:00:07 INFO: Benchmark initialized
+2021-03-22 12:00:07 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-22 12:00:07 INFO: Total specs to train: 12
+2021-03-22 12:18:00 INFO: Benchmark initialized
+2021-03-22 12:18:00 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-22 12:18:00 INFO: Total specs to train: 12
+2021-03-22 12:20:57 INFO: GMM with training spec: {'GMM': [{'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 176.6825546324253 seconds (2.944709243873755 minutes)
+2021-03-22 12:59:45 INFO: Benchmark initialized
+2021-03-22 12:59:45 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-03-22 12:59:45 INFO: Total specs to train: 12
+2021-03-22 13:16:34 INFO: GMM with training spec: {'GMM': [{'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/ in 1008.6203371370211 seconds (16.810338952283686 minutes)
