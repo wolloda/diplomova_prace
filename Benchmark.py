@@ -158,7 +158,7 @@ class Benchmark:
         if model == "GMM":
             covariance_types = ['spherical', 'diag', 'tied', 'full']
             max_iter = [1, 2, 5]
-            init_params = ['random']
+            init_params = ['kmeans', 'random']
 
             for covariance_type in covariance_types:
                 for iterations in max_iter:
