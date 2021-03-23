@@ -3,20 +3,18 @@ import numpy as np
 from scipy.optimize import linear_sum_assignment
 from sklearn.model_selection import train_test_split
 
-import functools
 from imports import logging
 
 from pathlib import Path
 from timeit import default_timer as timer
 
 from utils import get_knn_objects, get_sample_1k_objects
-from enums import DatasetDirs
+from enums import DatasetDirs, DEFAULT_DESCRIPTORS, KNN_OBJECTS
 
-
-# NEW IMPORTS
-
-from mindex_new import mindex
+# BEGIN NEW IMPORTS
+from mindex_new import MIndex
 from profiset import *
+# END
 
 from LMI import LMI
 from knn_search import evaluate_knn_per_query
@@ -30,25 +28,21 @@ def rounded_accuracy(y_true, y_pred):
 class Benchmark:
     def __init__(self, model, dataset = DatasetDirs.COPHIR_1M, descriptors = -1, buckets = [], normalize = True):
         self.model = model
-        self.DIR_PATH = f"{dataset.value}/"
+        self.dataset = dataset
 
-        self.li = LMI(self.DIR_PATH, desc_values = descriptors)
+        if descriptors == -1:
+            descriptors = DEFAULT_DESCRIPTORS[dataset]
+
+        self.li = LMI(PATH = f"{dataset.value}/", desc_values = descriptors)
         self.df = self.li.get_dataset(normalize = normalize)
-        logging.info(f"Dataset {self.DIR_PATH} loaded")
+
+        #self.li, self.df = self.prepare_dataset(dataset, descriptors)
+        logging.info(f"Dataset {dataset.value} loaded")
 
         self.buckets = buckets if buckets else [self.df["L1"].max(), self.df["L2"].max()]
-
-        if descriptors == -1 and (dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k):
-            descriptors = 282
-        elif descriptors == -1 and (dataset == DatasetDirs.PROFI_1M or dataset == DatasetDirs.PROFI_100k):
-            descriptors = 4096
-
         self.destination = self.output_destination(dataset)
 
-        #TODO: refactor
-        if ((dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k) and descriptors != 282) or \
-            (dataset == DatasetDirs.PROFI_1M and descriptors != 4096):
-
+        if (descriptors != DEFAULT_DESCRIPTORS[dataset]):
             self.destination += f"/ENCODED-{descriptors}"
 
         Path(self.destination).mkdir(parents = True, exist_ok = True)
@@ -56,49 +50,44 @@ class Benchmark:
         self.logger = self.get_logger()
         self.logger.info("Benchmark initialized")
 
-        #TODO: refactor
-        if ((dataset == DatasetDirs.COPHIR_1M or dataset == DatasetDirs.COPHIR_100k) and descriptors != 282) or \
-            (dataset == DatasetDirs.PROFI_1M and descriptors != 4096):
-
+        if (descriptors != DEFAULT_DESCRIPTORS[dataset]):
             self.logger.debug("Number of output columns differs from number of columns in dataset -> training an encoder")
-            self.df = self.get_encoded_df(self.df, descriptors)
+            self.df = self.get_encoded_df(descriptors)
 
         self.logger.info(f"Buckets: {self.buckets}")
 
-    def prepare_dataset(self, dataset, descriptors):
-        DATA_LOC = "/storage/brno6/home/tslaninakova/learned-indexes"
+    def prepare_dataset(self, dataset, descriptors, normalize = True):
+        DATA_LOCATION = "/storage/brno6/home/tslaninakova/learned-indexes"
 
         if dataset in [DatasetDirs.COPHIR_100k, DatasetDirs.COPHIR_1M]:
             li = LMI(dataset.value, desc_value = descriptors)
             df = self.li.get_dataset(normalize = normalize)
-            return (li, df)
 
         elif dataset == DatasetDirs.PROFI_1M:
-            li = MIndex(PATH = f"{DATA_LOC}/", mindex = "MIndex1M-Profiset-leaf2000/")
+            li = MIndex(PATH = f"{DATA_LOCATION}/", mindex = "MIndex1M-Profiset-leaf2000/")
             li.labels = ["L1", "L2"]
-            index_df = load_indexes_profiset(f"{DATA_LOC}/MIndex1M-Profiset-leaf2000/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
+            index_df = load_indexes_profiset(f"{DATA_LOCATION}/MIndex1M-Profiset-leaf2000/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
             index_df = index_df.sort_values(by=["object_id"])
-            objects = get_1M_profiset(index_path=f"{DATA_LOC}/MIndex1M-Profiset-leaf2000/", objects_path="f{DATA_LOC}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
+            objects = get_1M_profiset(index_path=f"{DATA_LOCATION}/MIndex1M-Profiset-leaf2000/", objects_path="f{DATA_LOCATION}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
 
             df = pd.DataFrame(objects)
             df["L1"] = index_df["L1"].values
             df["L2"] = index_df["L2"].values
             df["object_id"] = index_df["object_id"].values
 
-            return (li, df)
 
         elif dataset == DatasetDirs.PROFI_100k:
-            li = MIndex(PATH = f"{DATA_LOC}/", mindex = "MIndex1M-Profiset-leaf200/")
+            li = MIndex(PATH = f"{DATA_LOCATION}/", mindex = "MIndex1M-Profiset-leaf200/")
             li.labels = ["L1", "L2"]
-            index_df = load_indexes_profiset(f"{DATA_LOC}/MIndex1M-Profiset-leaf200/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
+            index_df = load_indexes_profiset(f"{DATA_LOCATION}/MIndex1M-Profiset-leaf200/", li.labels,  filenames=[f'level-{l}.txt' for l in range(1,3)])
             index_df = index_df.sort_values(by=["object_id"])
             #TODO
-            objects = get_1M_profiset(index_path=f"{DATA_LOC}/MIndex1M-Profiset-leaf200/", objects_path="f{DATA_LOC}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
-            return (li, df)
+            objects = get_1M_profiset(index_path=f"{DATA_LOCATION}/MIndex1M-Profiset-leaf200/", objects_path="f{DATA_LOCATION}/datasets/descriptors-decaf-odd-5M-1.data", labels=li.labels)
+
+        return (li, df)
 
     def get_logger(self):
         logger = logging.getLogger('benchmark')
-
         shared_formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s', "%Y-%m-%d %H:%M:%S")
 
         file_logger = logging.FileHandler(f"{self.destination}/benchmark.log")
@@ -113,16 +102,16 @@ class Benchmark:
         logger.addHandler(stream_logger)
         return logger
 
-    def get_encoded_df(self, df, output_columns):
+    def get_encoded_df(self, output_columns):
         import tensorflow as tf
         from tensorflow import keras
 
         start = timer()
 
         # AUTOENCODER TRAINING
-        cols = len(df.drop(["L1", "L2", "object_id"], axis = 1).columns)
+        cols = len(self.df.drop(["L1", "L2", "object_id"], axis = 1).columns)
 
-        X_train_full, X_test, y_train_full, y_test = train_test_split(df.drop(["L1", "L2", "object_id"], axis = 1).values, df["L1"].values)
+        X_train_full, X_test, y_train_full, y_test = train_test_split(self.df.drop(["L1", "L2", "object_id"], axis = 1).values, self.df["L1"].values)
         X = np.concatenate((X_train_full, X_test))
         y = np.concatenate((y_train_full, y_test))
 
@@ -146,11 +135,10 @@ class Benchmark:
         history = stacked_ae.fit(X, X, epochs = 15)
 
         end = timer()
-        self.logger.info(f"Autoencoder from {cols} -> {output_columns} trained on {self.DIR_PATH} in {end - start} seconds ({(end - start) / 60} minutes)")
+        self.logger.info(f"Autoencoder from {cols} -> {output_columns} trained on {self.dataset.value} in {end - start} seconds ({(end - start) / 60} minutes)")
 
         # "PREDICT" NEW VALUES (DIMENSION REDUCTION)
-
-        encoded_array = stacked_encoder.predict(df.drop(["L1", "L2", "object_id"], axis = 1))
+        encoded_array = stacked_encoder.predict(self.df.drop(["L1", "L2", "object_id"], axis = 1))
         df_encoded = pd.DataFrame(encoded_array)
 
         df_encoded["L1"] = df["L1"] # can do this because order of dataframe rows is preserved
@@ -170,7 +158,7 @@ class Benchmark:
         if model == "GMM":
             covariance_types = ['spherical', 'diag', 'tied', 'full']
             max_iter = [1, 2, 5]
-            init_params = ['kmeans']
+            init_params = ['random']
 
             for covariance_type in covariance_types:
                 for iterations in max_iter:
@@ -262,25 +250,25 @@ class Benchmark:
 
             start = timer()
             try:
-                self.df_result = self.li.train(self.df, training_spec, should_erase = True)
+                df_result = self.li.train(self.df, training_spec)
             except Exception as e:
                 self.logger.error(f"Training_spec {training_spec} exception: {str(e)}")
                 continue
 
             end = timer()
-            self.logger.info(f"{self.model} with training spec: {training_spec} trained on {self.DIR_PATH} in {end - start} seconds ({(end - start) / 60} minutes)")
+            self.logger.info(f"{self.model} with training spec: {training_spec} trained on {self.dataset.value} in {end - start} seconds ({(end - start) / 60} minutes)")
 
-            queries = get_sample_1k_objects(self.df_result)
+            queries = get_sample_1k_objects(df_result, KNN_OBJECTS[self.dataset])
             query_count = len(queries)
 
             model_times = [0] * checkpoint_count
             model_recall = [0] * checkpoint_count
 
             for i in range(query_count):
-                search_result = self.li.search(self.df_result, queries.iloc[i]["object_id"], stop_cond_objects = object_checkpoints, debug = False)
+                search_result = self.li.search(df_result, queries.iloc[i]["object_id"], stop_cond_objects = object_checkpoints, debug = False)
 
                 time_checkpoints = search_result['time_checkpoints']
-                recall = evaluate_knn_per_query(search_result, self.df_result, knns)
+                recall = evaluate_knn_per_query(search_result, df_result, knns)
 
                 for j in range(checkpoint_count):
                     model_times[j] += time_checkpoints[j]

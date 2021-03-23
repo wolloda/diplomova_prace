@@ -25,6 +25,8 @@ def get_cophir_distance(object_1, object_2):
 
     return result
 
+get_distance = get_cophir_distance
+
 def get_color_layout_type(object_1, object_2):
     """ Implements messif.objects.impl.ObjectColorLayout
 

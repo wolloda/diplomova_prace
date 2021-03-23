@@ -152,7 +152,7 @@ class LMI(BaseIndex):
         
         return X,y
 
-    def train(self, df, model_dict, pretrained_root=False, should_shuffle_dataset=True, should_erase=False, na_label=None):
+    def train(self, df, model_dict, pretrained_root=False, should_shuffle_dataset=True, should_erase=True, na_label=None):
         """ Train the whole LMI.
         1. Prepares the data
         2. Chooses the model to use for training

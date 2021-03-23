@@ -301,6 +301,7 @@ class MIndex(object):
         df_l1 = df.merge(df_l2, on="object_id")
         return stack_l1, df_l1, mapping
 
+
     def train_LMI(self, df, param_dict, pretrained_root=False, na_label=None, return_root=False, return_input=False, alg2=False):
         self.stack = []; self.mapping = []; self.encoders = []; self.objects_in_buckets = {}
         df_ = df.sample(frac=1)
@@ -459,6 +460,8 @@ class MIndex(object):
                     self.objects_in_buckets[f"{int(name)}"] = g.shape[0]
 
         return pd.concat(df_res_ls)
+
+    train = train_LMI
 
     def post_train_misclassified(self, df, df_res, is_multi=False):
         preds_offset = 0; na_label = 150

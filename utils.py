@@ -56,5 +56,5 @@ def get_knn_objects(path="./queries.data", should_be_int=True):
     else:
         return np.array(knn_object_ids)
 
-def get_sample_1k_objects(df_res):
-    return df_res[df_res["object_id"].isin(get_knn_objects(path="/storage/brno6/home/tslaninakova/learned-indexes/datasets/profiset-queries.data"))]
+def get_sample_1k_objects(df_res, path = "/storage/brno6/home/tslaninakova/learned-indexes/datasets/queries.data"):
+    return df_res[df_res["object_id"].isin(get_knn_objects(path=path))]
