@@ -1,7 +1,7 @@
 #!/bin/bash
-#PBS -N profiset
-#PBS -l select=1:ncpus=2:mem=400gb
-#PBS -l walltime=72:00:00
+#PBS -N profiset-GMM
+#PBS -l select=1:ncpus=2:mem=320gb:cluster=elwe
+#PBS -l walltime=36:00:00
 #PBS -m ae
 
 module add python-3.6.2-gcc

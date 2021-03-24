@@ -170,9 +170,9 @@ class Benchmark:
                         training_specs.append({model: tmp})
 
         elif model == "BayesianGMM":
-            covariance_types = ['tied', 'diag', 'spherical', 'full']
+            covariance_types = ['spherical', 'tied', 'diag', 'full']
             max_iter = [1, 2]
-            init_params = ['kmeans']
+            init_params = ['kmeans', 'random']
             weight_concentration_prior_types = ['dirichlet_process', 'dirichlet_distribution']
 
             for covariance_type in covariance_types:

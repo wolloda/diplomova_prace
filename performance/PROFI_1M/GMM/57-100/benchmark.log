@@ -1,21 +1,3 @@
-2021-03-18 03:50:44 INFO: Benchmark initialized
-2021-03-18 03:50:44 INFO: Buckets: [57, 100]
-2021-03-18 03:50:44 INFO: Total specs to train: 12
-2021-03-18 12:07:22 INFO: Benchmark initialized
-2021-03-18 12:07:22 INFO: Buckets: [57, 100]
-2021-03-18 12:07:22 INFO: Total specs to train: 12
-2021-03-18 12:43:20 INFO: Benchmark initialized
-2021-03-18 12:43:20 INFO: Buckets: [57, 100]
-2021-03-18 12:43:20 INFO: Total specs to train: 12
-2021-03-22 13:51:22 INFO: Benchmark initialized
-2021-03-22 13:51:22 INFO: Buckets: [57, 100]
-2021-03-22 13:51:22 INFO: Total specs to train: 12
-2021-03-23 13:23:53 INFO: Benchmark initialized
-2021-03-23 13:23:53 INFO: Buckets: [57, 100]
-2021-03-23 13:23:53 INFO: Total specs to train: 12
-2021-03-23 13:34:47 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 6, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 654.7180088125169 seconds (10.911966813541948 minutes)
-2021-03-23 13:58:47 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 100, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 1221.754715975374 seconds (20.362578599589565 minutes)
-2021-03-23 14:40:25 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 100, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 2159.218341840431 seconds (35.98697236400719 minutes)
-2021-03-23 15:05:31 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 100, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 1153.3601700738072 seconds (19.222669501230122 minutes)
-2021-03-23 15:50:28 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 100, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 1527.2531863637269 seconds (25.45421977272878 minutes)
-2021-03-23 16:55:10 INFO: GMM with training spec: {'GMM': [{'comp': 57, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 100, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000 in 2731.1744989510626 seconds (45.51957498251771 minutes)
+2021-03-24 10:23:58 INFO: Benchmark initialized
+2021-03-24 10:23:58 INFO: Buckets: [57, 100]
+2021-03-24 10:23:58 INFO: Total specs to train: 24
