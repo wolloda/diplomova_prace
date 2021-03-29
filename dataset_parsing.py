@@ -1,6 +1,8 @@
 from imports import pd, re, np
 from sklearn import preprocessing
 
+BASE_DATASET_DIR="/storage/brno6/home/tslaninakova/learned-indexes/"
+
 def load_indexes(filename, names):
     return pd.read_csv(filename, names = names + ["object_id"],  sep=r'[.\s+]', engine='python', header=None)
 
@@ -119,7 +121,7 @@ def scale_per_descriptor(df, labels, descriptor_value_counts):
     df = pd.concat([df, pd.DataFrame(np.hstack((normalized)))], axis=1)
     return df
 
-def load_indexes_profiset(base_dir, filenames=['level-1.txt', 'level-2.txt']):
+def load_indexes_profiset(base_dir, filenames=['level-1.txt', 'level-2.txt'], is_mocap=False):
     """ Loads a DataFrame with labels and object_ids.
     
     Starts with loading .csv files from smallest and merging with   
@@ -143,17 +145,21 @@ def load_indexes_profiset(base_dir, filenames=['level-1.txt', 'level-2.txt']):
     for c, filename in enumerate(filenames):
         if c != 0: col_names = label_names[:-c]
         else: col_names = label_names
-        df_ = pd.read_csv(base_dir+filename, names = col_names + ["object_id"], sep=r'[.+\s]', engine='python', dtype=np.int64, header=None)
+        if is_mocap:
+            df_ = pd.read_csv(base_dir+filename, names = col_names + ["object_id"], sep=r'[.+\s]', engine='python', header=None)
+        else:
+            df_ = pd.read_csv(base_dir+filename, names = col_names + ["object_id"], sep=r'[.+\s]', engine='python', dtype=np.int64, header=None)
         df_i = pd.concat([df_i, df_])
         df_i = df_i.drop_duplicates(["object_id"])
     return df_i.apply(pd.to_numeric, errors='ignore')
 
-def get_profiset(objects_path="/storage/brno6/home/tslaninakova/learned-indexes/datasets/descriptors-decaf-odd-5M-1.data", 
-                 indexes_path="/storage/brno6/home/tslaninakova/learned-indexes/MtreeProfi2000/"):
+def get_profiset(objects_path="datasets/descriptors-decaf-odd-5M-1.data", 
+                 indexes_path="MtreeProfi2000/"):
 
+    objects_path=f"{BASE_DATASET_DIR}/{objects_path}"
+    indexes_path=f"{BASE_DATASET_DIR}/{indexes_path}"
     print("Loading labels")
     index_df = load_indexes_profiset(indexes_path, filenames=[f'level-{l}.txt' for l in range(1,3)])
-    index_df["L2"] = index_df["L2"].astype(np.int64)
     index_df = index_df.sort_values(by=["object_id"])
     assert index_df.shape[0] == 1000000
     print("Loading descriptors")
@@ -164,3 +170,20 @@ def get_profiset(objects_path="/storage/brno6/home/tslaninakova/learned-indexes/
     df_full = pd.concat([data, index_df], axis=1)
     df_full = df_full.sample(frac=1)
     return df_full
+
+def get_mocap(objects_path="MTree1M-mocap/"):
+    objects_path=f"{BASE_DATASET_DIR}/{objects_path}"
+    print("Loading labels")
+    index_df = load_indexes_profiset(objects_path, filenames=[f'level-{l}.txt' for l in range(1,3)], is_mocap=True)
+    index_df["L2"] = index_df["L2"].astype(np.int64)
+    index_df["L1"] = index_df["L1"].astype(np.int64)
+    index_df = index_df.sort_values(by=["object_id"])
+    print("Loading descriptors")
+    df = pd.read_csv(f"{objects_path}objects-even.txt", header=None)
+    object_ids = pd.read_csv(f"{objects_path}objects-odd.txt", sep=r'[.+\s]', engine='python', header=None)
+    df["object_id"] = object_ids[5]
+    df = index_df.merge(df, how='left',on=['object_id'])
+    df = df[~df.duplicated(subset=['object_id'])]
+    df = df.sample(frac=1)
+    assert df.shape[0] == 354902
+    return df

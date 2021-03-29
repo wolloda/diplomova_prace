@@ -57,4 +57,8 @@ def get_knn_objects(path="./queries.data", should_be_int=True):
         return np.array(knn_object_ids)
 
 def get_sample_1k_objects(df_res, path = "/storage/brno6/home/tslaninakova/learned-indexes/datasets/queries.data"):
-    return df_res[df_res["object_id"].isin(get_knn_objects(path=path))]
+    should_be_int = True
+    if path == "/storage/brno6/home/tslaninakova/learned-indexes/datasets/mocap-queries.data":
+        should_be_int = False
+
+    return df_res[df_res["object_id"].isin(get_knn_objects(path=path, should_be_int=should_be_int))]

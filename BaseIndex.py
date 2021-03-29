@@ -36,12 +36,13 @@ class BaseIndex(object):
         self.n_levels = len(labels)
         self.labels = labels
         self.knn_gts_file = f"{self.dir}/{knn_gts}"
-        self.is_profiset = True if "profi" in PATH.lower() else False
+        self.is_profiset_or_mocap = True if ("profi" in PATH.lower() or "mocap" in PATH.lower()) else False
+
         self.is_mindex = True if "mindex" in PATH.lower() else False
         if desc_values != -1:
             self.descriptor_values = desc_values
         else:
-            self.descriptor_values = 282 if not self.is_profiset else 4096
+            self.descriptor_values = 282 if not self.is_profiset_or_mocap else 4096
         
     def search(self, prob_distr, encoder, value="value_l"):
         pass

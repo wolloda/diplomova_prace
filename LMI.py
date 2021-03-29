@@ -1,7 +1,7 @@
 from imports import np, pd, json, time, logging, warnings, ConvergenceWarning
 warnings.simplefilter(action="ignore", category=ConvergenceWarning)
 
-from dataset_parsing import get_objects_with_indexes, scale_per_descriptor, get_profiset
+from dataset_parsing import get_objects_with_indexes, scale_per_descriptor, get_profiset, get_mocap
 from utils import get_knn_objects, one_hot_frequency_encode, label_encode_data, label_encode_vectors
 
 # Training and prediction
@@ -75,7 +75,11 @@ class LMI(BaseIndex):
         if dataset_path is None:
             dataset_path = self.dir
         
-        if "profi" in dataset_path.lower():
+        if "mocap" in dataset_path.lower():
+            print("Loading Mocap dataset.")
+            df = get_mocap()
+            df_orig = df
+        elif "profi" in dataset_path.lower():
             df = get_profiset()
             df_orig = df
         else:
@@ -409,11 +413,13 @@ class LMI(BaseIndex):
         """
         s = time.time()
         time_checkpoints = []; popped_nodes_checkpoints = []; objects_checkpoints = []
-        query_row = df_res[(df_res['object_id'] == query_id)]
+        query_row = df_res[(df_res['object_id'] == query_id)]         
         query = query_row.drop(self.predict_drop, axis=1).values
         predictions = self.classifier.predict(query, self.stack[0], self.encoders[0])
+             
         priority_q = []
         priority_q = self.add_to_priority_queue(priority_q, predictions)
+    
         if debug: logging.info(f"Step 1: L1 added - PQ: {priority_q}\n")
 
         current_stop_cond_idx = 0
@@ -422,9 +428,11 @@ class LMI(BaseIndex):
         iterations = 0; n_steps = 0
         while len(priority_q) != 0:
             if stop_cond_objects != None and len(stop_cond_objects) == current_stop_cond_idx:
-                return {'id': int(query_id), 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}
+                return {'id': int(query_id), 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}             
+                
             else:
                 priority_q, popped = self.process_node(priority_q, query, debug=debug)
+                print(priority_q, popped)
                 if type(popped) is list:
                     popped_nodes.extend(popped)
                 else: popped_nodes.append(popped)
@@ -432,6 +440,7 @@ class LMI(BaseIndex):
                 if stop_cond_objects is not None:
                     index = tuple([int(p) for p in popped.split('.')[2:]])
                     if len(index) == 1: index = index[0]
+                                           
                     if index in self.objects_in_buckets:
                         n_steps += self.objects_in_buckets[index]
                     else:

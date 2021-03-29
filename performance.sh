@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N autoencoders_bayesian-gmm
+#PBS -N performance_bayesian-gmm_wide
 #PBS -l select=1:ncpus=2:mem=140gb:cluster=alfrid
 #PBS -l walltime=72:00:00
 #PBS -m ae
