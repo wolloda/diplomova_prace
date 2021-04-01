@@ -1,0 +1,124 @@
+2021-03-25 14:24:46.183309: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:24:46.183600: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:24:46.183631: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+25-03-21 14:25 INFO: Loading faiss.
+25-03-21 14:35 INFO: Loaded dataset of shape: (354902, 4099)
+25-03-21 14:35 INFO: Dataset /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap loaded
+2021-03-25 14:35:57 INFO: Benchmark initialized
+25-03-21 14:35 INFO: Benchmark initialized
+2021-03-25 14:35:57 INFO: Buckets: [100, 100]
+25-03-21 14:35 INFO: Buckets: [100, 100]
+2021-03-25 14:35:57 INFO: Total specs to train: 9
+25-03-21 14:35 INFO: Total specs to train: 9
+25-03-21 14:36 INFO: Training KMeans model with values of shape (354902, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:48 INFO: Training level 1
+25-03-21 14:49 INFO: Training KMeans model with values of shape (2004, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (3592, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (2743, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (3246, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (1729, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (3463, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (5615, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:49 INFO: Training KMeans model with values of shape (7431, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (3342, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (6241, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (4265, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (3803, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (1970, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (3421, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:50 INFO: Training KMeans model with values of shape (6283, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (3690, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (3806, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (3227, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (4586, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (5341, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (2735, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:51 INFO: Training KMeans model with values of shape (8459, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (1487, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (1671, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (2158, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (4025, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (4278, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (2807, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:52 INFO: Training KMeans model with values of shape (5996, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (3537, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (1136, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (946, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (2630, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (2111, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (2578, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (4168, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (1347, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:53 INFO: Training KMeans model with values of shape (6542, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (3617, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (3155, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (3206, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (1962, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (6045, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (2895, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (3509, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:54 INFO: Training KMeans model with values of shape (5071, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (4189, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (4513, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (4696, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (4579, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (4006, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (1540, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:55 INFO: Training KMeans model with values of shape (3269, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (3694, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (5567, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (6914, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (2537, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (6139, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (1653, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (1361, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:56 INFO: Training KMeans model with values of shape (5867, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (3258, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (1079, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (5576, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (7052, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (2040, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (590, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (3874, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (1388, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:57 INFO: Training KMeans model with values of shape (2871, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (4355, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (6361, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (1974, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (2581, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (4747, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (3632, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (790, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (3382, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:58 INFO: Training KMeans model with values of shape (3810, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (1951, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (3618, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (2621, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (6912, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (1990, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (2884, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (2840, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 14:59 INFO: Training KMeans model with values of shape (6752, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (4100, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (715, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (2205, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (4156, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (5417, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (1264, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (2542, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (1113, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (1475, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:00 INFO: Training KMeans model with values of shape (4390, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:01 INFO: Training KMeans model with values of shape (1725, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:01 INFO: Training KMeans model with values of shape (4188, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+25-03-21 15:01 INFO: Training KMeans model with values of shape (4291, 4096): n. of clusters=100 | initializations=1 | max iterations=5
+2021-03-25 15:01:42 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1544.6064042448997 seconds (25.743440070748328 minutes)
+25-03-21 15:01 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1544.6064042448997 seconds (25.743440070748328 minutes)
+Traceback (most recent call last):
+  File "mocap_performance_kmeans_wide_no-AE.py", line 5, in <module>
+    benchmark.evaluate()
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/Benchmark.py", line 271, in evaluate
+    recall = evaluate_knn_per_query(search_result, df_result, knns)
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/knn_search.py", line 108, in evaluate_knn_per_query
+    print(f"Evaluating k-NN performance on {len(res['objects_checkpoints'])} checkpoints: {res['objects_checkpoints']}")
+KeyError: 'objects_checkpoints'

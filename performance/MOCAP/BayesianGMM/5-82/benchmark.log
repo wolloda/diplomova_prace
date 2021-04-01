@@ -1,0 +1,2877 @@
+2021-03-31 23:22:15 INFO: Benchmark initialized
+2021-03-31 23:22:15 INFO: Buckets: [5, 82]
+2021-03-31 23:22:16 INFO: Total specs to train: 32
+2021-04-01 00:56:30 INFO: Benchmark initialized
+2021-04-01 00:56:30 INFO: Buckets: [5, 82]
+2021-04-01 00:56:30 INFO: Total specs to train: 32
+2021-04-01 01:39:21 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2570.7558872699738 seconds (42.84593145449956 minutes)
+2021-04-01 01:39:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.424941
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.761761
+            ...   
+353809    0.000000
+354389    0.039962
+354563    0.667949
+354736    0.000000
+354835    0.000000
+Name: 29, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:46 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.481822
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 35, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:47 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 37, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:48 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.367286
+2533      0.581636
+2965      0.000000
+            ...   
+353809    0.203838
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 39, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.378749
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.359684
+354736    0.000000
+354835    0.348538
+Name: 47, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:59 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 56, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:14 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.361618
+1487      0.000000
+2533      0.000000
+2965      0.101863
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.187313
+354736    0.000000
+354835    0.000000
+Name: 77, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.810313
+1040      0.377067
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.182472
+354736    0.000000
+354835    0.769938
+Name: 120, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:00 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 143, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.025281
+1040      0.000000
+1487      0.647394
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.653249
+354389    0.198898
+354563    0.462103
+354736    0.000000
+354835    0.000000
+Name: 149, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:12 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.064327
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.363106
+Name: 160, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:13 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 162, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:15 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.458903
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.303113
+354563    0.138667
+354736    0.000000
+354835    0.000000
+Name: 166, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 192, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:37 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 198, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 209, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:56 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 226, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:01 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.282865
+1040      0.000000
+1487      0.681794
+2533      0.701613
+2965      0.323303
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.248637
+354736    0.000000
+354835    0.974964
+Name: 234, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.141373
+1040      1.090950
+1487      0.145333
+2533      0.000000
+2965      0.647253
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.298765
+354736    0.000000
+354835    0.000000
+Name: 238, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:05 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 241, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:11 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.207675
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 250, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 259, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:25 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.424868
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.083081
+354736    0.000000
+354835    0.000000
+Name: 270, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:32 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.670734
+1040      0.500788
+1487      0.000000
+2533      0.000000
+2965      0.380799
+            ...   
+353809    0.000000
+354389    0.318692
+354563    1.110840
+354736    0.000000
+354835    0.000000
+Name: 281, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:36 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.057764
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 286, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:43 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.040133
+1040      0.000000
+1487      0.000000
+2533      0.305885
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 297, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:47 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.994801
+1040      0.480632
+1487      0.419361
+2533      0.349188
+2965      1.325840
+            ...   
+353809    1.088210
+354389    0.000000
+354563    1.621150
+354736    0.000000
+354835    1.129270
+Name: 303, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:49 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.145437
+1487      0.004793
+2533      0.000000
+2965      0.352268
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.535732
+354736    0.703584
+354835    0.000000
+Name: 307, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.161566
+1040      0.356432
+1487      0.641096
+2533      0.458246
+2965      0.417559
+            ...   
+353809    0.185305
+354389    0.000000
+354563    0.151749
+354736    0.000000
+354835    0.036607
+Name: 312, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:54 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 315, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 319, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:59 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.110692
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 323, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.081265
+1040      0.000000
+1487      0.631815
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 328, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.557040
+1040      0.275571
+1487      0.000000
+2533      0.415744
+2965      0.548924
+            ...   
+353809    0.916699
+354389    0.721184
+354563    0.750537
+354736    0.000000
+354835    0.000000
+Name: 334, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.015007
+1487      0.000000
+2533      0.000000
+2965      0.743577
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.506174
+354736    0.000000
+354835    0.000000
+Name: 351, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:23 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.218724
+354389    0.000000
+354563    0.327198
+354736    0.000000
+354835    0.000000
+Name: 358, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:24 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       1.519670
+1040      0.139816
+1487      0.000000
+2533      0.528691
+2965      0.000000
+            ...   
+353809    0.101007
+354389    0.000000
+354563    1.031230
+354736    0.000000
+354835    0.712677
+Name: 360, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:28 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.792242
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 365, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.00000
+1040      0.00000
+1487      1.29352
+2533      0.00000
+2965      0.00000
+           ...   
+353809    0.00000
+354389    0.00000
+354563    0.00000
+354736    0.00000
+354835    0.00000
+Name: 382, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:43:54 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 402, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:44:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.106373
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.183654
+354736    0.000000
+354835    0.000000
+Name: 415, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:44:23 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.293853
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 444, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:44:26 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.271861
+354736    0.080165
+354835    0.200700
+Name: 448, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:44:40 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.111485
+2533      0.000000
+2965      0.628805
+            ...   
+353809    0.395929
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 469, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:17 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.232205
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.033667
+354563    0.000000
+354736    1.889540
+354835    0.723580
+Name: 522, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:23 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.546313
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 530, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:24 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.624631
+1487      0.525163
+2533      0.000000
+2965      0.212364
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.130834
+354736    0.000000
+354835    0.000000
+Name: 533, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 537, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:40 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 555, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.437123
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.512724
+Name: 559, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:54 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.718984
+1487      0.000000
+2533      0.705014
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 576, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:45:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.051450
+1040      0.000000
+1487      0.000000
+2533      0.521305
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.075684
+354736    0.000000
+354835    0.000000
+Name: 581, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 594, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:07 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 597, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:13 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.018645
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 605, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.780919
+1040      0.281328
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.536376
+354736    0.000000
+354835    0.000000
+Name: 613, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:24 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.025966
+2533      0.143267
+2965      0.067156
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 622, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:30 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 631, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.150612
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 645, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:46:52 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.098438
+1040      0.000000
+1487      0.252348
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.090276
+Name: 662, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:08 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    1.301910
+354389    0.000000
+354563    0.452738
+354736    0.000000
+354835    0.000000
+Name: 685, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:11 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.046136
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 689, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.389399
+1040      0.000000
+1487      1.330510
+2533      0.268594
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.173035
+354736    0.000000
+354835    0.475410
+Name: 700, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:23 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.215611
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 707, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.030110
+1040      0.000000
+1487      1.434190
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.314046
+354389    0.000000
+354563    0.296721
+354736    0.000000
+354835    0.381964
+Name: 724, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       1.311640
+1040      0.000000
+1487      0.000000
+2533      0.079593
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.481645
+354563    1.281330
+354736    0.000000
+354835    0.000000
+Name: 734, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:47:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 755, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:08 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 771, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:08 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.192593
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 772, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:17 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.403253
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.296795
+354563    0.000000
+354736    0.000000
+354835    0.243096
+Name: 785, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:20 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 790, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:20 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.002136
+1040      0.476299
+1487      0.000000
+2533      0.000000
+2965      0.559319
+            ...   
+353809    0.000000
+354389    0.013458
+354563    0.455089
+354736    0.000000
+354835    0.000000
+Name: 791, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:26 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.689599
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 800, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:32 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 808, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:48:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.037868
+354736    0.000000
+354835    0.000000
+Name: 825, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 851, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.056533
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 852, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:12 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.091107
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.246010
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 866, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.068922
+1040      1.268870
+1487      0.000000
+2533      0.000000
+2965      0.651204
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.786811
+354736    0.000000
+354835    0.000000
+Name: 887, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.231578
+2965      0.000000
+            ...   
+353809    0.263984
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 888, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.0
+1040      0.0
+1487      0.0
+2533      0.0
+2965      0.0
+         ... 
+353809    0.0
+354389    0.0
+354563    0.0
+354736    0.0
+354835    0.0
+Name: 889, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:29 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.382975
+354835    0.138824
+Name: 891, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.287660
+2533      0.004359
+2965      0.537016
+            ...   
+353809    0.350629
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 912, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:49:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.00000
+1040      0.00000
+1487      0.00000
+2533      0.00000
+2965      0.00000
+           ...   
+353809    0.00000
+354389    0.00000
+354563    0.00000
+354736    1.01546
+354835    0.00000
+Name: 931, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:50:10 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.000000
+1487      0.186939
+2533      0.127333
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.034166
+354736    0.000000
+354835    0.545982
+Name: 950, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:50:13 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.013065
+1040      0.000000
+1487      0.000000
+2533      0.000000
+2965      0.000000
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 954, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:50:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.085985
+1487      0.000000
+2533      0.000000
+2965      0.139969
+            ...   
+353809    0.000000
+354389    0.000000
+354563    0.000000
+354736    0.000000
+354835    0.000000
+Name: 961, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:50:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 831       0.000000
+1040      0.623603
+1487      0.172023
+2533      0.764448
+2965      0.390378
+            ...   
+353809    1.089900
+354389    0.226309
+354563    0.000000
+354736    0.497478
+354835    0.000000
+Name: 986, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:49 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2466.31592782028 seconds (41.10526546367134 minutes)
+2021-04-01 02:31:51 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.215454
+            ...   
+352085    0.000000
+352748    0.348294
+353906    0.378944
+354435    0.730954
+354887    0.000000
+Name: 2, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:55 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.059667
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 7, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:01 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 16, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.173905
+885       0.000000
+1078      0.065010
+1444      0.000000
+1743      0.644601
+            ...   
+352085    0.000000
+352748    1.188650
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 47, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:24 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.748881
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 50, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 64, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:43 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.199150
+1743      0.798152
+            ...   
+352085    0.000000
+352748    0.637652
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 78, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:43 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.096743
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 79, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.243469
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 94, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:56 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.374221
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 97, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.549672
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 112, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:08 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.361987
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 116, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:12 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.14123
+885       0.00000
+1078      0.00000
+1444      0.00000
+1743      0.00000
+           ...   
+352085    0.00000
+352748    0.00000
+353906    0.00000
+354435    0.00000
+354887    0.00000
+Name: 121, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.058674
+354435    0.000000
+354887    0.000000
+Name: 143, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:29 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 147, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:34 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 155, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:36 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.233899
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 158, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.139517
+885       0.000000
+1078      0.215140
+1444      0.546690
+1743      0.000000
+            ...   
+352085    0.263413
+352748    0.000000
+353906    0.000000
+354435    0.953683
+354887    0.949585
+Name: 163, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:41 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.038347
+885       0.000000
+1078      0.000000
+1444      0.681134
+1743      0.000000
+            ...   
+352085    0.157624
+352748    0.050923
+353906    0.000000
+354435    0.186533
+354887    1.573880
+Name: 166, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:21 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.00000
+885       1.24889
+1078      0.00000
+1444      0.00000
+1743      0.00000
+           ...   
+352085    0.00000
+352748    0.00000
+353906    0.00000
+354435    0.00000
+354887    0.00000
+Name: 222, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:26 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.809552
+1078      0.000000
+1444      0.000000
+1743      0.386229
+            ...   
+352085    0.000000
+352748    0.758338
+353906    0.618620
+354435    0.000000
+354887    0.000000
+Name: 230, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:26 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.818253
+1743      0.968165
+            ...   
+352085    0.000000
+352748    0.000000
+353906    1.588840
+354435    0.000000
+354887    0.000000
+Name: 231, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.440425
+885       0.183918
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    1.727400
+352748    0.968679
+353906    0.061595
+354435    1.560110
+354887    0.387695
+Name: 254, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:49 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.203750
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.127178
+353906    0.099374
+354435    0.000000
+354887    0.000000
+Name: 264, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.00000
+885       0.00000
+1078      0.00000
+1444      0.00000
+1743      0.00000
+           ...   
+352085    0.00000
+352748    0.00000
+353906    0.22959
+354435    0.00000
+354887    0.00000
+Name: 270, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:55 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.345041
+885       0.000000
+1078      0.192306
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.084077
+354435    0.000000
+354887    0.000000
+Name: 273, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:34:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.707048
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.759057
+353906    0.584870
+354435    0.000000
+354887    0.000000
+Name: 277, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.445098
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 287, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:16 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 305, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.00000
+885       0.00000
+1078      0.00000
+1444      0.00000
+1743      0.00000
+           ...   
+352085    0.00000
+352748    0.00000
+353906    0.80334
+354435    0.00000
+354887    0.00000
+Name: 308, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:25 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.145277
+885       0.000000
+1078      0.648859
+1444      0.000000
+1743      0.164562
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 319, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:29 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.162412
+354435    0.000000
+354887    0.000000
+Name: 325, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:30 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.258422
+885       0.491037
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.407891
+353906    0.140839
+354435    0.000000
+354887    0.000000
+Name: 326, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:30 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 327, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:36 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.347719
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.648469
+354887    0.000000
+Name: 336, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 341, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.750958
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.066954
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 349, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:50 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 357, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:35:52 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.465829
+885       1.212440
+1078      0.000000
+1444      0.000000
+1743      0.016109
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.131070
+354435    0.950587
+354887    1.052620
+Name: 360, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.698556
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 377, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:08 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.071944
+353906    0.155864
+354435    0.000000
+354887    0.000000
+Name: 383, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:20 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.590932
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 401, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:43 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.151280
+885       0.000000
+1078      0.000000
+1444      0.191572
+1743      0.000000
+            ...   
+352085    1.079720
+352748    0.007657
+353906    0.000000
+354435    0.000000
+354887    0.562427
+Name: 434, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:55 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 451, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.839874
+354435    0.000000
+354887    0.000000
+Name: 454, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:36:59 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.030261
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 457, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 461, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:05 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.204535
+            ...   
+352085    0.814613
+352748    0.000000
+353906    0.000000
+354435    2.068460
+354887    0.419390
+Name: 467, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:12 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 477, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:21 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.331763
+354435    0.000000
+354887    0.000000
+Name: 490, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:25 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 497, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 508, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:38 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.299743
+885       0.504615
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.119635
+352748    0.000000
+353906    0.000000
+354435    0.243759
+354887    0.706964
+Name: 516, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.770477
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 522, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:46 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.359307
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.450564
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 527, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:55 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.170249
+353906    0.542216
+354435    0.000000
+354887    0.000000
+Name: 541, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:56 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.090921
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 542, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:37:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 544, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:38:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.463282
+885       0.052507
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 551, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:38:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 580, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:00 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 634, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.059581
+885       0.010757
+1078      0.000000
+1444      0.453499
+1743      0.780079
+            ...   
+352085    0.535313
+352748    0.365023
+353906    0.000000
+354435    0.297187
+354887    1.266870
+Name: 637, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.475393
+885       0.007681
+1078      0.234313
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 644, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:07 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.259591
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 645, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:21 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.268589
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.265308
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.207974
+Name: 665, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:26 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.531730
+1444      0.176135
+1743      0.359580
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.097878
+354435    0.000000
+354887    0.000000
+Name: 673, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.292153
+1444      0.216341
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.400392
+Name: 683, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.269349
+352748    0.498267
+353906    0.000000
+354435    0.000000
+354887    0.036505
+Name: 686, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       1.116630
+885       1.048650
+1078      0.000000
+1444      0.053738
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.179961
+354435    0.000000
+354887    0.000000
+Name: 687, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:39:55 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.171774
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 715, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:40:09 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.505297
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 735, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:40:11 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 738, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:40:16 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.323884
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.350584
+            ...   
+352085    0.000000
+352748    0.924703
+353906    0.350714
+354435    0.000000
+354887    0.000000
+Name: 746, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:40:56 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.194484
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.629724
+Name: 803, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:40:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 805, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.397689
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.068687
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    1.167980
+Name: 815, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.742556
+885       0.000000
+1078      0.228576
+1444      0.853919
+1743      0.140968
+            ...   
+352085    0.903397
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.533746
+Name: 817, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.204256
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.174100
+354435    0.000000
+354887    0.000000
+Name: 837, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.592330
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.364710
+354435    0.015004
+354887    0.000000
+Name: 843, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:25 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.865580
+1078      0.399256
+1444      0.245109
+1743      1.213280
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.004098
+354435    0.536777
+354887    0.094767
+Name: 847, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:29 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.298782
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.051866
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 853, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:41 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.946109
+885       0.000000
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 870, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:42 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.150262
+885       0.343149
+1078      0.000000
+1444      0.000000
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 873, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:51 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 885, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:58 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.000000
+1444      0.344158
+1743      0.000000
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.000000
+354435    0.000000
+354887    0.000000
+Name: 895, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:41:59 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.000000
+885       0.000000
+1078      0.855708
+1444      0.948295
+1743      0.151525
+            ...   
+352085    0.000000
+352748    0.000000
+353906    0.758892
+354435    0.000000
+354887    0.849313
+Name: 897, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:42:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.0
+885       0.0
+1078      0.0
+1444      0.0
+1743      0.0
+         ... 
+352085    0.0
+352748    0.0
+353906    0.0
+354435    0.0
+354887    0.0
+Name: 953, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:42:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 484       0.00000
+885       0.31222
+1078      0.00000
+1444      0.00000
+1743      0.00000
+           ...   
+352085    0.00000
+352748    0.00000
+353906    0.00000
+354435    0.00000
+354887    0.00000
+Name: 954, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:31 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1221.7194495033473 seconds (20.361990825055788 minutes)
+2021-04-01 03:03:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.244206
+2804      0.000000
+            ...   
+354548    0.192037
+354591    0.527832
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 5, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:36 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 6, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:38 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 9, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.056667
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 10, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.40415
+2112      0.00000
+2703      0.00000
+2804      0.00000
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.00000
+354838    0.00000
+Name: 45, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.596892
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.855210
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 47, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:07 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.132868
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 51, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:11 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.170290
+594       0.237464
+2112      0.000000
+2703      0.000000
+2804      0.100196
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.129977
+354838    0.000000
+Name: 57, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:11 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 58, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:17 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.133513
+2112      0.379782
+2703      0.382766
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.309006
+354648    0.000000
+354838    0.000000
+Name: 66, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:30 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.144565
+2112      0.179696
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 86, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.357521
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 93, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:09 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.021753
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 141, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.554529
+2112      0.347226
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.355961
+354591    0.571625
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 175, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:37 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.00000
+2112      0.00000
+2703      0.00000
+2804      0.00000
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.00000
+354838    1.24091
+Name: 182, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:05 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 222, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.028601
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.356283
+Name: 223, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:12 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.686232
+2112      0.235230
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 233, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:20 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.356340
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.093865
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.318231
+Name: 244, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.010752
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 255, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.173806
+2112      0.000000
+2703      0.027058
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 264, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:39 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.043419
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.078186
+354648    0.000000
+354838    0.000000
+Name: 272, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:40 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.136823
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 274, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:45 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.832079
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.937230
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.496767
+354838    0.000000
+Name: 281, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 305, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 306, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:06 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.075360
+2112      0.000000
+2703      0.108538
+2804      0.368451
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 312, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:19 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 330, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.673288
+2112      1.051370
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 335, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.968403
+2112      0.380351
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 336, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:15 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 411, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:18 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.316517
+354591    0.457200
+354631    0.000000
+354648    0.000000
+354838    0.063044
+Name: 416, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:29 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.77834
+2112      0.00000
+2703      0.00000
+2804      0.00000
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.00000
+354838    0.00000
+Name: 433, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:32 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.232997
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.506434
+354838    0.000000
+Name: 438, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:33 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 439, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:34 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 441, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:35 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.480776
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 442, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:48 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.00000
+2112      0.00000
+2703      0.00000
+2804      0.00000
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.34018
+354838    0.00000
+Name: 462, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.253191
+Name: 483, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:15 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.427843
+354838    0.000000
+Name: 500, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:20 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 508, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:21 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.00000
+2112      0.00000
+2703      0.00000
+2804      0.38899
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.00000
+354838    1.09532
+Name: 509, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:28 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       1.435210
+2112      0.618998
+2703      0.000000
+2804      0.155647
+            ...   
+354548    0.720467
+354591    0.538484
+354631    0.000000
+354648    0.000000
+354838    0.529398
+Name: 520, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:31 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 524, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:47 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 548, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.256829
+Name: 556, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:02 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.858227
+Name: 570, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:16 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 590, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:17 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.645384
+2112      0.517216
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 592, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:22 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.132583
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 600, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:27 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.251201
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.441087
+354591    0.265704
+354631    0.000000
+354648    0.000000
+354838    0.695691
+Name: 607, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:28 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.864974
+2112      0.992490
+2703      0.232747
+2804      0.000000
+            ...   
+354548    0.137292
+354591    0.077796
+354631    0.000000
+354648    0.000000
+354838    0.785612
+Name: 609, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:37 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.973837
+2112      0.342243
+2703      0.230708
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 622, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:44 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.359807
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.000000
+Name: 632, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:04 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 661, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:25 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.436901
+594       0.000000
+2112      0.000000
+2703      0.229305
+2804      0.336461
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.172338
+354648    0.257648
+354838    0.000000
+Name: 692, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:31 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.377587
+2112      0.302831
+2703      0.000000
+2804      0.625587
+            ...   
+354548    0.509800
+354591    0.132176
+354631    0.000000
+354648    0.378956
+354838    0.688127
+Name: 701, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:47 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.000000
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.203074
+Name: 723, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:51 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 730, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:00 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.037453
+594       0.000000
+2112      0.130802
+2703      0.502330
+2804      0.102604
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.000000
+354838    0.159798
+Name: 743, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:03 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.0
+594       0.0
+2112      0.0
+2703      0.0
+2804      0.0
+         ... 
+354548    0.0
+354591    0.0
+354631    0.0
+354648    0.0
+354838    0.0
+Name: 747, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:05 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.000000
+594       0.249038
+2112      0.000000
+2703      0.000000
+2804      0.000000
+            ...   
+354548    0.000000
+354591    0.000000
+354631    0.000000
+354648    0.168470
+354838    0.000000
+Name: 751, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:09 ERROR: BayesianGMM `evaluate_knn_per_query` failed on query 3         0.00000
+594       0.00000
+2112      0.00000
+2703      0.00000
+2804      0.00000
+           ...   
+354548    0.00000
+354591    0.00000
+354631    0.00000
+354648    0.00000
+354838    0.17757
+Name: 757, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0

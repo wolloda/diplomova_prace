@@ -413,38 +413,48 @@ class LMI(BaseIndex):
         """
         s = time.time()
         time_checkpoints = []; popped_nodes_checkpoints = []; objects_checkpoints = []
+        
+        query_id_orig = query_id
+        query_id = int(str(query_id).replace("-", "_"))
+        
         query_row = df_res[(df_res['object_id'] == query_id)]         
         query = query_row.drop(self.predict_drop, axis=1).values
+        
+        
+        
         predictions = self.classifier.predict(query, self.stack[0], self.encoders[0])
              
-        priority_q = []
+        priority_q = []        
         priority_q = self.add_to_priority_queue(priority_q, predictions)
-    
+        
         if debug: logging.info(f"Step 1: L1 added - PQ: {priority_q}\n")
 
         current_stop_cond_idx = 0
 
         popped_nodes = []
         iterations = 0; n_steps = 0
+               
+        self.objects_in_buckets = {(int(k[0]), int(k[1])):int(v) for k,v in self.objects_in_buckets.items()}
+        
         while len(priority_q) != 0:
             if stop_cond_objects != None and len(stop_cond_objects) == current_stop_cond_idx:
-                return {'id': int(query_id), 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}             
+                return {'id': int(query_id), 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}                          
                 
             else:
                 priority_q, popped = self.process_node(priority_q, query, debug=debug)
-                print(priority_q, popped)
                 if type(popped) is list:
                     popped_nodes.extend(popped)
                 else: popped_nodes.append(popped)
-
+                    
                 if stop_cond_objects is not None:
                     index = tuple([int(p) for p in popped.split('.')[2:]])
                     if len(index) == 1: index = index[0]
-                                           
+
                     if index in self.objects_in_buckets:
                         n_steps += self.objects_in_buckets[index]
                     else:
                         n_steps += 0
+                    
                     if current_stop_cond_idx < len(stop_cond_objects) and stop_cond_objects[current_stop_cond_idx] <= n_steps:
                         time_checkpoint = time.time()
                         time_checkpoints.append(time_checkpoint-s)
@@ -452,4 +462,5 @@ class LMI(BaseIndex):
                         objects_checkpoints.append(n_steps)
                         current_stop_cond_idx += 1
             iterations += 1
+            
         return {'id': int(query_id), 'steps': n_steps, 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'steps_checkpoints': objects_checkpoints}

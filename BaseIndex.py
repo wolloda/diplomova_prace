@@ -36,6 +36,9 @@ class BaseIndex(object):
         self.n_levels = len(labels)
         self.labels = labels
         self.knn_gts_file = f"{self.dir}/{knn_gts}"
+        if PATH == "/storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap":
+            self.knn_gts_file = "/storage/brno6/home/tslaninakova/learned-indexes/MIndex1M-mocap/knn_gt.json"
+        
         self.is_profiset_or_mocap = True if ("profi" in PATH.lower() or "mocap" in PATH.lower()) else False
 
         self.is_mindex = True if "mindex" in PATH.lower() else False

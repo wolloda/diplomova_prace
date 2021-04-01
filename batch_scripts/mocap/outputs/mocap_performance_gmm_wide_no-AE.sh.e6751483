@@ -1,0 +1,124 @@
+2021-03-25 14:25:06.297308: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:25:06.308496: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:25:06.308549: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+25-03-21 14:25 INFO: Loading faiss.
+25-03-21 14:36 INFO: Loaded dataset of shape: (354902, 4099)
+25-03-21 14:36 INFO: Dataset /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap loaded
+2021-03-25 14:36:21 INFO: Benchmark initialized
+25-03-21 14:36 INFO: Benchmark initialized
+2021-03-25 14:36:21 INFO: Buckets: [100, 100]
+25-03-21 14:36 INFO: Buckets: [100, 100]
+2021-03-25 14:36:21 INFO: Total specs to train: 24
+25-03-21 14:36 INFO: Total specs to train: 24
+25-03-21 14:36 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:01 INFO: Training level 1
+25-03-21 15:01 INFO: Training GMM model with values of shape (2418, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:01 INFO: Training GMM model with values of shape (5725, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:01 INFO: Training GMM model with values of shape (4813, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (1980, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (5618, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (4376, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (4805, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (5701, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:02 INFO: Training GMM model with values of shape (4338, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:03 INFO: Training GMM model with values of shape (7396, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:03 INFO: Training GMM model with values of shape (3808, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:03 INFO: Training GMM model with values of shape (3476, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:03 INFO: Training GMM model with values of shape (2560, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:03 INFO: Training GMM model with values of shape (4595, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (4297, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (5083, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (4520, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (1722, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (3904, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (1999, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:04 INFO: Training GMM model with values of shape (6414, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (2329, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (1779, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (2711, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (5799, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (2848, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (3571, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (583, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:05 INFO: Training GMM model with values of shape (4573, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (3045, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (3655, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (6788, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (1265, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (4105, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:06 INFO: Training GMM model with values of shape (4154, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (3549, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (1345, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (4350, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (5156, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (2251, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (6325, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:07 INFO: Training GMM model with values of shape (4011, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (2637, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (2289, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (2839, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (3379, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (3690, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (955, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:08 INFO: Training GMM model with values of shape (5687, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (2825, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (4389, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (2051, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (8091, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (4392, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (2116, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:09 INFO: Training GMM model with values of shape (5175, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (2700, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (2344, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (2902, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (4667, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (3517, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (4947, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:10 INFO: Training GMM model with values of shape (2947, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (6472, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (2492, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (2667, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (4639, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (1453, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (4232, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:11 INFO: Training GMM model with values of shape (4938, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (3703, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (2265, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (1858, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (646, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (1679, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (5493, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (1601, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (2624, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:12 INFO: Training GMM model with values of shape (2719, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (4608, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (3659, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (2333, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (1938, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (1684, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (3014, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (2692, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (1449, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (952, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:13 INFO: Training GMM model with values of shape (4123, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:14 INFO: Training GMM model with values of shape (4346, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:14 INFO: Training GMM model with values of shape (3513, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:14 INFO: Training GMM model with values of shape (3671, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:14 INFO: Training GMM model with values of shape (4344, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:14 INFO: Training GMM model with values of shape (6151, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (2668, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (1977, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (3050, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (2574, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (3687, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+25-03-21 15:15 INFO: Training GMM model with values of shape (4709, 4096): n. of clusters=100 | covariance type=spherical | max iterations=1 | initial parameters=kmeans
+2021-03-25 15:15:59 INFO: GMM with training spec: {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2377.8471617028117 seconds (39.63078602838019 minutes)
+25-03-21 15:15 INFO: GMM with training spec: {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2377.8471617028117 seconds (39.63078602838019 minutes)
+Traceback (most recent call last):
+  File "mocap_performance_gmm_wide_no-AE.py", line 5, in <module>
+    benchmark.evaluate()
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/Benchmark.py", line 271, in evaluate
+    recall = evaluate_knn_per_query(search_result, df_result, knns)
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/knn_search.py", line 108, in evaluate_knn_per_query
+    print(f"Evaluating k-NN performance on {len(res['objects_checkpoints'])} checkpoints: {res['objects_checkpoints']}")
+KeyError: 'objects_checkpoints'

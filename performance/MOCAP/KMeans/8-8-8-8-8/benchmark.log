@@ -1,0 +1,5292 @@
+2021-03-31 23:22:23 INFO: Benchmark initialized
+2021-03-31 23:22:23 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-03-31 23:22:23 INFO: Total specs to train: 9
+2021-03-31 23:27:36 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 313.1867452301085 seconds (5.219779087168475 minutes)
+2021-04-01 00:56:18 INFO: Benchmark initialized
+2021-04-01 00:56:18 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 00:56:19 INFO: Total specs to train: 9
+2021-04-01 01:01:02 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 283.2034405581653 seconds (4.720057342636088 minutes)
+2021-04-01 01:01:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.709098
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.712885
+353788    0.000000
+354455    0.000000
+Name: 2, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 6, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 13, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 21, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:19 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.00000
+393       0.00000
+663       0.00000
+1944      0.00000
+2435      0.00000
+           ...   
+352734    0.00000
+353363    0.00000
+353643    0.00000
+353788    0.41219
+354455    0.00000
+Name: 27, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 37, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 39, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.191134
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.272397
+353643    0.164816
+353788    0.000000
+354455    0.000000
+Name: 60, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.104136
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 70, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 84, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:01:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.144426
+2435      0.000000
+            ...   
+352734    0.514812
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.192772
+Name: 91, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 100, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:05 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.00000
+393       0.00000
+663       0.00000
+1944      0.00000
+2435      0.00000
+           ...   
+352734    0.00000
+353363    0.00000
+353643    0.12103
+353788    0.00000
+354455    0.00000
+Name: 105, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.231909
+353643    0.000000
+353788    0.342957
+354455    0.000000
+Name: 115, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.680278
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 116, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 122, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 145, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 157, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 165, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:43 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.324553
+1944      0.000000
+2435      0.777691
+            ...   
+352734    0.458936
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.608607
+Name: 167, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:46 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.087413
+353788    0.000000
+354455    0.000000
+Name: 171, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.015275
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 179, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 180, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.603668
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 182, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:02:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 186, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:03:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.893627
+353643    0.000000
+353788    0.151973
+354455    0.000000
+Name: 271, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 293, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.173088
+2435      0.123350
+            ...   
+352734    0.000000
+353363    0.910825
+353643    0.096680
+353788    0.068812
+354455    0.088900
+Name: 302, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.687158
+393       1.179470
+663       1.151630
+1944      0.000000
+2435      0.638158
+            ...   
+352734    1.041240
+353363    0.288255
+353643    1.383870
+353788    0.000000
+354455    1.562830
+Name: 303, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 317, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.320107
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.250325
+353788    0.000000
+354455    0.194979
+Name: 325, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:22 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.307397
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.142025
+353788    0.000000
+354455    0.000000
+Name: 328, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.048534
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.283462
+354455    0.000000
+Name: 344, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:49 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 369, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:04:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 375, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.358559
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 397, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.417788
+2435      0.000000
+            ...   
+352734    0.470872
+353363    0.000000
+353643    0.081407
+353788    0.291780
+354455    0.000000
+Name: 407, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.038159
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 413, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 415, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.00000
+393       0.00000
+663       0.00000
+1944      0.00000
+2435      2.05332
+           ...   
+352734    0.00000
+353363    0.00000
+353643    0.00000
+353788    0.00000
+354455    0.00000
+Name: 416, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.701425
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 423, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 426, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:27 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 433, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.241234
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 438, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.175396
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.118752
+353788    0.008601
+354455    0.000000
+Name: 439, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.279265
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.126844
+353788    0.000000
+354455    0.000000
+Name: 448, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      1.142600
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.087528
+353788    0.000000
+354455    0.710587
+Name: 453, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 459, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.108473
+353788    0.000000
+354455    0.000000
+Name: 460, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:05:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.028787
+Name: 487, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:06:03 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.002043
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 495, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:06:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.879759
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.540334
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 522, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:06:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 554, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:06:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.012526
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 565, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:06:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.731236
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.062990
+            ...   
+352734    0.000000
+353363    1.566170
+353643    0.000000
+353788    1.569530
+354455    0.000000
+Name: 568, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:03 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.497347
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.609518
+353788    0.000000
+354455    0.028938
+Name: 592, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.625611
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      1.594410
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.408857
+354455    0.000000
+Name: 614, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:27 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       1.462970
+393       0.215993
+663       0.225979
+1944      0.000000
+2435      1.513340
+            ...   
+352734    0.000000
+353363    2.432380
+353643    0.432816
+353788    0.550889
+354455    0.851331
+Name: 630, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.323643
+393       0.000000
+663       0.000000
+1944      0.320447
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.207617
+353788    0.862377
+354455    0.000000
+Name: 639, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.420087
+354455    0.000000
+Name: 642, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 652, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.133261
+663       0.731666
+1944      0.037951
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.827752
+353788    0.000000
+354455    0.705301
+Name: 659, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.328017
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.577891
+Name: 661, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.296944
+2435      0.382753
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.052627
+353788    0.000000
+354455    0.000000
+Name: 662, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:56 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.234742
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 678, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.143722
+393       0.000000
+663       0.000000
+1944      0.280341
+2435      3.652530
+            ...   
+352734    0.000000
+353363    0.180006
+353643    0.266572
+353788    0.000000
+354455    0.000000
+Name: 680, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:07:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.310321
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.282736
+            ...   
+352734    0.000000
+353363    0.371185
+353643    0.045722
+353788    0.000000
+354455    0.086648
+Name: 684, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:00 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.050798
+393       0.068071
+663       0.297013
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 687, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.611445
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 689, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.851787
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    1.520660
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 703, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.479393
+353643    0.000000
+353788    0.000000
+354455    0.710678
+Name: 719, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.132225
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 720, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:25 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.004694
+354455    0.000000
+Name: 728, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:08:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.888755
+354455    0.000000
+Name: 768, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:09:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.050256
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 800, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:09:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 808, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:09:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.088539
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 820, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:09:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.111377
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.041529
+353643    0.029733
+353788    0.000000
+354455    0.000000
+Name: 824, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:09:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 868, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 883, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.012512
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.406174
+353788    0.000000
+354455    0.000000
+Name: 889, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    1.427290
+353643    0.400807
+353788    0.722787
+354455    0.226209
+Name: 900, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.026856
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.336950
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 941, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.00000
+393       0.00000
+663       0.00000
+1944      0.00000
+2435      0.00000
+           ...   
+352734    0.00000
+353363    0.00000
+353643    0.11589
+353788    0.00000
+354455    0.00000
+Name: 949, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:43 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.0
+393       0.0
+663       0.0
+1944      0.0
+2435      0.0
+         ... 
+352734    0.0
+353363    0.0
+353643    0.0
+353788    0.0
+354455    0.0
+Name: 953, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.171849
+663       0.458171
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.045389
+353363    0.000000
+353643    0.000000
+353788    0.499684
+354455    0.000000
+Name: 977, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:10:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.085613
+393       0.000000
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.000000
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.000000
+Name: 978, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:11:00 ERROR: KMeans `evaluate_knn_per_query` failed on query 190       0.000000
+393       0.380811
+663       0.000000
+1944      0.000000
+2435      0.000000
+            ...   
+352734    0.216722
+353363    0.000000
+353643    0.000000
+353788    0.000000
+354455    0.736118
+Name: 980, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:26:46 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 935.3808088842779 seconds (15.589680148071299 minutes)
+2021-04-01 01:26:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.445373
+354365    0.000000
+354600    0.000944
+Name: 7, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 28, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 37, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 45, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.429441
+769       0.000000
+1334      0.213972
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 55, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.081528
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.065302
+354365    0.000000
+354600    0.362866
+Name: 60, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        2.712210
+354       0.516951
+769       0.000000
+1334      0.000000
+1613      1.159440
+            ...   
+353391    0.000000
+353396    0.000000
+354183    1.999140
+354365    0.235047
+354600    1.214600
+Name: 87, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.355277
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.045695
+354365    0.554288
+354600    0.206975
+Name: 88, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.165743
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.071408
+Name: 104, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:54 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.00000
+354       0.06798
+769       0.00000
+1334      0.00000
+1613      0.00000
+           ...   
+353391    0.00000
+353396    0.00000
+354183    0.00000
+354365    0.00000
+354600    0.00000
+Name: 111, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 119, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.068446
+769       0.853005
+1334      0.789709
+1613      0.149049
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.646333
+354600    0.000333
+Name: 120, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000717
+769       0.000000
+1334      0.235704
+1613      0.652692
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.017568
+354365    0.000000
+354600    0.148127
+Name: 129, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.104551
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.233423
+354365    0.000000
+354600    0.000000
+Name: 134, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 155, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.743195
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 183, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:49 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.591671
+354       1.415830
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.287804
+354600    0.000000
+Name: 200, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 207, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:29:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.465575
+354600    0.174278
+Name: 284, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:29:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.00000
+354       0.00000
+769       0.00000
+1334      0.00000
+1613      0.00000
+           ...   
+353391    1.48839
+353396    1.85519
+354183    0.00000
+354365    0.00000
+354600    0.00000
+Name: 300, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 323, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 331, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:27 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.030245
+769       0.000000
+1334      0.000000
+1613      0.035518
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.383017
+354365    0.000000
+354600    0.540249
+Name: 358, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.566219
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 367, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 368, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        1.840310
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.401961
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.008125
+Name: 372, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 378, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 383, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.357764
+354600    0.054017
+Name: 399, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:30:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 402, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.328759
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.020583
+354600    0.000000
+Name: 415, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.00000
+354       0.00000
+769       0.00000
+1334      0.00000
+1613      0.00000
+           ...   
+353391    0.00000
+353396    0.87614
+354183    0.00000
+354365    0.00000
+354600    0.00000
+Name: 416, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:19 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.00000
+354       0.00000
+769       0.00000
+1334      0.00000
+1613      0.00000
+           ...   
+353391    0.00000
+353396    0.00000
+354183    0.00000
+354365    0.07026
+354600    0.00000
+Name: 444, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.060187
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 451, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.057715
+354365    0.135683
+354600    0.000000
+Name: 452, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.140321
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.461187
+354600    0.000000
+Name: 455, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 461, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 473, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 481, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.296422
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 486, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:31:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 487, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.743329
+354600    0.000000
+Name: 535, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 536, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 537, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 539, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:18 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 544, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:31 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.201434
+769       0.243301
+1334      0.190235
+1613      0.983451
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.081160
+354600    0.432789
+Name: 564, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.284148
+354600    0.000000
+Name: 572, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.597237
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 577, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.00000
+354       0.00000
+769       1.43494
+1334      0.00000
+1613      0.00000
+           ...   
+353391    0.00000
+353396    0.00000
+354183    0.00000
+354365    0.00000
+354600    0.00000
+Name: 580, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:56 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.099558
+354600    0.000000
+Name: 606, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       1.095560
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.440356
+353396    0.050922
+354183    0.058350
+354365    0.599159
+354600    0.000000
+Name: 609, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 616, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.029955
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 623, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.011817
+354600    0.000000
+Name: 626, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        1.127820
+354       0.465277
+769       0.000000
+1334      0.000000
+1613      0.220067
+            ...   
+353391    0.050286
+353396    0.196296
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 636, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.947929
+354       0.000000
+769       0.000000
+1334      1.711060
+1613      1.816540
+            ...   
+353391    0.914222
+353396    0.854057
+354183    1.461260
+354365    0.267827
+354600    1.635220
+Name: 640, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.255635
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 653, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.040818
+354       0.684486
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.311757
+354365    0.000000
+354600    0.188281
+Name: 657, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:49 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.628374
+354365    0.000000
+354600    0.000000
+Name: 693, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:56 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 705, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.051513
+769       0.000000
+1334      0.000000
+1613      0.345544
+            ...   
+353391    0.349925
+353396    0.000000
+354183    0.195979
+354365    0.237570
+354600    0.000000
+Name: 722, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.587307
+769       0.000000
+1334      0.050326
+1613      0.000000
+            ...   
+353391    0.793463
+353396    0.361478
+354183    0.320287
+354365    0.000000
+354600    0.000000
+Name: 731, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.163989
+769       0.262429
+1334      0.000000
+1613      0.000000
+            ...   
+353391    1.143300
+353396    0.642784
+354183    0.507096
+354365    0.096836
+354600    0.830750
+Name: 745, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 760, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.181815
+1613      0.000000
+            ...   
+353391    0.161928
+353396    0.508786
+354183    0.000000
+354365    0.054972
+354600    0.000000
+Name: 783, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.227270
+769       0.000000
+1334      0.303528
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.593523
+354600    0.000000
+Name: 785, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.196682
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.208442
+354600    0.000000
+Name: 797, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:54 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 801, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 806, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.832709
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.248024
+354600    0.000000
+Name: 810, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.125347
+354600    0.000000
+Name: 830, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:18 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.113221
+353396    0.326127
+354183    0.000000
+354365    0.000000
+354600    0.000000
+Name: 841, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:22 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 848, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:25 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.775807
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.480536
+Name: 852, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.481334
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.316912
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.009230
+354365    0.000000
+354600    0.254256
+Name: 861, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:43 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      1.141400
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.213315
+Name: 881, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 883, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 890, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000625
+353396    0.351150
+354183    0.000000
+354365    0.003896
+354600    0.000000
+Name: 893, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.645569
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.207636
+354600    0.000000
+Name: 898, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:05 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.019953
+769       0.000000
+1334      0.000000
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.030268
+354600    0.000000
+Name: 919, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 929, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:19 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 942, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.000000
+354       0.000000
+769       0.000000
+1334      0.165049
+1613      0.000000
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.041640
+354600    0.213277
+Name: 948, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 950, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.818581
+354       0.000000
+769       0.000000
+1334      0.384633
+1613      0.835449
+            ...   
+353391    0.000000
+353396    0.000000
+354183    0.000000
+354365    0.000000
+354600    0.453063
+Name: 951, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 62        0.0
+354       0.0
+769       0.0
+1334      0.0
+1613      0.0
+         ... 
+353391    0.0
+353396    0.0
+354183    0.0
+354365    0.0
+354600    0.0
+Name: 959, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:05:53 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 10, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1740.1724113598466 seconds (29.00287352266411 minutes)
+2021-04-01 02:06:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 13, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 28, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.833145
+1976      0.690508
+2343      0.880816
+2359      0.000000
+            ...   
+353178    0.304727
+353189    0.629776
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 36, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.145188
+1976      0.096802
+2343      0.550724
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.227176
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 38, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.335855
+354862    0.000000
+Name: 59, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 62, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.358483
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 79, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       1.373940
+1976      0.328366
+2343      1.231200
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.570141
+353242    0.000000
+353773    0.812761
+354862    0.000000
+Name: 87, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:49 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.071440
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.459861
+353242    0.700725
+353773    0.000000
+354862    0.000000
+Name: 91, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 106, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 121, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.297329
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 127, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 133, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.347768
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 134, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        1.244500
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      1.354040
+            ...   
+353178    0.000000
+353189    0.007364
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 148, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 159, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.222657
+354862    0.000000
+Name: 164, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.564888
+2343      0.617542
+2359      0.014846
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.111766
+354862    0.000000
+Name: 167, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 209, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:09 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.286930
+1976      0.000000
+2343      0.645562
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 223, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 227, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 237, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.044461
+353773    0.000000
+354862    0.000000
+Name: 285, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:56 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.539829
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 299, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.735093
+139       0.000000
+1976      0.000000
+2343      0.424159
+2359      0.656172
+            ...   
+353178    0.000000
+353189    0.257021
+353242    0.000000
+353773    0.683833
+354862    0.000000
+Name: 302, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:09 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.146587
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.097646
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 319, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 330, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 339, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:22 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 341, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.00000
+139       0.00000
+1976      0.00000
+2343      0.00000
+2359      0.00000
+           ...   
+353178    0.00000
+353189    0.00000
+353242    0.00000
+353773    0.00000
+354862    1.22779
+Name: 361, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.108976
+139       0.000000
+1976      0.000000
+2343      0.477428
+2359      0.000000
+            ...   
+353178    0.538073
+353189    0.048841
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 373, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.264708
+353242    0.207698
+353773    0.751004
+354862    0.000000
+Name: 374, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 375, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 398, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 407, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        2.268420
+139       0.561324
+1976      0.400342
+2343      0.897359
+2359      1.576260
+            ...   
+353178    0.000000
+353189    0.103382
+353242    0.000000
+353773    0.584520
+354862    0.000000
+Name: 420, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 432, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 444, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:28 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 450, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.280054
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.350870
+353242    0.854636
+353773    0.000000
+354862    0.000000
+Name: 454, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.025718
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 462, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        1.367470
+139       1.213380
+1976      1.341870
+2343      1.522890
+2359      0.645917
+            ...   
+353178    0.731780
+353189    0.240165
+353242    0.000000
+353773    0.419965
+354862    4.884390
+Name: 465, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 477, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 490, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.421202
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.815705
+            ...   
+353178    0.000000
+353189    0.249208
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 512, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 515, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.324771
+354862    0.000000
+Name: 585, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:03 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000138
+2359      0.574544
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 604, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.343897
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.647730
+354862    0.000000
+Name: 636, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.077780
+1976      0.000000
+2343      0.098213
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 657, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.075088
+353242    0.540820
+353773    0.000000
+354862    0.000000
+Name: 663, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.211635
+1976      0.032705
+2343      0.438974
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 665, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.372254
+1976      0.000000
+2343      0.435058
+2359      0.000000
+            ...   
+353178    0.058803
+353189    0.000000
+353242    0.000000
+353773    0.634838
+354862    0.000000
+Name: 672, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 688, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:00 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.451528
+354862    0.000000
+Name: 697, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.150078
+139       0.632113
+1976      0.015347
+2343      1.579600
+2359      0.202560
+            ...   
+353178    0.275525
+353189    0.000000
+353242    0.000000
+353773    1.081770
+354862    0.000000
+Name: 700, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.008939
+1976      0.040691
+2343      0.376313
+2359      0.000000
+            ...   
+353178    0.079276
+353189    0.015048
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 711, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 716, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 717, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        2.133480
+139       0.027144
+1976      0.153773
+2343      0.112518
+2359      1.813690
+            ...   
+353178    0.262429
+353189    0.951109
+353242    0.846497
+353773    0.228993
+354862    0.000000
+Name: 745, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.334511
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.530448
+353242    0.173108
+353773    0.000000
+354862    0.000000
+Name: 763, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.318958
+1976      0.000000
+2343      0.135148
+2359      0.047973
+            ...   
+353178    0.018519
+353189    0.568507
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 774, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:49 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.499213
+1976      0.061622
+2343      1.108320
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.715143
+353242    1.016920
+353773    0.000000
+354862    0.000000
+Name: 778, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 782, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.277998
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.265782
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 795, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:03 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 802, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 807, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 808, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.746586
+139       0.000000
+1976      0.543298
+2343      0.000000
+2359      0.882646
+            ...   
+353178    0.000000
+353189    0.316797
+353242    0.000000
+353773    1.582080
+354862    0.000000
+Name: 817, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.845256
+353242    0.344990
+353773    0.000000
+354862    0.000000
+Name: 822, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.244147
+1976      0.000000
+2343      0.599482
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.330457
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 826, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 832, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 836, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 840, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:27 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 842, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:27 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.018715
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.377178
+353242    0.179593
+353773    0.000000
+354862    0.000000
+Name: 843, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 873, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.137009
+1976      0.000000
+2343      0.000000
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 881, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.528721
+139       0.000000
+1976      0.000000
+2343      0.000000
+2359      1.522810
+            ...   
+353178    0.000000
+353189    0.410284
+353242    0.000000
+353773    0.171635
+354862    0.000000
+Name: 901, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.035234
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.042387
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 904, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 916, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.650771
+1976      0.688658
+2343      0.085455
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 923, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.000000
+2343      0.030065
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.758318
+Name: 931, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:22 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.116013
+2343      0.010284
+2359      0.141731
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 934, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 937, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:25 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.396596
+1976      0.045124
+2343      0.159371
+2359      0.000000
+            ...   
+353178    0.000000
+353189    0.555934
+353242    0.607049
+353773    0.000000
+354862    0.000000
+Name: 940, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.0
+139       0.0
+1976      0.0
+2343      0.0
+2359      0.0
+         ... 
+353178    0.0
+353189    0.0
+353242    0.0
+353773    0.0
+354862    0.0
+Name: 954, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 68        0.000000
+139       0.000000
+1976      0.503222
+2343      0.498936
+2359      1.329850
+            ...   
+353178    0.000000
+353189    0.000000
+353242    0.000000
+353773    0.000000
+354862    0.000000
+Name: 973, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:09 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 308.5246882047504 seconds (5.14207813674584 minutes)
+2021-04-01 02:21:13 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.121853
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.056668
+353652    0.131954
+354357    0.000000
+354656    0.022592
+Name: 7, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:19 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 16, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.809802
+1674      1.347300
+2085      0.171319
+2147      0.000000
+2259      0.821983
+            ...   
+353016    0.000000
+353383    0.577317
+353652    0.448047
+354357    0.148884
+354656    0.000000
+Name: 47, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 49, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.00000
+2085      0.00000
+2147      0.00000
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.16048
+Name: 57, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 62, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:21:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.103799
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.544067
+354656    0.000000
+Name: 65, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0815
+1674      0.0000
+2085      0.0000
+2147      0.0000
+2259      0.0000
+           ...  
+353016    0.0000
+353383    0.0000
+353652    0.0000
+354357    0.0000
+354656    0.0000
+Name: 94, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 96, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.263797
+353652    0.000000
+354357    0.000000
+354656    0.677594
+Name: 101, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.097052
+Name: 117, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 147, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.287476
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.152218
+354357    0.000000
+354656    0.000000
+Name: 160, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:22:48 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 162, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:05 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 189, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 191, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 204, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.164889
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.067178
+354357    0.000000
+354656    0.000000
+Name: 220, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 233, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:43 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.00000
+2085      0.00000
+2147      0.11431
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.14981
+354656    0.00000
+Name: 251, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.690813
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.594558
+353383    0.622318
+353652    0.000000
+354357    0.087677
+354656    0.000000
+Name: 254, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 263, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.00000
+2085      0.00000
+2147      0.00000
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.18082
+Name: 274, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:03 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.440511
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 285, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.276364
+353652    0.124825
+354357    0.000000
+354656    0.311073
+Name: 286, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:15 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       1.320710
+1674      0.189873
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    1.123070
+353652    0.000000
+354357    0.610178
+354656    0.000000
+Name: 304, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.252218
+2259      0.575978
+            ...   
+353016    0.483899
+353383    0.144804
+353652    0.618253
+354357    0.000000
+354656    0.000000
+Name: 312, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.396254
+2085      0.000000
+2147      0.564941
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.157727
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 319, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:25 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.025911
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 321, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.434340
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.201785
+Name: 328, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.809099
+2085      0.000000
+2147      0.003343
+2259      0.317922
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 345, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 369, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:56 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 372, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:04 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.014770
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.051743
+354656    0.000000
+Name: 384, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 433, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 437, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.655528
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 439, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 441, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.375987
+353383    0.291383
+353652    0.000000
+354357    1.346030
+354656    0.000000
+Name: 447, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:44 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.148854
+354656    0.000000
+Name: 452, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.356968
+353652    0.000000
+354357    0.000000
+354656    0.658582
+Name: 470, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.254515
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.144905
+353652    0.000000
+354357    0.249622
+354656    0.000000
+Name: 494, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.304382
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 505, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.631256
+354656    0.000000
+Name: 515, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.290671
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.098731
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 543, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:52 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.18624
+1674      0.00000
+2085      0.00000
+2147      0.00000
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.00000
+Name: 562, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:54 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 565, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:09 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 591, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 594, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:17 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.518231
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    1.641510
+353383    0.086087
+353652    0.000000
+354357    0.604977
+354656    0.000000
+Name: 604, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.301155
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.590804
+353383    0.715050
+353652    0.702299
+354357    0.000000
+354656    0.228185
+Name: 610, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.095108
+2085      0.000000
+2147      0.475060
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.226108
+353652    0.000000
+354357    0.000000
+354656    0.978196
+Name: 615, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 616, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.00000
+2085      0.00000
+2147      1.02162
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.00000
+Name: 632, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.390931
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 643, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:46 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.033936
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.261773
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 653, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 668, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.349584
+1674      0.162496
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.462826
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 686, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:18 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.164713
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 705, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.854913
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 732, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 738, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 775, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.137806
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 776, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.430449
+2085      0.000000
+2147      0.000000
+2259      0.111199
+            ...   
+353016    0.077491
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.294867
+Name: 796, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.29097
+2085      0.00000
+2147      0.00000
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.00000
+Name: 808, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      1.296550
+            ...   
+353016    1.236990
+353383    0.085489
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 811, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.477522
+354656    0.000000
+Name: 825, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.491067
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.355072
+353652    0.458127
+354357    0.000000
+354656    0.000000
+Name: 826, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 860, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:05 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 879, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.570298
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 883, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.250949
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 884, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:13 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.00000
+1674      0.00000
+2085      0.00000
+2147      0.12881
+2259      0.00000
+           ...   
+353016    0.00000
+353383    0.00000
+353652    0.00000
+354357    0.00000
+354656    0.00000
+Name: 892, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 929, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.754714
+2147      0.322507
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.382227
+354357    0.000000
+354656    0.337404
+Name: 932, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.266095
+1674      0.371743
+2085      0.000000
+2147      0.000000
+2259      0.352303
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.035166
+354656    0.000000
+Name: 934, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.131498
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 937, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.146788
+353652    0.142530
+354357    0.000000
+354656    0.000000
+Name: 938, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.115752
+353652    0.324068
+354357    0.628118
+354656    0.000000
+Name: 941, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.235818
+2259      0.000000
+            ...   
+353016    0.039189
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 955, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    1.115870
+353652    0.459360
+354357    0.000000
+354656    0.606526
+Name: 962, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       1.347220
+1674      0.332961
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.531156
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 966, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.018293
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 967, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.045468
+353652    0.000000
+354357    0.000000
+354656    0.000000
+Name: 968, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.572087
+2147      0.000000
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.000000
+353652    1.361630
+354357    0.000000
+354656    0.000000
+Name: 969, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:59 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.0
+1674      0.0
+2085      0.0
+2147      0.0
+2259      0.0
+         ... 
+353016    0.0
+353383    0.0
+353652    0.0
+354357    0.0
+354656    0.0
+Name: 971, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.000000
+2085      0.000000
+2147      1.953300
+2259      0.000000
+            ...   
+353016    0.000000
+353383    0.555272
+353652    0.000000
+354357    0.000000
+354656    1.910710
+Name: 988, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:11 ERROR: KMeans `evaluate_knn_per_query` failed on query 393       0.000000
+1674      0.212771
+2085      0.179398
+2147      0.000000
+2259      1.022640
+            ...   
+353016    0.000000
+353383    0.960114
+353652    0.515234
+354357    0.000000
+354656    0.298553
+Name: 991, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:49:53 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 8, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 8, 'n_init': 5, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1117.8923310898244 seconds (18.631538851497073 minutes)
+2021-04-01 02:50:13 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.233068
+Name: 32, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:50:14 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.145753
+796       0.133821
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 34, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:50:30 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.115911
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.418875
+353440    0.000000
+354414    0.000000
+Name: 58, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:50:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.412505
+353440    0.000000
+354414    0.000000
+Name: 75, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:50:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.027303
+            ...   
+353134    0.430900
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 92, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:50:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 103, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.167151
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 118, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 126, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.017106
+354414    0.000000
+Name: 141, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 150, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:29 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.172566
+796       0.886656
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.587330
+353238    1.181340
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 156, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:32 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.966069
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 161, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.033435
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 168, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.602580
+637       0.000000
+796       0.000000
+990       0.836277
+1043      0.663691
+            ...   
+353134    0.212825
+353238    0.000000
+353338    0.335587
+353440    0.000000
+354414    0.000000
+Name: 175, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:51:46 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.298840
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.133877
+353440    0.000000
+354414    0.000000
+Name: 184, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:00 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.955357
+Name: 206, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:07 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 217, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.217209
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.300546
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 227, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:19 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.206790
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.201805
+353440    0.000000
+354414    0.000000
+Name: 237, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:24 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.276669
+353338    0.046703
+353440    0.210478
+354414    0.000000
+Name: 245, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:26 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.129757
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.447926
+353238    0.000000
+353338    0.000000
+353440    0.209367
+354414    0.000000
+Name: 248, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.152566
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 263, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.084496
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 264, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.083134
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.005135
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 266, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:46 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 282, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:52:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.047069
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.328785
+353440    0.000000
+354414    0.000000
+Name: 285, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:53:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.502667
+1043      0.506864
+            ...   
+353134    0.041793
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 356, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:53:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.227416
+796       0.287640
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.897225
+353238    0.458226
+353338    0.000000
+353440    0.000000
+354414    0.091783
+Name: 363, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:53:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 386, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 404, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:05 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.224134
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.055409
+353338    0.135228
+353440    0.194613
+354414    1.792030
+Name: 409, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 421, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 433, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.060964
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 456, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.078959
+796       0.020849
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.148573
+353238    0.000000
+353338    0.917259
+353440    0.000000
+354414    0.000000
+Name: 483, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 487, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:54:54 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.348609
+796       0.000000
+990       0.000000
+1043      0.559816
+            ...   
+353134    0.000000
+353238    0.080247
+353338    0.244983
+353440    0.000000
+354414    0.000000
+Name: 489, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.048769
+796       0.000000
+990       0.328546
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.061832
+354414    0.000000
+Name: 504, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 517, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:16 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.099161
+796       0.282874
+990       0.515804
+1043      0.181079
+            ...   
+353134    0.119650
+353238    0.342201
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 526, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.831357
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 535, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.436779
+353440    0.000000
+354414    0.000000
+Name: 538, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.777975
+796       0.000000
+990       0.000000
+1043      0.312427
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.152348
+354414    0.000000
+Name: 557, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.218332
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.046059
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 559, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:37 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.520663
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 563, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:38 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.192686
+Name: 565, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:39 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.131790
+796       0.000000
+990       0.000000
+1043      0.697868
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.160253
+353440    0.000000
+354414    0.000000
+Name: 567, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       1.566170
+637       0.000000
+796       0.000000
+990       0.427991
+1043      0.276305
+            ...   
+353134    0.560523
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 568, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.059036
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 580, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:55:53 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.005128
+Name: 590, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:02 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.00000
+637       0.00000
+796       0.00000
+990       0.00000
+1043      0.00000
+           ...   
+353134    0.00000
+353238    0.00000
+353338    0.00000
+353440    0.00000
+354414    2.74682
+Name: 605, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:09 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.081348
+990       0.000000
+1043      0.997040
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 617, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.315176
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 622, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:13 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.053191
+354414    0.000000
+Name: 624, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.288381
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.010889
+353238    0.009430
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 639, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.795654
+Name: 656, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:40 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.936651
+637       0.642499
+796       0.000000
+990       0.910205
+1043      0.000000
+            ...   
+353134    0.557483
+353238    0.141046
+353338    0.574512
+353440    0.364148
+354414    0.064682
+Name: 667, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:47 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.154849
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 679, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:56:50 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.28668
+637       0.00000
+796       0.00000
+990       0.00000
+1043      0.00000
+           ...   
+353134    0.87049
+353238    0.00000
+353338    0.00000
+353440    0.00000
+354414    0.00000
+Name: 685, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:57:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 714, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:57:20 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.334961
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.026636
+353440    0.000000
+354414    0.000000
+Name: 732, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:57:28 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       1.847490
+637       0.000000
+796       0.000000
+990       0.771257
+1043      0.543700
+            ...   
+353134    0.923032
+353238    0.137643
+353338    0.000000
+353440    0.284586
+354414    0.000000
+Name: 745, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:57:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.592136
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.527741
+Name: 769, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.658363
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    1.035280
+Name: 798, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.104923
+637       0.328886
+796       0.000000
+990       0.000000
+1043      0.089144
+            ...   
+353134    0.072303
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 810, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:08 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.383545
+637       0.572213
+796       0.000000
+990       0.000000
+1043      0.266347
+            ...   
+353134    0.700248
+353238    0.067577
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 811, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:10 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       1.203200
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.195150
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.533008
+Name: 815, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:23 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.254448
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.051905
+353440    0.000000
+354414    0.008978
+Name: 835, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:31 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.455748
+Name: 848, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:33 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.450553
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.093783
+353238    0.118837
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 852, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:41 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.251897
+990       0.000000
+1043      0.000214
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.025504
+353440    0.000000
+354414    0.131494
+Name: 865, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:42 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.338719
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 867, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:45 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.588036
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.188626
+353440    0.000000
+354414    0.000000
+Name: 873, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:51 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 883, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:55 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.293796
+353440    0.000000
+354414    0.000000
+Name: 890, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.000000
+796       0.000000
+990       0.414126
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 893, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:58:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 895, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:01 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       1.427290
+637       0.471712
+796       0.000000
+990       0.221846
+1043      0.000000
+            ...   
+353134    0.713528
+353238    0.328004
+353338    0.623355
+353440    0.755452
+354414    0.000000
+Name: 900, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:06 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 908, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:12 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.634616
+796       0.353215
+990       0.000000
+1043      0.088019
+            ...   
+353134    0.000000
+353238    0.222109
+353338    0.458976
+353440    0.000000
+354414    0.000000
+Name: 918, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 933, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:21 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.386773
+637       0.244999
+796       0.000000
+990       0.016205
+1043      0.191111
+            ...   
+353134    0.360943
+353238    0.000000
+353338    0.090921
+353440    0.076629
+354414    0.000000
+Name: 934, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:25 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.562454
+796       0.813407
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.572551
+353338    0.459591
+353440    0.000000
+354414    0.000000
+Name: 940, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:34 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.047644
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.000000
+Name: 954, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:35 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.0
+637       0.0
+796       0.0
+990       0.0
+1043      0.0
+         ... 
+353134    0.0
+353238    0.0
+353338    0.0
+353440    0.0
+354414    0.0
+Name: 957, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:36 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.000000
+637       0.116638
+796       0.000000
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.000000
+353238    0.000000
+353338    0.000000
+353440    0.000000
+354414    0.026895
+Name: 958, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:57 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.416533
+637       0.348216
+796       0.194902
+990       0.000000
+1043      0.000000
+            ...   
+353134    0.660311
+353238    0.677752
+353338    0.000000
+353440    0.104667
+354414    0.740251
+Name: 991, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:59:58 ERROR: KMeans `evaluate_knn_per_query` failed on query 181       0.00000
+637       0.00000
+796       0.00000
+990       0.00000
+1043      0.22582
+           ...   
+353134    0.00000
+353238    0.00000
+353338    0.00000
+353440    0.00000
+354414    0.00000
+Name: 994, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0

@@ -1,0 +1,29 @@
+2021-03-25 14:24:46.183605: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:24:46.183935: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-03-25 14:24:46.183973: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+25-03-21 14:25 INFO: Loading faiss.
+25-03-21 14:35 INFO: Loaded dataset of shape: (354902, 4099)
+25-03-21 14:35 INFO: Dataset /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap loaded
+2021-03-25 14:35:41 INFO: Benchmark initialized
+25-03-21 14:35 INFO: Benchmark initialized
+2021-03-25 14:35:41 INFO: Buckets: [5, 82]
+25-03-21 14:35 INFO: Buckets: [5, 82]
+2021-03-25 14:35:41 INFO: Total specs to train: 32
+25-03-21 14:35 INFO: Total specs to train: 32
+25-03-21 14:35 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=5 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+25-03-21 14:52 INFO: Training level 1
+25-03-21 14:53 INFO: Training GMM model with values of shape (89038, 4096): n. of clusters=82 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+25-03-21 14:59 INFO: Training GMM model with values of shape (69651, 4096): n. of clusters=82 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+25-03-21 15:04 INFO: Training GMM model with values of shape (38022, 4096): n. of clusters=82 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+25-03-21 15:07 INFO: Training GMM model with values of shape (68241, 4096): n. of clusters=82 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+25-03-21 15:12 INFO: Training GMM model with values of shape (89950, 4096): n. of clusters=82 | covariance type=spherical | max_iter=1 | init_params=kmeans | weight_concentration_prior_type=dirichlet_process
+2021-03-25 15:19:48 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2646.901431839913 seconds (44.11502386399855 minutes)
+25-03-21 15:19 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2646.901431839913 seconds (44.11502386399855 minutes)
+Traceback (most recent call last):
+  File "mocap_performance_bayesian-gmm_regular_no-AE.py", line 5, in <module>
+    benchmark.evaluate()
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/Benchmark.py", line 271, in evaluate
+    recall = evaluate_knn_per_query(search_result, df_result, knns)
+  File "/auto/brno6/home/wollf/learned-indexes/learned-indexes/knn_search.py", line 108, in evaluate_knn_per_query
+    print(f"Evaluating k-NN performance on {len(res['objects_checkpoints'])} checkpoints: {res['objects_checkpoints']}")
+KeyError: 'objects_checkpoints'

@@ -75,7 +75,9 @@ def get_knn_buckets_for_query(df_res, query, gt_knn, labels=None):
     """
     if not labels:
         labels = guess_the_labels(df_res)
+
     knns = gt_knn[str(query)]
+        
     d = {}
     for k in knns.keys():
         bucket = "C.1." + "".join([f"{int(k)}." for k in df_res[df_res["object_id"] == int(k)][labels].values[0] if str(k) != "nan"])[:-1]
@@ -109,6 +111,7 @@ def evaluate_knn_per_query(res, df_res, gt_knns, labels=None, debug=True):
     if not labels:
         labels = guess_the_labels(df_res)
     query = res['id']
+    
     knns = get_knn_buckets_for_query(df_res, query, gt_knns, labels)
 
     knn_results_per_query = []

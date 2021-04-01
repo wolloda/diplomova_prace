@@ -1,0 +1,15 @@
+qdel 7028768.meta-pbs.metacentrum.cz
+qdel 7028769.meta-pbs.metacentrum.cz
+qdel 7028770.meta-pbs.metacentrum.cz
+qdel 7028771.meta-pbs.metacentrum.cz
+qdel 7028772.meta-pbs.metacentrum.cz
+qdel 7028773.meta-pbs.metacentrum.cz
+qdel 7028774.meta-pbs.metacentrum.cz
+qdel 7028775.meta-pbs.metacentrum.cz
+qdel 7028776.meta-pbs.metacentrum.cz
+qdel 7028777.meta-pbs.metacentrum.cz
+qdel 7028778.meta-pbs.metacentrum.cz
+qdel 7028779.meta-pbs.metacentrum.cz
+qdel 7028780.meta-pbs.metacentrum.cz
+qdel 7028781.meta-pbs.metacentrum.cz
+qdel 7028782.meta-pbs.metacentrum.cz

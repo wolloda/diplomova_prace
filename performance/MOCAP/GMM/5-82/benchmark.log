@@ -1,0 +1,5291 @@
+2021-03-31 23:22:39 INFO: Benchmark initialized
+2021-03-31 23:22:39 INFO: Buckets: [5, 82]
+2021-03-31 23:22:40 INFO: Total specs to train: 24
+2021-04-01 00:55:43 INFO: Benchmark initialized
+2021-04-01 00:55:43 INFO: Buckets: [5, 82]
+2021-04-01 00:55:43 INFO: Total specs to train: 24
+2021-04-01 01:17:50 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1326.6587398275733 seconds (22.11097899712622 minutes)
+2021-04-01 01:18:07 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.088930
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.165145
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 25, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:11 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.325150
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.168396
+354901    0.252289
+Name: 31, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:20 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 45, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:21 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 46, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:23 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.414969
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 50, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:27 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 56, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:37 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.459413
+1264      1.319910
+1774      0.193095
+1973      0.105912
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.784661
+354540    0.000000
+354901    0.420670
+Name: 72, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:42 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.00000
+1264      0.00000
+1774      0.00000
+1973      0.00000
+3177      0.00000
+           ...   
+353658    0.61181
+353876    0.00000
+354006    0.00000
+354540    0.00000
+354901    0.00000
+Name: 81, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:50 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.591566
+354006    0.000000
+354540    0.622856
+354901    0.000000
+Name: 94, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:18:51 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 96, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:04 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 117, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:17 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.539360
+1774      0.174749
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 137, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:19 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 140, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:20 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 142, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:21 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.057512
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.306865
+Name: 144, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:25 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 151, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:31 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 161, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:19:54 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.099558
+354540    0.932378
+354901    0.000000
+Name: 197, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:09 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 222, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:14 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.532210
+1264      0.049796
+1774      0.000000
+1973      0.000000
+3177      0.414455
+            ...   
+353658    0.215013
+353876    0.000000
+354006    0.294909
+354540    0.000000
+354901    0.000000
+Name: 230, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:14 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.421930
+1774      0.000000
+1973      0.000000
+3177      0.707955
+            ...   
+353658    0.000000
+353876    1.496100
+354006    0.702029
+354540    0.000000
+354901    0.989835
+Name: 231, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:21 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.504847
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.214793
+354901    0.000000
+Name: 242, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:53 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.217792
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.205087
+Name: 292, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:20:56 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.232861
+Name: 297, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:01 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 305, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:04 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.266596
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.020453
+354540    0.000000
+354901    0.141531
+Name: 310, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:05 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.114605
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.160775
+            ...   
+353658    0.000000
+353876    0.394095
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 312, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:08 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.296930
+1774      0.644102
+1973      0.101535
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.213579
+354540    0.000000
+354901    0.411386
+Name: 316, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:11 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 321, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:21 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.635076
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 337, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:25 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.00000
+1264      0.00000
+1774      0.00000
+1973      0.00000
+3177      0.00000
+           ...   
+353658    1.62907
+353876    0.00000
+354006    0.00000
+354540    0.00000
+354901    0.00000
+Name: 344, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:26 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0000
+1264      0.0000
+1774      0.0000
+1973      0.0000
+3177      0.0000
+           ...  
+353658    1.1606
+353876    0.0000
+354006    0.0000
+354540    0.0000
+354901    0.0000
+Name: 346, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:38 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.00000
+1264      0.00000
+1774      0.00000
+1973      0.00000
+3177      0.00000
+           ...   
+353658    0.01676
+353876    0.00000
+354006    0.00000
+354540    0.00000
+354901    0.00000
+Name: 365, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:39 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.405901
+1264      0.883794
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.249030
+354006    0.392289
+354540    0.000000
+354901    0.000000
+Name: 367, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:40 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 368, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:40 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 369, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:47 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      1.722820
+1774      1.148620
+1973      0.000000
+3177      0.171245
+            ...   
+353658    0.000000
+353876    0.537987
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 380, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:48 ERROR: GMM `evaluate_knn_per_query` failed on query 798       1.391160
+1264      0.177819
+1774      0.000000
+1973      0.000000
+3177      0.933650
+            ...   
+353658    0.000000
+353876    1.176900
+354006    0.198339
+354540    0.000000
+354901    0.000000
+Name: 381, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:21:51 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 387, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:20 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 432, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:26 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 441, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:42 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.401842
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 466, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:44 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.086778
+1774      0.344189
+1973      0.292926
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.238049
+Name: 470, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:51 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.025060
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.059766
+Name: 482, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:22:57 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.377465
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 492, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:03 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.663731
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 501, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:15 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.211280
+1774      0.205710
+1973      0.594936
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.503450
+354540    0.000000
+354901    0.421912
+Name: 520, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:15 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.00000
+1264      0.00000
+1774      0.02006
+1973      0.00000
+3177      0.00000
+           ...   
+353658    0.00000
+353876    0.00000
+354006    0.00000
+354540    0.00000
+354901    0.00000
+Name: 521, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:19 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.006412
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 527, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:19 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 528, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:31 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.410604
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.560838
+Name: 546, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:31 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.039108
+354901    0.000000
+Name: 547, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:34 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.226121
+Name: 552, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:37 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.144864
+1264      0.000000
+1774      0.459896
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.118771
+354901    0.000000
+Name: 557, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:42 ERROR: GMM `evaluate_knn_per_query` failed on query 798       1.676340
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.027320
+            ...   
+353658    0.000000
+353876    0.000000
+354006    1.947190
+354540    0.125142
+354901    0.000000
+Name: 566, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:45 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 571, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:23:59 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.129984
+1264      0.000000
+1774      0.406454
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.050645
+Name: 593, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:11 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 612, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:18 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.286871
+354901    0.000000
+Name: 624, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:26 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.449963
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.382001
+353876    0.000000
+354006    0.066686
+354540    1.017550
+354901    0.000000
+Name: 636, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:26 ERROR: GMM `evaluate_knn_per_query` failed on query 798       1.348270
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.669319
+            ...   
+353658    0.000000
+353876    0.722259
+354006    1.563310
+354540    0.000000
+354901    0.034404
+Name: 637, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:47 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 671, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:53 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 681, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:55 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.042948
+            ...   
+353658    0.354262
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 684, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:24:56 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.581672
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 685, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:01 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.212689
+1774      0.000000
+1973      0.205025
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.750387
+354540    0.000000
+354901    0.000000
+Name: 693, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:02 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.314404
+353876    0.000000
+354006    0.000000
+354540    0.209196
+354901    0.000000
+Name: 696, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:08 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 706, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:08 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.250256
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.969855
+354901    0.000000
+Name: 707, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:14 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 716, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:20 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 725, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:20 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 726, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:32 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.282446
+1973      0.000000
+3177      0.000000
+            ...   
+353658    1.574970
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 744, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:33 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      1.020050
+            ...   
+353658    0.000000
+353876    2.457410
+354006    0.000000
+354540    0.000000
+354901    0.902157
+Name: 746, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:51 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.660199
+1973      0.098656
+3177      0.213039
+            ...   
+353658    0.000000
+353876    0.115500
+354006    0.000000
+354540    0.582023
+354901    0.000000
+Name: 774, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:25:56 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.761176
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 784, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:26:02 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.087306
+1774      0.159478
+1973      0.000000
+3177      0.886377
+            ...   
+353658    0.000000
+353876    1.351700
+354006    0.409392
+354540    0.000000
+354901    0.000000
+Name: 792, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:26:13 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.261965
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 810, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:26:22 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.367597
+1973      0.273790
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 824, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:26:51 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.096215
+354901    0.000000
+Name: 870, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:09 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.361392
+1973      0.096358
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.032111
+354901    0.381335
+Name: 899, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:21 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 917, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:32 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.0
+1264      0.0
+1774      0.0
+1973      0.0
+3177      0.0
+         ... 
+353658    0.0
+353876    0.0
+354006    0.0
+354540    0.0
+354901    0.0
+Name: 935, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:41 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.316811
+Name: 950, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:44 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.241489
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 955, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:27:52 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.060611
+Name: 968, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:06 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.138619
+1264      0.000000
+1774      0.009096
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.000000
+354540    0.000000
+354901    0.000000
+Name: 990, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:28:10 ERROR: GMM `evaluate_knn_per_query` failed on query 798       0.000000
+1264      0.000000
+1774      0.000000
+1973      0.000000
+3177      0.000000
+            ...   
+353658    0.000000
+353876    0.000000
+354006    0.237396
+354540    0.552309
+354901    0.000000
+Name: 996, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:32:21 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 250.2302547674626 seconds (4.170504246124377 minutes)
+2021-04-01 01:32:58 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.717037
+353422    0.000000
+353558    0.000000
+353853    0.066733
+354616    0.023161
+Name: 57, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:04 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 67, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:15 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 84, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:21 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      1.013230
+1847      0.000000
+2079      0.000000
+2347      0.160263
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.074889
+353853    0.395040
+354616    0.000000
+Name: 94, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:33 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.167176
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 113, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:40 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.667010
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.305473
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 125, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:48 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.439029
+2347      2.845600
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 139, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:54 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.077642
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.403843
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 148, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:33:57 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.027218
+2347      0.000000
+            ...   
+352311    0.603958
+353422    0.060821
+353558    0.275240
+353853    0.000000
+354616    0.000000
+Name: 154, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:05 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.161855
+1829      0.016131
+1847      0.445493
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.104958
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 166, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:25 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.084092
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 198, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:27 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.241317
+2079      0.868001
+2347      0.750150
+            ...   
+352311    0.185715
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 202, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:29 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.716675
+354616    0.000000
+Name: 206, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:34 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.940338
+1829      0.000000
+1847      0.000000
+2079      0.582086
+2347      0.000000
+            ...   
+352311    0.210130
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 213, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:37 ERROR: GMM `evaluate_knn_per_query` failed on query 53        1.074010
+1829      0.000000
+1847      0.000000
+2079      0.076720
+2347      0.000000
+            ...   
+352311    0.195831
+353422    0.448689
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 219, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:40 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 224, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:42 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 228, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:43 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.869722
+2079      1.429680
+2347      0.448466
+            ...   
+352311    0.490235
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 229, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:53 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.095618
+1829      0.000000
+1847      0.024089
+2079      0.000000
+2347      0.495987
+            ...   
+352311    1.005200
+353422    0.000000
+353558    0.000000
+353853    0.228353
+354616    0.000000
+Name: 245, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:54 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.185396
+            ...   
+352311    0.000000
+353422    0.022547
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 247, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:34:56 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.067335
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 251, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:07 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.581579
+1847      0.000000
+2079      0.000000
+2347      0.378991
+            ...   
+352311    0.402479
+353422    0.361708
+353558    0.219473
+353853    0.000000
+354616    0.000000
+Name: 268, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:12 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.228232
+353853    0.000000
+354616    0.000000
+Name: 277, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:13 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.205661
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 279, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:15 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.232583
+354616    0.000000
+Name: 282, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:28 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.164193
+1829      0.000000
+1847      0.394750
+2079      0.599000
+2347      2.073740
+            ...   
+352311    0.257212
+353422    0.000000
+353558    0.178804
+353853    0.367005
+354616    0.610558
+Name: 303, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:33 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.077626
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.494644
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 311, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:53 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 342, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:35:54 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.255590
+353422    0.000000
+353558    0.000000
+353853    0.887192
+354616    0.000000
+Name: 345, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:01 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.00000
+1829      0.00000
+1847      0.00000
+2079      0.00000
+2347      0.00000
+           ...   
+352311    0.14546
+353422    0.00000
+353558    0.00000
+353853    0.00000
+354616    0.00000
+Name: 356, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:01 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.596509
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 357, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:04 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.467184
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.153170
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 361, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:36:46 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.985425
+2079      1.385350
+2347      1.086810
+            ...   
+352311    0.384396
+353422    0.000000
+353558    1.706330
+353853    0.000000
+354616    0.000000
+Name: 427, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:01 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.060256
+353853    0.000000
+354616    0.000000
+Name: 450, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:01 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.705637
+353422    0.053698
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 451, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:07 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 460, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:07 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 461, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:14 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.117616
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.056111
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 472, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:23 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 487, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:27 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.573379
+1829      0.000000
+1847      0.000000
+2079      0.035544
+2347      0.000000
+            ...   
+352311    0.000000
+353422    1.040750
+353558    0.000000
+353853    0.000000
+354616    0.242732
+Name: 494, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:40 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 514, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:45 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 522, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:46 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.405098
+Name: 523, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:54 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 537, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:55 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 538, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:37:58 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.730486
+            ...   
+352311    0.988899
+353422    0.036872
+353558    0.000000
+353853    0.609010
+354616    0.000000
+Name: 543, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:03 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 552, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:13 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.185091
+2347      0.000000
+            ...   
+352311    0.231974
+353422    0.058538
+353558    0.585574
+353853    0.000000
+354616    0.000000
+Name: 567, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:21 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.346129
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    1.287800
+Name: 580, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:24 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.676427
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 584, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:26 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 588, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:32 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.969940
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.011222
+Name: 598, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:33 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.426051
+353422    0.000000
+353558    0.000000
+353853    0.321420
+354616    0.000000
+Name: 600, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:44 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.780680
+1847      0.000000
+2079      0.000000
+2347      0.454626
+            ...   
+352311    0.454944
+353422    1.152590
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 618, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:48 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.436977
+1829      0.000000
+1847      0.000000
+2079      0.108393
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.464839
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 625, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:51 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.273396
+1829      0.506369
+1847      0.518319
+2079      0.452379
+2347      0.000000
+            ...   
+352311    0.706371
+353422    0.267359
+353558    0.645681
+353853    0.000000
+354616    0.000000
+Name: 630, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:38:53 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 633, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:04 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.013948
+2347      0.000000
+            ...   
+352311    0.492104
+353422    0.026959
+353558    0.000000
+353853    0.000000
+354616    0.440492
+Name: 651, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:12 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.489009
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    1.273370
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 664, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:21 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.142377
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.297584
+353422    0.486186
+353558    0.354745
+353853    0.000000
+354616    0.000000
+Name: 677, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:25 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.113598
+1829      0.372652
+1847      0.000000
+2079      0.018278
+2347      0.000000
+            ...   
+352311    0.858179
+353422    0.000000
+353558    0.677623
+353853    0.000000
+354616    0.000000
+Name: 683, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:29 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.069325
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 689, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:30 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.385098
+1829      0.000000
+1847      0.000000
+2079      0.318352
+2347      0.134067
+            ...   
+352311    0.000000
+353422    0.275597
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 692, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:33 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.095677
+1829      0.000000
+1847      1.304260
+2079      0.078162
+2347      1.335910
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.698210
+353853    0.000000
+354616    0.639294
+Name: 698, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:39:40 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.128302
+2079      0.000000
+2347      0.127441
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 709, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:12 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.548240
+2079      0.000000
+2347      0.098383
+            ...   
+352311    0.304978
+353422    0.000000
+353558    0.000000
+353853    0.420002
+354616    0.000000
+Name: 758, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:15 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.570391
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 763, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:26 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.270302
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 781, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:29 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.712776
+1829      0.000000
+1847      0.000000
+2079      0.646857
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.463832
+Name: 785, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:29 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.404988
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.806410
+            ...   
+352311    0.000000
+353422    0.674869
+353558    0.000000
+353853    0.343736
+354616    0.187490
+Name: 787, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:40 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.090071
+353422    0.885160
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 804, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:49 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.348339
+            ...   
+352311    0.353042
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 819, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:55 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.00000
+1829      0.00000
+1847      0.00000
+2079      0.00000
+2347      0.00000
+           ...   
+352311    0.00000
+353422    0.00000
+353558    0.00000
+353853    1.52158
+354616    0.00000
+Name: 828, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:40:59 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.508125
+1829      0.000000
+1847      0.508572
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.577209
+353422    0.404691
+353558    0.045179
+353853    0.309769
+354616    0.000000
+Name: 834, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:02 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.016763
+354616    0.000000
+Name: 840, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:15 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 862, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:18 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.435076
+1829      0.000000
+1847      0.000000
+2079      0.128035
+2347      0.000000
+            ...   
+352311    0.000000
+353422    1.235680
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 867, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:21 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 871, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:32 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.018178
+354616    0.000000
+Name: 890, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:39 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.669366
+Name: 901, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:44 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.00000
+1829      0.00000
+1847      0.00000
+2079      0.00000
+2347      0.00000
+           ...   
+352311    0.00000
+353422    0.00000
+353558    0.00000
+353853    1.70758
+354616    0.00000
+Name: 910, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:53 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      1.057810
+2079      0.809212
+2347      0.348049
+            ...   
+352311    0.164061
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 923, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:41:53 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.043418
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 925, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:00 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.062425
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.000000
+            ...   
+352311    0.363295
+353422    0.459521
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 936, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:04 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.0
+1829      0.0
+1847      0.0
+2079      0.0
+2347      0.0
+         ... 
+352311    0.0
+353422    0.0
+353558    0.0
+353853    0.0
+354616    0.0
+Name: 942, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:08 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.080409
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 949, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:16 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.782702
+1829      0.000000
+1847      0.094047
+2079      0.182140
+2347      0.000000
+            ...   
+352311    0.000000
+353422    0.000000
+353558    0.000000
+353853    0.000000
+354616    0.000000
+Name: 962, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 01:42:27 ERROR: GMM `evaluate_knn_per_query` failed on query 53        0.000000
+1829      0.000000
+1847      0.000000
+2079      0.000000
+2347      0.632677
+            ...   
+352311    0.061809
+353422    0.000000
+353558    0.107973
+353853    0.000000
+354616    0.000000
+Name: 980, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:24 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1425.8540213946253 seconds (23.764233689910423 minutes)
+2021-04-01 02:06:35 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.267963
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 13, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:38 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 18, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:06:39 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.635168
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 20, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:04 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.118503
+765       0.355142
+946       0.643895
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.310730
+354890    0.000000
+Name: 60, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:08 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0000
+765       0.2863
+946       0.0000
+1022      0.0000
+1070      0.0000
+           ...  
+352447    0.0000
+352849    0.0000
+354030    0.0000
+354802    0.0000
+354890    0.0000
+Name: 66, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:09 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.227088
+765       0.309163
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 68, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:22 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.143935
+765       0.000000
+946       0.098026
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.309432
+354802    0.000000
+354890    0.913508
+Name: 88, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:23 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.213489
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.445592
+354030    0.000000
+354802    0.216469
+354890    0.000000
+Name: 90, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:26 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.773828
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.059956
+352849    0.000000
+354030    0.000000
+354802    1.055560
+354890    0.000000
+Name: 95, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:26 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.115403
+946       0.241642
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 96, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:28 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.372980
+946       0.661067
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.106506
+354890    0.000000
+Name: 99, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:42 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 122, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:49 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.008024
+354802    0.000000
+354890    0.000000
+Name: 133, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:07:53 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.244564
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    1.476130
+354802    0.000000
+354890    2.940560
+Name: 139, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:01 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.338002
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 152, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:05 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.055227
+946       0.202963
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 158, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:11 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.842422
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.243368
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 168, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:20 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.609775
+            ...   
+352447    0.603668
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 182, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:24 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.077174
+Name: 190, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:27 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.002031
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 195, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:29 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.153878
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 198, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:31 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.820423
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.452436
+            ...   
+352447    1.493940
+352849    0.000000
+354030    1.303420
+354802    0.000000
+354890    1.002250
+Name: 202, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:34 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.265314
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.445665
+354890    0.000000
+Name: 206, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:08:50 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.326025
+765       0.500819
+946       0.000000
+1022      0.113447
+1070      0.000000
+            ...   
+352447    0.287088
+352849    0.000000
+354030    0.088674
+354802    0.073446
+354890    0.000000
+Name: 232, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:10 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.055584
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 264, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:41 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.077615
+765       0.000000
+946       0.566746
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.164778
+354890    0.000000
+Name: 313, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:09:49 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.093138
+946       1.107210
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 326, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:09 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.009564
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 357, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:14 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.109290
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.334376
+354890    0.000000
+Name: 365, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:20 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.223870
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.247355
+354890    0.000000
+Name: 375, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:28 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 388, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:33 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 396, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:34 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.649716
+946       0.081749
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.068583
+354890    0.000000
+Name: 398, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:45 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.129296
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.358526
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 416, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:46 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.374803
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 417, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:10:49 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.167207
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 422, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:09 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.497902
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    1.667580
+354802    0.000000
+354890    0.497833
+Name: 454, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:16 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.149614
+765       0.370287
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.127403
+354802    0.000000
+354890    0.000000
+Name: 466, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:25 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 481, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:38 ERROR: GMM `evaluate_knn_per_query` failed on query 35        1.272110
+765       0.439624
+946       0.034631
+1022      0.000000
+1070      0.000000
+            ...   
+352447    1.109390
+352849    0.000000
+354030    1.076430
+354802    0.153976
+354890    0.659160
+Name: 502, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:39 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.00000
+765       0.07529
+946       0.00000
+1022      0.00000
+1070      0.00000
+           ...   
+352447    0.00000
+352849    0.00000
+354030    0.00000
+354802    0.00000
+354890    0.79534
+Name: 504, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:46 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.360566
+765       0.717370
+946       0.355953
+1022      0.745458
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.167477
+354890    0.000000
+Name: 516, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:51 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0000
+765       0.2396
+946       0.0000
+1022      0.0000
+1070      0.0000
+           ...  
+352447    0.0000
+352849    0.0000
+354030    0.0000
+354802    0.0000
+354890    0.0000
+Name: 524, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:52 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.535160
+946       0.291021
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.072211
+354030    0.000000
+354802    0.713866
+354890    0.000000
+Name: 525, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:55 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.558938
+946       0.000000
+1022      0.078297
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    1.363750
+354890    0.000000
+Name: 531, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:11:59 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 538, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:14 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.220045
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.296371
+354890    0.000000
+Name: 562, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:17 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 567, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:24 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0000
+765       0.5412
+946       0.0000
+1022      0.0000
+1070      0.0000
+           ...  
+352447    0.0000
+352849    0.0000
+354030    0.0000
+354802    0.0000
+354890    0.0000
+Name: 578, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:44 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.774620
+765       0.000000
+946       0.248672
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    1.242760
+354030    0.928656
+354802    0.000000
+354890    0.000000
+Name: 610, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:12:52 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.125908
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.734827
+354890    0.000000
+Name: 622, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:08 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.364364
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.021773
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.847854
+354802    0.017735
+354890    0.461456
+Name: 647, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:15 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 658, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:16 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.654659
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.053159
+354890    0.000000
+Name: 660, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:21 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.550608
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 668, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:23 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.480599
+765       0.251451
+946       0.172882
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.008406
+354802    0.860887
+354890    0.000000
+Name: 672, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:26 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.130936
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 677, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:30 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.196745
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.703691
+354030    0.151125
+354802    0.000000
+354890    0.000000
+Name: 684, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:41 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.071770
+765       0.250731
+946       0.333926
+1022      0.462719
+1070      0.000000
+            ...   
+352447    0.279501
+352849    0.079299
+354030    0.000000
+354802    0.765381
+354890    0.000000
+Name: 701, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:48 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.671278
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.142630
+354030    0.464843
+354802    0.000000
+354890    0.310469
+Name: 713, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:52 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.408956
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.132225
+352849    0.000000
+354030    0.000000
+354802    0.392656
+354890    0.000000
+Name: 720, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:54 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 723, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:13:55 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.363459
+354890    0.000000
+Name: 725, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:00 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.954794
+765       0.241277
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.270610
+352849    0.000000
+354030    0.587042
+354802    0.236705
+354890    0.010956
+Name: 734, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:05 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.193926
+1022      0.000000
+1070      0.281177
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.161006
+354802    0.000000
+354890    0.000000
+Name: 741, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:08 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 747, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:12 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.010275
+765       0.000000
+946       0.000000
+1022      0.043403
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.068679
+354890    0.000000
+Name: 754, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:22 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 769, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:40 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.016639
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 798, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:48 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.142872
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.445670
+352849    0.000000
+354030    0.000000
+354802    1.070790
+354890    0.000000
+Name: 810, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:53 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.868941
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 818, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:14:58 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.863325
+765       0.149737
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.802015
+354802    0.000000
+354890    0.000000
+Name: 826, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:07 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.00000
+765       0.00000
+946       0.06177
+1022      0.00000
+1070      0.00000
+           ...   
+352447    0.00000
+352849    0.00000
+354030    0.00000
+354802    0.00000
+354890    0.00000
+Name: 840, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:08 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.721254
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.697280
+352849    0.000000
+354030    0.000000
+354802    0.926583
+354890    0.000000
+Name: 842, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:14 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.128212
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.766639
+354802    0.000000
+354890    0.524755
+Name: 852, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:25 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.422090
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.204009
+Name: 869, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:28 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.572385
+946       0.968101
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.834846
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 874, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:31 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 879, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:45 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.510817
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.225767
+354030    0.000000
+354802    0.760369
+354890    0.000000
+Name: 901, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:50 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.749855
+765       0.318679
+946       0.000000
+1022      0.899791
+1070      0.000000
+            ...   
+352447    0.189020
+352849    0.000000
+354030    0.050095
+354802    0.506023
+354890    0.000000
+Name: 909, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:15:54 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.993139
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 916, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:15 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 949, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:24 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.100006
+354802    0.000000
+354890    0.041177
+Name: 963, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:28 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.173709
+765       0.000000
+946       0.621256
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.548146
+352849    0.000000
+354030    0.000000
+354802    0.000000
+354890    0.000000
+Name: 969, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:29 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.534768
+354030    0.000000
+354802    0.166111
+354890    0.000000
+Name: 972, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:33 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 979, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:35 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.0
+765       0.0
+946       0.0
+1022      0.0
+1070      0.0
+         ... 
+352447    0.0
+352849    0.0
+354030    0.0
+354802    0.0
+354890    0.0
+Name: 982, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:16:37 ERROR: GMM `evaluate_knn_per_query` failed on query 35        0.000000
+765       0.000000
+946       0.000000
+1022      0.000000
+1070      0.000000
+            ...   
+352447    0.000000
+352849    0.000000
+354030    0.000000
+354802    0.238181
+354890    0.000000
+Name: 985, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:03 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 378.3230418972671 seconds (6.305384031621118 minutes)
+2021-04-01 02:23:09 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 8, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:29 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 39, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:30 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 41, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:33 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 46, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:33 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.00000
+1137      0.00000
+1312      0.00000
+1367      0.00000
+1516      0.00000
+           ...   
+353227    1.22799
+353816    0.00000
+353853    0.00000
+354221    0.00000
+354450    0.00000
+Name: 48, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:23:35 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 51, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:05 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.278605
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 98, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:13 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 112, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:26 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 132, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:28 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.531767
+1137      0.884418
+1312      0.000000
+1367      0.000000
+1516      0.365854
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.417757
+354221    0.000000
+354450    0.579865
+Name: 136, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:29 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 138, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:34 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.960273
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 145, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:24:39 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.192022
+354221    0.000000
+354450    0.000000
+Name: 153, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:03 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 191, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:03 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.455831
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 192, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:10 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 203, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:16 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.001223
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.124732
+353853    0.138818
+354221    0.000000
+354450    0.000000
+Name: 214, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:30 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.243587
+1137      0.334110
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 236, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:47 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.043556
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 262, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:25:52 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.505863
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    1.308950
+354450    0.000000
+Name: 270, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:01 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.428825
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 285, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:09 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.309697
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 299, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:10 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      1.855190
+1367      1.942970
+1516      0.000000
+            ...   
+353227    0.038036
+353816    1.699250
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 300, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:13 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.289349
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    1.350090
+353816    0.904600
+353853    0.545743
+354221    0.000000
+354450    0.000000
+Name: 307, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:15 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.00000
+1137      0.00000
+1312      0.00000
+1367      0.00000
+1516      0.00000
+           ...   
+353227    0.00000
+353816    1.14331
+353853    0.00000
+354221    0.00000
+354450    0.00000
+Name: 310, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:15 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 311, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:23 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.426220
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.351980
+            ...   
+353227    0.087276
+353816    0.974543
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 324, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:26 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.410384
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 328, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:28 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.153385
+353816    0.565994
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 332, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:41 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.124080
+353853    0.000000
+354221    0.000000
+354450    0.359697
+Name: 353, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:26:57 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 377, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:00 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.659601
+Name: 383, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:11 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.633815
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 400, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:21 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.876140
+1367      0.671790
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.018338
+Name: 416, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:22 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 417, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:26 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.227566
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 423, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:43 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 450, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:53 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 466, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:27:57 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.043228
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.010221
+Name: 472, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:09 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.129856
+1137      0.019574
+1312      0.000000
+1367      0.000000
+1516      0.691350
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 492, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:12 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.193107
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 497, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:17 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 505, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:19 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 508, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:23 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.706964
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 516, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:25 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 519, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:30 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.364403
+354221    0.000000
+354450    0.184863
+Name: 527, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:34 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.994981
+1137      0.204987
+1312      0.000000
+1367      0.000000
+1516      0.403041
+            ...   
+353227    0.877551
+353816    0.524475
+353853    0.556942
+354221    0.000000
+354450    0.235279
+Name: 534, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:42 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.001487
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 548, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:43 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.019081
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 550, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:52 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.483678
+1137      0.287600
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.058096
+353816    0.000000
+353853    1.157430
+354221    0.000000
+354450    1.091910
+Name: 564, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:28:52 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 565, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:00 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 578, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:03 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.261764
+1367      0.358718
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 583, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:18 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.287961
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.124612
+Name: 608, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:40 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 641, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:43 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.244648
+1137      0.461456
+1312      0.159043
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.396364
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    1.172460
+Name: 647, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:47 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 654, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:52 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 663, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:29:56 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 669, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:05 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.837458
+1367      0.833308
+1516      0.000000
+            ...   
+353227    0.157591
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.836784
+Name: 684, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:16 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 702, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:24 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 715, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:26 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 718, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:30 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.00000
+1137      0.00000
+1312      1.11673
+1367      1.67804
+1516      0.00000
+           ...   
+353227    0.00000
+353816    0.00000
+353853    0.00000
+354221    0.00000
+354450    1.02640
+Name: 724, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:37 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 735, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:46 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 750, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:48 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.253889
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 753, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:49 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 756, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:56 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.343813
+1137      0.925267
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.656560
+354221    0.000000
+354450    0.050161
+Name: 767, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:30:59 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.480506
+1137      0.588065
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.335225
+354221    0.000000
+354450    0.000000
+Name: 772, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:04 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 781, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:18 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 802, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:21 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 808, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:26 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 816, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:30 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 823, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:33 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.00000
+1137      0.00000
+1312      0.00000
+1367      0.00000
+1516      0.00000
+           ...   
+353227    0.00000
+353816    0.00000
+353853    0.00000
+354221    1.05262
+354450    0.00000
+Name: 828, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:36 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 833, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:53 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.013717
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 859, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:31:59 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.204009
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.065381
+354221    0.000000
+354450    0.111224
+Name: 869, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:09 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.158979
+354450    0.000000
+Name: 884, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:19 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.027718
+1367      0.152873
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 901, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:20 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.154863
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 903, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:23 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.482536
+353816    0.000000
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 907, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:32:25 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.886872
+1137      0.976661
+1312      1.802410
+1367      1.458570
+1516      0.302594
+            ...   
+353227    0.541795
+353816    0.436277
+353853    0.910691
+354221    0.000000
+354450    0.000000
+Name: 911, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:00 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      1.032130
+1367      1.116150
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.225662
+353853    0.000000
+354221    0.000000
+354450    0.315553
+Name: 966, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:04 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.000000
+1137      0.000000
+1312      0.000000
+1367      0.000000
+1516      0.366592
+            ...   
+353227    0.306911
+353816    0.212090
+353853    0.000000
+354221    0.000000
+354450    0.000000
+Name: 973, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:08 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.039258
+1137      0.490159
+1312      0.000000
+1367      0.000000
+1516      0.000000
+            ...   
+353227    0.000000
+353816    0.000000
+353853    0.766093
+354221    0.000000
+354450    0.530193
+Name: 980, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 02:33:13 ERROR: GMM `evaluate_knn_per_query` failed on query 140       0.0
+1137      0.0
+1312      0.0
+1367      0.0
+1516      0.0
+         ... 
+353227    0.0
+353816    0.0
+353853    0.0
+354221    0.0
+354450    0.0
+Name: 987, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:01:31 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1691.7169224470854 seconds (28.195282040784758 minutes)
+2021-04-01 03:01:40 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.252820
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.177620
+354092    0.780084
+354455    0.000000
+354736    0.000000
+Name: 10, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:01:57 ERROR: GMM `evaluate_knn_per_query` failed on query 490       1.413600
+572       0.000000
+1344      0.936802
+1932      0.639015
+2145      0.000000
+            ...   
+353572    0.602083
+353992    0.540039
+354092    0.000000
+354455    0.000000
+354736    0.051091
+Name: 36, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:01:58 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.275115
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.685690
+354736    0.000000
+Name: 39, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:00 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.129001
+Name: 43, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:05 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 51, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:10 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.067239
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.177650
+354736    0.000000
+Name: 59, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:15 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.323620
+572       0.000000
+1344      0.083284
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 68, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:29 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.279507
+572       0.000000
+1344      0.309892
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.143502
+354092    0.000000
+354455    0.328422
+354736    0.000000
+Name: 89, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:34 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 98, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:38 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.027272
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.329413
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 105, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:45 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.106172
+1344      0.000000
+1932      0.123381
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.177820
+354736    0.000000
+Name: 115, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:02:55 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.146248
+354455    0.059725
+354736    0.000000
+Name: 132, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:09 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.508632
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 154, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:19 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.015367
+354455    0.000000
+354736    0.615691
+Name: 170, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:28 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.593182
+2145      0.343486
+            ...   
+353572    0.741906
+353992    0.000000
+354092    0.000000
+354455    0.012421
+354736    0.000000
+Name: 185, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:32 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.113292
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.491730
+354736    0.000000
+Name: 192, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:33 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.147077
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.462299
+354736    0.000000
+Name: 194, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:44 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.057803
+1344      0.105068
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 210, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:44 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 211, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:56 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.504516
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.540210
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 231, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:03:59 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.147694
+2145      0.744872
+            ...   
+353572    0.000000
+353992    0.288838
+354092    0.106825
+354455    0.000000
+354736    0.000000
+Name: 236, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:08 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 250, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:25 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.588930
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.356880
+354455    0.000000
+354736    0.188708
+Name: 276, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:26 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 278, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:27 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.005479
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 280, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:33 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.887310
+1344      0.000000
+1932      0.197538
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 290, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:34 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.659644
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 293, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:38 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.332493
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.515060
+354736    0.000000
+Name: 299, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:50 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.396254
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    2.281210
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 319, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:54 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.760995
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 326, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:04:58 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.249503
+Name: 333, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:00 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.113849
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.107128
+354736    0.000000
+Name: 336, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:01 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.182866
+354736    0.000000
+Name: 338, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:09 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.195050
+572       0.000000
+1344      0.582760
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.180388
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 352, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:31 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.670065
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 387, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:37 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.46918
+572       0.00000
+1344      0.00000
+1932      0.00000
+2145      0.00000
+           ...   
+353572    0.00000
+353992    0.00000
+354092    0.00000
+354455    0.00000
+354736    0.00000
+Name: 396, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:39 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.540960
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.924587
+354455    0.000000
+354736    0.000000
+Name: 400, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:44 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.291821
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.266088
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 408, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:47 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 413, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:53 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.038780
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.234169
+354736    0.562490
+Name: 422, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:53 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 423, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:57 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.178478
+572       0.000000
+1344      0.420535
+1932      0.167261
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 429, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:05:57 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.206474
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.105141
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 430, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:00 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.589561
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 434, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:11 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.008577
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 452, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:17 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.252943
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 463, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:49 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.170354
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.262164
+354736    0.000000
+Name: 512, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:54 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.207033
+572       0.000000
+1344      0.249308
+1932      0.267700
+2145      0.823789
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.920630
+354736    0.000000
+Name: 520, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:55 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.584870
+1344      0.260255
+1932      0.164043
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.540334
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 522, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:56 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.144857
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.012530
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 524, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:06:58 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 527, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:00 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.00000
+572       0.00000
+1344      0.00000
+1932      1.11052
+2145      0.00000
+           ...   
+353572    0.00000
+353992    0.00000
+354092    0.00000
+354455    1.87082
+354736    0.00000
+Name: 531, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:01 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.350455
+572       0.000000
+1344      0.581473
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.646050
+354092    0.000000
+354455    0.000000
+354736    0.115621
+Name: 534, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:11 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.577529
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.556950
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 549, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:41 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 595, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:41 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.384636
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 596, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:43 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 600, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:47 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.193820
+1344      0.000000
+1932      0.592487
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    1.232710
+354736    0.000000
+Name: 607, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:07:50 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.239833
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 612, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:07 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 638, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:10 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.659965
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.298814
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 642, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:28 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.060243
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 669, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:39 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.162496
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.015962
+354455    0.000000
+354736    0.000000
+Name: 686, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:44 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 695, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:08:59 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.145538
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 720, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:01 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.00000
+572       0.00000
+1344      0.00000
+1932      0.00000
+2145      0.00000
+           ...   
+353572    0.00000
+353992    0.65018
+354092    0.00000
+354455    0.00000
+354736    0.00000
+Name: 723, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:05 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       1.407020
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    2.327140
+353992    0.538311
+354092    0.833381
+354455    0.000000
+354736    0.000000
+Name: 730, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:18 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    2.009780
+354455    0.000000
+354736    0.164408
+Name: 749, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:21 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.00000
+572       0.00000
+1344      0.00000
+1932      0.00000
+2145      0.00000
+           ...   
+353572    0.00000
+353992    0.00000
+354092    1.00678
+354455    0.00000
+354736    0.00000
+Name: 755, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:33 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.256567
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 773, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:36 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.480353
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 779, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:38 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 782, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:38 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 784, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:41 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 788, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:43 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.523657
+572       0.000000
+1344      0.000000
+1932      0.061791
+2145      0.268039
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 792, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:46 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    1.787560
+353992    0.004718
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 797, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:09:58 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 816, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:03 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.345283
+353992    0.069992
+354092    0.426049
+354455    0.000000
+354736    0.000000
+Name: 825, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:11 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.178071
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.296978
+354092    0.057180
+354455    0.000000
+354736    1.094590
+Name: 838, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:25 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.591883
+Name: 860, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:27 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.593064
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.000000
+Name: 863, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:32 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.991195
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.359779
+354736    0.000000
+Name: 872, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:10:44 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.00000
+572       0.00000
+1344      0.00000
+1932      0.00000
+2145      0.00000
+           ...   
+353572    0.00000
+353992    0.00000
+354092    1.27893
+354455    0.00000
+354736    0.00000
+Name: 891, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:04 ERROR: GMM `evaluate_knn_per_query` failed on query 490       1.079180
+572       0.000000
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.453125
+353992    0.745084
+354092    0.552532
+354455    0.000000
+354736    0.064725
+Name: 922, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:22 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.365745
+1344      0.000000
+1932      0.000000
+2145      0.000000
+            ...   
+353572    0.000000
+353992    0.000000
+354092    0.000000
+354455    0.000000
+354736    0.281144
+Name: 951, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:28 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.000000
+572       0.394316
+1344      0.000000
+1932      0.000000
+2145      0.059821
+            ...   
+353572    0.376029
+353992    0.497412
+354092    2.712330
+354455    0.000000
+354736    0.000000
+Name: 961, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:37 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 975, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:11:38 ERROR: GMM `evaluate_knn_per_query` failed on query 490       0.0
+572       0.0
+1344      0.0
+1932      0.0
+2145      0.0
+         ... 
+353572    0.0
+353992    0.0
+354092    0.0
+354455    0.0
+354736    0.0
+Name: 978, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0

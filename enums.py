@@ -8,11 +8,11 @@ class DatasetDirs(Enum):
     MOCAP = "/storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap"
 
 DEFAULT_DESCRIPTORS = {
-        DatasetDirs.COPHIR_100k: 282,
-        DatasetDirs.COPHIR_1M: 282,
-        DatasetDirs.PROFI_100k: 4096,
-        DatasetDirs.PROFI_1M: 4096,
-        DatasetDirs.MOCAP: 4096
+    DatasetDirs.COPHIR_100k: 282,
+    DatasetDirs.COPHIR_1M: 282,
+    DatasetDirs.PROFI_100k: 4096,
+    DatasetDirs.PROFI_1M: 4096,
+    DatasetDirs.MOCAP: 4096
 }
 
 KNN_OBJECTS = {
