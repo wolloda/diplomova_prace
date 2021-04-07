@@ -1,0 +1,17 @@
+2021-04-01 03:42:56 INFO: Benchmark initialized
+2021-04-01 07:29:11 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13574.34481671406 seconds (226.23908027856766 minutes)
+2021-04-01 08:57:08 INFO: Benchmark initialized
+2021-04-01 12:47:30 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13821.746876607183 seconds (230.36244794345305 minutes)
+2021-04-01 12:50:20 INFO: Buckets: [71, 71]
+2021-04-01 12:50:21 INFO: Total specs to train: 24
+2021-04-01 13:40:45 ERROR: Training_spec {'GMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-01 22:11:37 INFO: Benchmark initialized
+2021-04-02 02:23:02 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 15085.38109944202 seconds (251.42301832403368 minutes)
+2021-04-02 02:26:34 INFO: Buckets: [71, 71]
+2021-04-02 02:26:35 INFO: Total specs to train: 24
+2021-04-02 03:02:21 ERROR: Training_spec {'GMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-04 16:43:51 INFO: Benchmark initialized
+2021-04-04 20:45:19 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14487.713622857817 seconds (241.46189371429693 minutes)
+2021-04-04 20:47:37 INFO: Buckets: [71, 71]
+2021-04-04 20:47:37 INFO: Total specs to train: 24
+2021-04-04 21:17:37 ERROR: Training_spec {'GMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer

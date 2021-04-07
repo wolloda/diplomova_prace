@@ -1,0 +1,12 @@
+2021-04-01 03:45:46 INFO: Benchmark initialized
+2021-04-01 07:54:01 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14894.761515248101 seconds (248.24602525413502 minutes)
+2021-04-01 08:58:06 INFO: Benchmark initialized
+2021-04-01 12:55:12 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14226.712106724735 seconds (237.11186844541226 minutes)
+2021-04-01 12:59:44 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 12:59:45 INFO: Total specs to train: 9
+2021-04-01 13:17:56 ERROR: Training_spec {'KMeans': [{'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-03 08:27:29 INFO: Benchmark initialized
+2021-04-03 12:31:04 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14614.987489251886 seconds (243.58312482086475 minutes)
+2021-04-03 12:33:17 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-03 12:33:17 INFO: Total specs to train: 9
+2021-04-03 12:40:15 ERROR: Training_spec {'KMeans': [{'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 8, 'n_init': 1, 'max_iter': 5}]} exception: cannot convert float NaN to integer

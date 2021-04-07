@@ -1,1 +1,17 @@
 2021-04-01 00:50:47 INFO: Benchmark initialized
+2021-04-01 04:45:13 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14065.416681490839 seconds (234.42361135818064 minutes)
+2021-04-01 08:57:52 INFO: Benchmark initialized
+2021-04-01 13:21:17 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 15804.399523136206 seconds (263.40665871893674 minutes)
+2021-04-01 13:25:37 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 13:25:37 INFO: Total specs to train: 24
+2021-04-01 13:58:33 ERROR: Training_spec {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-01 17:44:37 INFO: Benchmark initialized
+2021-04-01 21:45:37 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14460.194936292712 seconds (241.00324893821187 minutes)
+2021-04-01 21:47:51 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 21:47:52 INFO: Total specs to train: 24
+2021-04-01 21:58:57 ERROR: Training_spec {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-04 11:37:35 INFO: Benchmark initialized
+2021-04-04 15:47:29 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14993.584978469182 seconds (249.89308297448636 minutes)
+2021-04-04 15:50:28 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-04 15:50:29 INFO: Total specs to train: 24
+2021-04-04 16:11:37 ERROR: Training_spec {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer

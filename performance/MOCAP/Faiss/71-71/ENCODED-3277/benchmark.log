@@ -1,0 +1,13 @@
+2021-04-01 03:51:10 INFO: Benchmark initialized
+2021-04-01 08:10:35 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 15565.088265813887 seconds (259.4181377635648 minutes)
+2021-04-01 13:37:06 INFO: Benchmark initialized
+2021-04-01 17:27:07 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13801.739023773 seconds (230.02898372955 minutes)
+2021-04-01 17:29:46 INFO: Buckets: [71, 71]
+2021-04-01 17:29:46 INFO: Total specs to train: 16
+2021-04-01 20:53:15 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer
+2021-04-04 00:24:52 INFO: Benchmark initialized
+2021-04-04 04:19:27 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14074.986203015782 seconds (234.58310338359635 minutes)
+2021-04-04 04:21:38 INFO: Buckets: [71, 71]
+2021-04-04 04:21:38 INFO: Total specs to train: 16
+2021-04-04 06:46:58 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: Error in void faiss::Clustering::train_encoded(faiss::Clustering::idx_t, const uint8_t*, const faiss::Index*, faiss::Index&, const float*) at /__w/faiss-wheels/faiss-wheels/faiss/faiss/Clustering.cpp:275: Error: 'nx >= k' failed: Number of training points (40) should be at least as large as number of clusters (71)
+2021-04-04 13:56:21 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} exception: cannot convert float NaN to integer

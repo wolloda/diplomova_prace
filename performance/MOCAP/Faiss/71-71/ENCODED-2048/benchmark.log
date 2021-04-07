@@ -1,0 +1,18 @@
+2021-04-01 03:51:30 INFO: Benchmark initialized
+2021-04-01 07:20:47 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12557.257252584212 seconds (209.28762087640354 minutes)
+2021-04-01 13:30:03 INFO: Benchmark initialized
+2021-04-01 16:56:34 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12391.345732771792 seconds (206.52242887952985 minutes)
+2021-04-01 16:58:27 INFO: Buckets: [71, 71]
+2021-04-01 16:58:28 INFO: Total specs to train: 16
+2021-04-01 18:59:09 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer
+2021-04-01 23:25:35 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} exception: cannot convert float NaN to integer
+2021-04-02 05:16:40 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} exception: cannot convert float NaN to integer
+2021-04-02 11:07:47 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} exception: cannot convert float NaN to integer
+2021-04-04 00:26:06 INFO: Benchmark initialized
+2021-04-04 03:48:12 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12125.426627545152 seconds (202.0904437924192 minutes)
+2021-04-04 03:50:55 INFO: Buckets: [71, 71]
+2021-04-04 03:50:55 INFO: Total specs to train: 16
+2021-04-04 05:57:42 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer
+2021-04-04 10:36:03 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} exception: cannot convert float NaN to integer
+2021-04-04 16:27:26 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} exception: cannot convert float NaN to integer
+2021-04-04 22:11:47 ERROR: Training_spec {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} exception: cannot convert float NaN to integer

@@ -1,0 +1,11 @@
+2021-04-01 03:51:11 INFO: Benchmark initialized
+2021-04-01 07:41:18 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13806.834508599713 seconds (230.1139084766619 minutes)
+2021-04-01 09:51:30 INFO: Benchmark initialized
+2021-04-01 13:41:57 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13827.159967157058 seconds (230.45266611928432 minutes)
+2021-04-01 13:45:11 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 13:45:12 INFO: Total specs to train: 16
+2021-04-04 00:25:38 INFO: Benchmark initialized
+2021-04-04 04:21:48 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14169.364821860101 seconds (236.15608036433503 minutes)
+2021-04-04 04:24:35 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-04 04:24:36 INFO: Total specs to train: 16
+2021-04-04 04:57:21 ERROR: Training_spec {'Faiss': [{'n_clusters': 8, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 8, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 8, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 8, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 8, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer

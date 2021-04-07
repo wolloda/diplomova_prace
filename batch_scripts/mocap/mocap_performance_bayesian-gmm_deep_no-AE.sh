@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N mocap_performance_bayesian-gmm_deep_no-AE.sh
 #PBS -l select=1:ncpus=2:mem=140gb
-#PBS -l walltime=48:00:00
+#PBS -l walltime=72:00:00
 
 module add python-3.6.2-gcc
 module add cuda-10.1

@@ -8077,3 +8077,265 @@ Name: 546, Length: 998, dtype: float64 with error index 0 is out of bounds for a
 352734    0.000000
 354701    0.000000
 Name: 592, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:19 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.061396
+401       0.000000
+480       0.032506
+683       0.000000
+1394      0.491247
+            ...   
+350465    0.243629
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.000000
+Name: 620, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:23 ERROR: GMM `evaluate_knn_per_query` failed on query 286       1.372550
+401       0.344697
+480       0.000000
+683       0.206411
+1394      0.000000
+            ...   
+350465    0.000000
+351983    0.109519
+352079    0.000000
+352734    1.089630
+354701    0.000000
+Name: 627, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:27 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.0
+401       0.0
+480       0.0
+683       0.0
+1394      0.0
+         ... 
+350465    0.0
+351983    0.0
+352079    0.0
+352734    0.0
+354701    0.0
+Name: 635, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:30 ERROR: GMM `evaluate_knn_per_query` failed on query 286       1.956900
+401       0.000000
+480       1.657330
+683       0.000000
+1394      0.395035
+            ...   
+350465    1.057620
+351983    0.698686
+352079    0.287007
+352734    0.953499
+354701    0.000000
+Name: 640, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:39 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.0
+401       0.0
+480       0.0
+683       0.0
+1394      0.0
+         ... 
+350465    0.0
+351983    0.0
+352079    0.0
+352734    0.0
+354701    0.0
+Name: 654, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:54 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.0
+401       0.0
+480       0.0
+683       0.0
+1394      0.0
+         ... 
+350465    0.0
+351983    0.0
+352079    0.0
+352734    0.0
+354701    0.0
+Name: 677, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:12:57 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.000000
+480       0.000000
+683       0.394002
+1394      0.000000
+            ...   
+350465    0.000000
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.000000
+Name: 683, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:00 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.000000
+480       1.227110
+683       0.000000
+1394      0.000000
+            ...   
+350465    0.505018
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.234483
+Name: 688, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:00 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.046953
+480       0.000000
+683       0.000000
+1394      0.000000
+            ...   
+350465    0.000000
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.332512
+Name: 689, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:14 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.000000
+480       0.092869
+683       0.000000
+1394      0.000000
+            ...   
+350465    0.000000
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.000000
+Name: 711, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:34 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.138112
+401       0.000000
+480       1.057200
+683       0.000000
+1394      0.994745
+            ...   
+350465    0.000000
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    1.531720
+Name: 741, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:43 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.259954
+480       0.000000
+683       0.140146
+1394      0.000000
+            ...   
+350465    0.000000
+351983    0.000000
+352079    0.000000
+352734    0.000000
+354701    0.000000
+Name: 756, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:45 ERROR: GMM `evaluate_knn_per_query` failed on query 286       0.000000
+401       0.000000
+480       0.000000
+683       0.000000
+1394      0.000000
+            ...   
+350465    0.015690
+351983    0.000000
+352079    0.000000
+352734    0.160223
+354701    0.000000
+Name: 759, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:13:46 ERROR: GMM `evaluate_knn_per_query` failed on query 286       1.053080
+401       0.000000
+480       1.539880
+683       0.320188
+1394      0.000000
+            ...   
+350465    0.247356
+351983    0.668876
+352079    0.000000
+352734    0.070354
+354701    0.000000
+Name: 762, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 03:14:06 ERROR: GMM `evaluate_knn_per_query` failed on query 286       1.251220
+401       0.491655
+480       0.132935
+683       0.000000
+1394      0.000000
+            ...   
+350465    0.114202
+351983    0.025106
+352079    0.000000
+352734    0.000000
+354701    0.000000
+Name: 792, Length: 998, dtype: float64 with error index 0 is out of bounds for axis 0 with size 0
+2021-04-01 10:44:07 INFO: Benchmark initialized
+2021-04-01 10:44:07 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-01 10:44:08 INFO: Total specs to train: 24
+2021-04-01 10:54:59 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 651.4883100166917 seconds (10.858138500278194 minutes)
+2021-04-01 11:05:12 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 11:07:58 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 165.22781320102513 seconds (2.753796886683752 minutes)
+2021-04-01 11:18:18 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 11:30:54 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 756.0691244285554 seconds (12.601152073809256 minutes)
+2021-04-01 11:41:07 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 11:44:40 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 213.01813690550625 seconds (3.5503022817584378 minutes)
+2021-04-01 11:55:00 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 12:08:27 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 807.1985203437507 seconds (13.453308672395845 minutes)
+2021-04-01 12:18:40 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 12:24:37 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 356.9222690667957 seconds (5.948704484446595 minutes)
+2021-04-01 12:34:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 12:45:31 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 633.7953758612275 seconds (10.563256264353791 minutes)
+2021-04-01 12:55:50 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 12:59:17 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 206.3634394519031 seconds (3.4393906575317184 minutes)
+2021-04-01 13:09:41 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 13:20:48 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 666.7392125632614 seconds (11.11232020938769 minutes)
+2021-04-01 13:31:07 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 13:35:22 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 254.75617384538054 seconds (4.245936230756342 minutes)
+2021-04-01 13:45:42 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 14:02:22 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1000.529935579747 seconds (16.675498926329116 minutes)
+2021-04-01 14:12:41 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 14:19:40 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 418.7074950635433 seconds (6.978458251059055 minutes)
+2021-04-01 14:30:02 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 21:33:27 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 25404.29703243822 seconds (423.404950540637 minutes)
+2021-04-01 22:11:01 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 05:04:30 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 24809.447216751054 seconds (413.4907869458509 minutes)
+2021-04-02 05:45:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 15:10:01 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 33844.682957328856 seconds (564.0780492888142 minutes)
+2021-04-02 15:39:15 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 00:55:33 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 33377.49993832223 seconds (556.2916656387039 minutes)
+2021-04-03 01:29:44 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 17:05:19 INFO: Benchmark initialized
+2021-04-03 17:05:19 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-03 17:05:19 INFO: Total specs to train: 24
+2021-04-03 17:14:12 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 532.5308453906327 seconds (8.875514089843879 minutes)
+2021-04-03 17:26:06 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 17:27:29 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 83.01377126388252 seconds (1.383562854398042 minutes)
+2021-04-03 17:39:24 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 17:47:41 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 496.7247839085758 seconds (8.278746398476263 minutes)
+2021-04-03 17:59:29 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 18:01:07 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 98.46798244863749 seconds (1.6411330408106248 minutes)
+2021-04-03 18:12:55 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 18:21:04 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 489.1043879818171 seconds (8.151739799696951 minutes)
+2021-04-03 18:33:00 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 18:35:41 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 160.77396406792104 seconds (2.679566067798684 minutes)
+2021-04-03 18:47:31 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 18:55:56 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 504.09785570576787 seconds (8.401630928429464 minutes)
+2021-04-03 19:07:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 19:09:44 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 107.59790402278304 seconds (1.7932984003797174 minutes)
+2021-04-03 19:21:47 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 19:31:35 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 588.3067062981427 seconds (9.805111771635712 minutes)
+2021-04-03 19:43:39 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 19:45:54 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 134.55207781679928 seconds (2.2425346302799882 minutes)
+2021-04-03 19:57:57 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 20:06:51 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 533.9485663957894 seconds (8.899142773263156 minutes)
+2021-04-03 20:18:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 20:22:29 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 212.42471515201032 seconds (3.540411919200172 minutes)
+2021-04-03 20:34:31 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 00:46:37 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 15125.93570006825 seconds (252.09892833447083 minutes)
+2021-04-04 01:12:11 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 05:15:00 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14568.485685268417 seconds (242.80809475447361 minutes)
+2021-04-04 05:41:31 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 11:13:15 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 19903.469381067902 seconds (331.724489684465 minutes)
+2021-04-04 11:38:42 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 17:01:22 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 19359.97207052633 seconds (322.66620117543886 minutes)
+2021-04-04 17:26:19 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 02:49:31 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 33792.09572498873 seconds (563.2015954164788 minutes)
+2021-04-05 03:13:04 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 08:29:46 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'tied', 'max_iter': 5, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 19002.048558415845 seconds (316.70080930693075 minutes)
+2021-04-05 08:54:23 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 15:47:21 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 24777.835530716926 seconds (412.9639255119488 minutes)
+2021-04-05 16:11:36 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 23:02:17 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 24640.984790235758 seconds (410.68307983726265 minutes)
+2021-04-05 23:26:40 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-06 09:05:08 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 34707.32156936638 seconds (578.4553594894397 minutes)
+2021-04-06 09:29:17 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-07 23:32:56 INFO: Benchmark initialized
+2021-04-07 23:32:56 INFO: Buckets: [8, 8, 8, 8, 8]

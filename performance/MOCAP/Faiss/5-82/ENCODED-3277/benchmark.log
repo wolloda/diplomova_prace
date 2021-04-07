@@ -1,0 +1,12 @@
+2021-04-01 03:51:00 INFO: Benchmark initialized
+2021-04-01 07:39:54 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13734.266501022968 seconds (228.90444168371613 minutes)
+2021-04-01 13:16:00 INFO: Benchmark initialized
+2021-04-01 17:45:07 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 16147.066421341151 seconds (269.1177736890192 minutes)
+2021-04-01 17:51:41 INFO: Buckets: [5, 82]
+2021-04-01 17:51:41 INFO: Total specs to train: 16
+2021-04-01 19:57:44 ERROR: Training_spec {'Faiss': [{'n_clusters': 5, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 82, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer
+2021-04-04 00:25:41 INFO: Benchmark initialized
+2021-04-04 04:13:55 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13693.681084186304 seconds (228.22801806977174 minutes)
+2021-04-04 04:16:31 INFO: Buckets: [5, 82]
+2021-04-04 04:16:31 INFO: Total specs to train: 16
+2021-04-04 06:17:17 ERROR: Training_spec {'Faiss': [{'n_clusters': 5, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 82, 'n_init': 5, 'LogReg': {'ep': 5}}]} exception: cannot convert float NaN to integer

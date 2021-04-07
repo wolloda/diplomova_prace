@@ -1,0 +1,12 @@
+2021-04-01 03:46:09 INFO: Benchmark initialized
+2021-04-01 07:59:47 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 15218.11513516074 seconds (253.635252252679 minutes)
+2021-04-01 08:57:20 INFO: Benchmark initialized
+2021-04-01 12:53:56 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14196.371070129331 seconds (236.60618450215551 minutes)
+2021-04-01 12:57:27 INFO: Buckets: [71, 71]
+2021-04-01 12:57:27 INFO: Total specs to train: 32
+2021-04-01 13:59:34 ERROR: Training_spec {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} exception: cannot convert float NaN to integer
+2021-04-03 02:49:23 INFO: Benchmark initialized
+2021-04-03 06:51:06 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14503.024230545852 seconds (241.71707050909754 minutes)
+2021-04-03 06:53:22 INFO: Buckets: [71, 71]
+2021-04-03 06:53:22 INFO: Total specs to train: 32
+2021-04-03 07:32:25 ERROR: Training_spec {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} exception: cannot convert float NaN to integer

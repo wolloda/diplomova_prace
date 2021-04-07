@@ -1,0 +1,41 @@
+2021-04-01 03:50:34 INFO: Benchmark initialized
+2021-04-01 07:11:10 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12035.663258273154 seconds (200.59438763788592 minutes)
+2021-04-01 09:22:35 INFO: Benchmark initialized
+2021-04-01 12:45:22 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12167.027184124105 seconds (202.78378640206842 minutes)
+2021-04-01 12:47:03 INFO: Buckets: [71, 71]
+2021-04-01 12:47:03 INFO: Total specs to train: 9
+2021-04-01 12:59:59 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-01 13:52:03 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-01 15:28:50 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-01 15:41:40 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-01 16:33:51 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-01 18:16:03 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-01 18:29:30 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-01 19:25:21 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-01 21:14:59 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-03 11:34:11 INFO: Benchmark initialized
+2021-04-03 14:56:22 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12131.217202728614 seconds (202.18695337881024 minutes)
+2021-04-03 14:58:16 INFO: Buckets: [71, 71]
+2021-04-03 14:58:16 INFO: Total specs to train: 9
+2021-04-03 15:10:38 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-03 16:01:31 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-03 17:40:00 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-03 17:52:44 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-03 18:45:23 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-03 20:27:49 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-03 20:41:16 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-03 21:37:42 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-03 23:27:33 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-04 00:26:06 INFO: Benchmark initialized
+2021-04-04 03:44:12 INFO: Autoencoder from 4096 -> 2048 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 11885.157866788097 seconds (198.08596444646827 minutes)
+2021-04-04 03:47:38 INFO: Buckets: [71, 71]
+2021-04-04 03:47:38 INFO: Total specs to train: 9
+2021-04-04 04:00:42 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-04 04:56:43 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-04 06:36:19 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 5}]} exception: cannot convert float NaN to integer
+2021-04-04 06:49:54 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-04 07:43:32 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-04 09:27:33 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 10}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 10}]} exception: cannot convert float NaN to integer
+2021-04-04 09:41:36 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 1, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 1, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-04 10:39:00 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 5, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 5, 'max_iter': 25}]} exception: cannot convert float NaN to integer
+2021-04-04 12:30:37 ERROR: Training_spec {'KMeans': [{'n_clusters': 71, 'n_init': 10, 'max_iter': 25}, {'n_clusters': 71, 'n_init': 10, 'max_iter': 25}]} exception: cannot convert float NaN to integer

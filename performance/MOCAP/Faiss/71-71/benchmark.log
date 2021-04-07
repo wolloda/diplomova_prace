@@ -1,0 +1,64 @@
+2021-04-01 03:56:38 INFO: Benchmark initialized
+2021-04-01 03:56:38 INFO: Buckets: [71, 71]
+2021-04-01 03:56:38 INFO: Total specs to train: 16
+2021-04-01 05:45:42 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 6543.792182107922 seconds (109.06320303513203 minutes)
+2021-04-01 05:56:44 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 09:18:37 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12112.578813422937 seconds (201.87631355704895 minutes)
+2021-04-01 09:27:50 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 13:37:16 INFO: Benchmark initialized
+2021-04-01 13:37:16 INFO: Buckets: [71, 71]
+2021-04-01 13:37:16 INFO: Total specs to train: 16
+2021-04-01 15:21:08 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 6231.286066406872 seconds (103.85476777344788 minutes)
+2021-04-01 15:31:47 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 16:12:39 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 24288.73575306218 seconds (404.8122625510363 minutes)
+2021-04-01 16:23:24 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-01 19:00:42 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12534.4680491779 seconds (208.90780081963166 minutes)
+2021-04-01 19:09:09 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 00:36:48 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 19658.95396203501 seconds (327.6492327005835 minutes)
+2021-04-02 00:45:12 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 01:11:40 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 31695.860357940197 seconds (528.2643392990033 minutes)
+2021-04-02 01:20:46 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 09:06:30 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 30078.42198814964 seconds (501.30703313582734 minutes)
+2021-04-02 09:15:46 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-02 11:40:58 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 8711.977807033807 seconds (145.19963011723013 minutes)
+2021-04-02 11:50:32 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 02:15:00 INFO: Benchmark initialized
+2021-04-03 02:15:00 INFO: Buckets: [71, 71]
+2021-04-03 02:15:00 INFO: Total specs to train: 16
+2021-04-03 04:02:39 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 6458.294720934238 seconds (107.63824534890396 minutes)
+2021-04-03 04:11:12 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 07:17:49 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 11196.901912948117 seconds (186.6150318824686 minutes)
+2021-04-03 07:27:11 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 13:31:35 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 21864.136437465902 seconds (364.40227395776503 minutes)
+2021-04-03 13:41:09 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-03 22:00:55 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 29985.918279905338 seconds (499.765304665089 minutes)
+2021-04-03 22:09:24 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 00:47:02 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 9457.857476489618 seconds (157.63095794149365 minutes)
+2021-04-04 00:55:49 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 04:06:49 INFO: Benchmark initialized
+2021-04-04 04:06:49 INFO: Buckets: [71, 71]
+2021-04-04 04:06:50 INFO: Total specs to train: 16
+2021-04-04 05:54:23 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 6453.523620816879 seconds (107.55872701361464 minutes)
+2021-04-04 06:02:58 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 09:13:00 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 11401.508674611337 seconds (190.02514457685564 minutes)
+2021-04-04 09:22:14 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 15:14:09 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 21114.330603951123 seconds (351.90551006585207 minutes)
+2021-04-04 15:23:11 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-04 23:12:46 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 5, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 28174.30504837027 seconds (469.5717508061711 minutes)
+2021-04-04 23:21:09 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 02:01:56 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 9646.846642960794 seconds (160.7807773826799 minutes)
+2021-04-05 02:10:35 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 06:01:17 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13841.409587479196 seconds (230.69015979131993 minutes)
+2021-04-05 06:09:47 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 13:13:49 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 25441.78576623276 seconds (424.029762770546 minutes)
+2021-04-05 13:24:23 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-05 22:25:20 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 10, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 32456.483622569125 seconds (540.9413937094854 minutes)
+2021-04-05 22:33:37 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-06 02:02:20 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 12522.708058570977 seconds (208.71180097618296 minutes)
+2021-04-06 02:10:49 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-06 06:53:50 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 16981.198907869868 seconds (283.0199817978311 minutes)
+2021-04-06 07:04:18 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-06 15:06:17 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 28919.054104328156 seconds (481.9842350721359 minutes)
+2021-04-06 15:16:56 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-07 01:02:17 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 35121.091316204984 seconds (585.3515219367497 minutes)
+2021-04-07 01:10:33 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries

@@ -1,7 +1,7 @@
 #!/bin/bash
 #PBS -N mocap_performance_faiss-logreg_wide_AE-2048.sh
-#PBS -l select=1:ncpus=2:mem=140gb:ngpus=1 -q gpu
-#PBS -l walltime=23:59:00
+#PBS -l select=1:ncpus=2:mem=180gb:ngpus=1 -q gpu_long
+#PBS -l walltime=72:00:00
 
 module add python-3.6.2-gcc
 module add cuda-10.1

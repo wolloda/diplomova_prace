@@ -1,0 +1,29 @@
+2021-04-01 03:41:29 INFO: Benchmark initialized
+2021-04-01 08:17:36 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 16566.256704853848 seconds (276.1042784142308 minutes)
+2021-04-01 08:57:02 INFO: Benchmark initialized
+2021-04-01 12:45:14 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 13692.39368396299 seconds (228.20656139938316 minutes)
+2021-04-01 12:47:33 INFO: Buckets: [5, 82]
+2021-04-01 12:47:33 INFO: Total specs to train: 24
+2021-04-01 13:16:04 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-02 17:39:28 INFO: Benchmark initialized
+2021-04-02 21:34:37 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14109.511109886225 seconds (235.15851849810375 minutes)
+2021-04-02 21:36:55 INFO: Buckets: [5, 82]
+2021-04-02 21:36:55 INFO: Total specs to train: 24
+2021-04-02 21:58:24 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-06 23:48:34 INFO: Benchmark initialized
+2021-04-07 03:47:31 INFO: Autoencoder from 4096 -> 3277 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 14336.877842674963 seconds (238.94796404458273 minutes)
+2021-04-07 03:49:45 INFO: Buckets: [5, 82]
+2021-04-07 03:49:45 INFO: Total specs to train: 24
+2021-04-07 04:13:42 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: cannot convert float NaN to integer
+2021-04-07 04:30:26 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 04:56:54 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 05:08:59 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 05:37:42 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 05:53:54 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'spherical', 'max_iter': 5, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 06:19:08 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 06:26:28 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 06:53:36 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 07:02:09 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 07:37:04 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 07:49:47 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 5, 'init_params': 'random'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
+2021-04-07 22:38:28 ERROR: Training_spec {'GMM': [{'comp': 5, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 82, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans'}]} exception: Unable to allocate 51.3 GiB for an array with shape (3277, 4202384) and data type float32
