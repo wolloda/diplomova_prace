@@ -9546,3 +9546,26 @@ Name: 992, Length: 998, dtype: float64 with error index 0 is out of bounds for a
 2021-04-08 00:09:35 INFO: Buckets: [5, 82]
 2021-04-08 00:11:00 INFO: Benchmark initialized
 2021-04-08 00:11:00 INFO: Buckets: [5, 82]
+2021-04-08 00:12:40 INFO: Benchmark initialized
+2021-04-08 00:12:40 INFO: Buckets: [5, 82]
+2021-04-12 00:36:57 INFO: Benchmark initialized
+2021-04-12 00:36:57 INFO: Buckets: [5, 82]
+2021-04-12 00:58:55 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1318.225392850116 seconds (21.970423214168598 minutes)
+2021-04-12 01:10:57 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-12 01:33:13 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1336.4246799554676 seconds (22.27374466592446 minutes)
+2021-04-12 01:45:14 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-12 02:25:49 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2434.9086670633405 seconds (40.581811117722346 minutes)
+2021-04-12 02:37:49 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-12 03:19:49 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2520.5297012086958 seconds (42.008828353478265 minutes)
+2021-04-12 03:31:48 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-12 03:55:29 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1420.844323368743 seconds (23.680738722812386 minutes)
+2021-04-12 04:07:28 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-12 04:31:12 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1424.1626716591418 seconds (23.736044527652364 minutes)
+2021-04-12 04:43:10 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-13 00:20:37 INFO: Benchmark initialized
+2021-04-13 00:20:37 INFO: Buckets: [5, 82]
+2021-04-13 00:20:42 INFO: Benchmark initialized
+2021-04-13 00:20:42 INFO: Buckets: [5, 82]
+2021-04-13 00:42:04 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1287.2311395388097 seconds (21.453852325646828 minutes)
+2021-04-13 01:04:02 INFO: Benchmark initialized
+2021-04-13 01:04:02 INFO: Buckets: [5, 82]

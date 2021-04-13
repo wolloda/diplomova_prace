@@ -1,0 +1,4 @@
+2021-04-08 18:59:48 INFO: Benchmark initialized
+2021-04-08 18:59:48 INFO: Buckets: [100, 100]
+2021-04-08 18:59:48 INFO: Total specs to train: 16
+2021-04-08 21:31:15 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 9086.518080642913 seconds (151.44196801071521 minutes)

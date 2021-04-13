@@ -1,0 +1,12 @@
+2021-04-08 17:09:41 INFO: Benchmark initialized
+2021-04-08 17:09:41 INFO: Buckets: [100, 100]
+2021-04-08 17:10:27 ERROR: Training_spec {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 0, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} exception: Found array with 1 sample(s) (shape=(1, 282)) while a minimum of 2 is required.
+2021-04-08 17:11:54 INFO: GMM with training spec: {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 86.69275009259582 seconds (1.4448791682099302 minutes)
+2021-04-09 21:58:15 INFO: Benchmark initialized
+2021-04-09 21:58:15 INFO: Buckets: [100, 100]
+2021-04-09 21:59:01 ERROR: Training_spec {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 0, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} exception: Found array with 1 sample(s) (shape=(1, 282)) while a minimum of 2 is required.
+2021-04-09 22:00:29 INFO: GMM with training spec: {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 88.10304311104119 seconds (1.4683840518506865 minutes)
+2021-04-12 02:05:46 INFO: Benchmark initialized
+2021-04-12 02:05:46 INFO: Buckets: [100, 100]
+2021-04-12 02:06:33 ERROR: Training_spec {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 0, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} exception: Found array with 1 sample(s) (shape=(1, 282)) while a minimum of 2 is required.
+2021-04-12 02:08:11 INFO: GMM with training spec: {'GMM': [{'comp': 100, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 5, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 97.35008210875094 seconds (1.6225013684791822 minutes)

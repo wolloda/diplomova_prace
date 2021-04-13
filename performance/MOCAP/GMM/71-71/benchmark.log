@@ -12719,3 +12719,5 @@ Name: 956, Length: 998, dtype: float64 with error index 0 is out of bounds for a
 2021-04-06 05:42:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
 2021-04-07 23:40:50 INFO: Benchmark initialized
 2021-04-07 23:40:50 INFO: Buckets: [71, 71]
+2021-04-12 00:36:49 INFO: Benchmark initialized
+2021-04-12 00:36:49 INFO: Buckets: [71, 71]

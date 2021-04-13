@@ -62,3 +62,13 @@
 2021-04-06 15:16:56 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
 2021-04-07 01:02:17 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 15, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 35121.091316204984 seconds (585.3515219367497 minutes)
 2021-04-07 01:10:33 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-08 08:14:23 INFO: Benchmark initialized
+2021-04-08 08:14:23 INFO: Buckets: [71, 71]
+2021-04-08 12:49:23 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 5}}, {'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 16500.081720748916 seconds (275.00136201248193 minutes)
+2021-04-08 12:58:48 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-08 19:03:28 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 10}}, {'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 21879.073889276944 seconds (364.6512314879491 minutes)
+2021-04-08 19:13:22 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-09 03:54:38 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 15}}, {'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 31275.41050568223 seconds (521.2568417613705 minutes)
+2021-04-09 04:03:04 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries
+2021-04-09 14:36:01 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 20}}, {'n_clusters': 71, 'n_init': 20, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 37977.37882120814 seconds (632.9563136868023 minutes)
+2021-04-09 14:47:14 ERROR: Faiss `evaluate_knn_per_query` failed on 88 queries

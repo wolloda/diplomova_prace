@@ -1,0 +1,16 @@
+2021-04-08 17:09:43 INFO: Benchmark initialized
+2021-04-08 17:09:43 INFO: Buckets: [100, 100]
+2021-04-08 17:09:43 INFO: Total specs to train: 9
+2021-04-08 17:16:11 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 388.1475895475596 seconds (6.469126492459327 minutes)
+2021-04-09 21:58:13 INFO: Benchmark initialized
+2021-04-09 21:58:13 INFO: Buckets: [100, 100]
+2021-04-09 21:58:13 INFO: Total specs to train: 9
+2021-04-09 22:04:36 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 382.70049713365734 seconds (6.3783416188942885 minutes)
+2021-04-09 22:39:55 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 5, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 1782.246932439506 seconds (29.704115540658435 minutes)
+2021-04-09 23:44:37 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 10, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 3540.2877709995955 seconds (59.00479618332659 minutes)
+2021-04-09 23:57:15 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 416.15842876397073 seconds (6.935973812732845 minutes)
+2021-04-10 00:35:45 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 5, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 1969.5846647489816 seconds (32.82641107914969 minutes)
+2021-04-10 01:46:42 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 10, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 10, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 3916.0338471550494 seconds (65.26723078591749 minutes)
+2021-04-10 02:00:26 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 25}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 25}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 480.2056933119893 seconds (8.00342822186649 minutes)
+2021-04-10 02:44:27 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 5, 'max_iter': 25}, {'n_clusters': 100, 'n_init': 5, 'max_iter': 25}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 2301.240286219865 seconds (38.35400477033109 minutes)
+2021-04-10 04:06:23 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 10, 'max_iter': 25}, {'n_clusters': 100, 'n_init': 10, 'max_iter': 25}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 4573.549652509391 seconds (76.2258275418232 minutes)
