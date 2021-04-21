@@ -14,7 +14,7 @@ def unify_types(df):
     df_modified["object_id"] = df["object_id"].astype(np.int64)
 
     cols = df_modified.columns.tolist()
-    cols = cols[0:2] + cols[-1:] + cols[2:-1]    
+    cols = cols[0:2] + cols[-1:] + cols[2:-1]
     df_modified = df_modified[cols]
 
     return df_modified
@@ -22,12 +22,12 @@ def unify_types(df):
 class Faiss(BaseClassifier):
     def __init__(self):
         pass
-    
+
     def train(self, model, X, y, descriptor_values):
         """
         Trains a FaissKmeans and a Logistic regression model.
         Expects model_dict to contain hyperparameter *ep* (number of epochs)
-        
+
         Parameters
         -------
         lr_model: Dict
@@ -35,13 +35,13 @@ class Faiss(BaseClassifier):
         X: Numpy array
             Training values
         y: Numpy array
-            Training labels 
-        
+            Training labels
+
         Returns
         -------
         predictions: Numpy array
             Array of model predictions
-            
+
         encoder: LabelEncoder
             Mapping of actual labels to labels used in training
         """
@@ -54,18 +54,23 @@ class Faiss(BaseClassifier):
 
         #df = unify_types(X)
         #df_data = df.drop(["L1", "L2", "object_id"], axis=1).values
+        if X.shape[0] != 1:
+            df_data = X
+            n = df_data.shape[0]
+            dimension = df_data.shape[1]
 
-        df_data = X
-        n = df_data.shape[0]
-        dimension = df_data.shape[1]
+            db_vectors = np.ascontiguousarray(df_data)
 
-        db_vectors = np.ascontiguousarray(df_data)
+            res = faiss.StandardGpuResources() # declaring a GPU resource, using all the available GPUs
+            clusters = model["n_clusters"]
+            if X.shape[0] < model["n_clusters"]:
+                clusters = X.shape[0]
+            fkm = FaissKMeans(n_clusters = clusters, n_init = n_init, max_iter = max_iter, gpu = gpu)
+            fkm.fit(db_vectors)
 
-        res = faiss.StandardGpuResources() # declaring a GPU resource, using all the available GPUs
-        fkm = FaissKMeans(n_clusters = model["n_clusters"], n_init = n_init, max_iter = max_iter, gpu = gpu)
-        fkm.fit(db_vectors)
-
-        predictions = fkm.predict(db_vectors)[1]
+            predictions = fkm.predict(db_vectors)[1]
+        else:
+            predictions = np.array([0])
 
         if "LogReg" in model:
             assert "ep" in model["LogReg"]
@@ -80,5 +85,9 @@ class Faiss(BaseClassifier):
             return None
 
     def predict(self, query, model, encoder):
-        prob_distr = model.predict_proba_single(query)
+        if model is not None:
+            prob_distr = model.predict_proba_single(query)
+        else:
+            prob_distr = [1]
         return super().predict(prob_distr, encoder)
+

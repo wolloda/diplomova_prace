@@ -1097,3 +1097,22 @@ inutes)
 2021-04-12 04:38:24 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
 2021-04-12 04:57:15 INFO: Benchmark initialized
 2021-04-12 04:57:15 INFO: Buckets: [71, 71]
+2021-04-14 03:03:14 INFO: Benchmark initialized
+2021-04-14 03:03:14 INFO: Buckets: [71, 71]
+2021-04-14 03:03:35 INFO: Benchmark initialized
+2021-04-14 03:03:35 INFO: Buckets: [71, 71]
+2021-04-14 03:24:21 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 2, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1263.4123884681612 seconds (21.05687314113602 minutes)
+2021-04-14 03:36:53 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-14 04:25:04 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 2890.670154530555 seconds (48.17783590884258 minutes)
+2021-04-14 04:46:46 INFO: Benchmark initialized
+2021-04-14 04:46:46 INFO: Buckets: [71, 71]
+2021-04-14 05:06:14 INFO: Benchmark initialized
+2021-04-14 05:06:14 INFO: Buckets: [71, 71]
+2021-04-14 16:14:26 INFO: Benchmark initialized
+2021-04-14 16:14:26 INFO: Buckets: [71, 71]
+2021-04-14 20:22:43 INFO: Benchmark initialized
+2021-04-14 20:22:43 INFO: Buckets: [71, 71]
+2021-04-16 03:06:36 INFO: Benchmark initialized
+2021-04-16 03:06:36 INFO: Buckets: [71, 71]
+2021-04-16 03:08:07 INFO: Benchmark initialized
+2021-04-16 03:08:07 INFO: Buckets: [71, 71]

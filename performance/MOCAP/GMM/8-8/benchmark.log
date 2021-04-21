@@ -8365,3 +8365,7 @@ Name: 792, Length: 998, dtype: float64 with error index 0 is out of bounds for a
 2021-04-12 00:36:37 INFO: Buckets: [8, 8, 8, 8, 8]
 2021-04-12 22:40:05 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 79408.21053528413 seconds (1323.470175588069 minutes)
 2021-04-12 23:15:00 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-16 03:10:03 INFO: Benchmark initialized
+2021-04-16 03:10:03 INFO: Buckets: [8, 8, 8, 8, 8]
+2021-04-17 08:29:12 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'full', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 5, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'full', 'max_iter': 5, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 105549.03039167635 seconds (1759.1505065279391 minutes)
+2021-04-17 09:02:04 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries

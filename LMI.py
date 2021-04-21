@@ -21,9 +21,9 @@ class LMI(BaseIndex):
     Base class representing Learned metric index and basic operation on it - training and searching
 
     PATH : str
-        Path to the directory with data, expects directory to be descriptive of dataset/index type 
+        Path to the directory with data, expects directory to be descriptive of dataset/index type
         (e.g. to contain 'mindex' and/or 'profiset' in name if it's mindex and/or profiset)
-            - expects to find `objects.txt` file in the dir and file with labels: `level-x.txt` 
+            - expects to find `objects.txt` file in the dir and file with labels: `level-x.txt`
     labels : str
         Names for labels to use, also denotes how many labels (levels of the tree) are there
     knn_gts : str
@@ -41,23 +41,26 @@ class LMI(BaseIndex):
         Parameters
         ----------
         [TBD]
-    
+
         """
         self.stack = None
         self.mapping = None
         self.classifier = None
         self.encoders = []
         self.objects_in_buckets = {}
+
+        self.labels = ["L1", "L2", "L3", "L4", "L5"]
+
         self.predict_drop = self.labels + [f"{l}_pred" for l in self.labels] + ["object_id"]
-        
+
     def get_dataset(self, dataset_path=None, normalize=True, return_original=False):
         """
         1. Loads the dataset, assumes objects and labels are stored by their standard names in `PATH`
         or that `dataset_path` is provided
-        
-        2. Normalizes the descriptior value with z-score normalization, 
+
+        2. Normalizes the descriptior value with z-score normalization,
             read more: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.scale.html
-        
+
         Parameters
         ----------
         dataset_path : str
@@ -74,7 +77,7 @@ class LMI(BaseIndex):
         """
         if dataset_path is None:
             dataset_path = self.dir
-        
+
         if "mocap" in dataset_path.lower():
             print("Loading Mocap dataset.")
             df = get_mocap()
@@ -88,7 +91,7 @@ class LMI(BaseIndex):
                 df = scale_per_descriptor(df_orig, self.labels, attr_lengths)
             else:
                 df = df_orig
-        
+
         #assert df.shape[1] == self.descriptor_values + self.n_levels + len(["object_id"])
         logging.info(f"Loaded dataset of shape: {df.shape}")
         if return_original:
@@ -109,7 +112,7 @@ class LMI(BaseIndex):
         with open(filename) as json_file:
             gt_knns = json.load(json_file)
         return gt_knns
-    
+
     def get_sample_1k_objects(self, df, path="./datasets/queries.data"):
         """ Gets portion of the dataset with predictions according to random sample of 1000 objects. Will be used for knn search run.
 
@@ -125,10 +128,10 @@ class LMI(BaseIndex):
             Subset of the original dataset with 1000 queries
         """
         return df[df["object_id"].isin(get_knn_objects(path=path))]
-    
+
     def prepare_data_for_training(self, model_dict, df, level=0):
         """ Splits the DataFrame into training values (X) and labels (y)
-        
+
         If the desired model is multilabel NN, target labels are composed of 30-NN as opposed to 1-NN.
 
         Parameters
@@ -137,14 +140,14 @@ class LMI(BaseIndex):
             Dictionary of models specification
         df: Pandas DataFrame
             Dataset
-        
+
         Returns
         -------
         X: Numpy array of shape (n_objects x n_descriptor_values)
             Training values
         y: Numpy array of shape (n_objects x 1) or (n_objects x 30) for multilabel
-            Training labels 
-        
+            Training labels
+
         """
         if "nn-multi" in model_dict:
             labels = [f"L{i}_labels" for i in range(1, len(self.labels)+1)]
@@ -152,15 +155,17 @@ class LMI(BaseIndex):
             y = one_hot_frequency_encode(df[labels[0]].values, n_cats=df[self.labels[0]].max())
         else:
             X = df.drop(self.labels + [f"{l}_pred" for l in self.labels] + ["object_id"], axis=1, errors="ignore").values
-            y = df[self.labels[level]].values
-        
+            if self.labels[level] in df.columns:
+                y = df[self.labels[level]].values
+            else:
+                y = []
         return X,y
 
     def train(self, df, model_dict, pretrained_root=False, should_shuffle_dataset=True, should_erase=True, na_label=None):
         """ Train the whole LMI.
         1. Prepares the data
         2. Chooses the model to use for training
-        
+
         If the desired model is multilabel NN, target labels are composed of 30-NN as opposed to 1-NN.
 
         Parameters
@@ -169,23 +174,23 @@ class LMI(BaseIndex):
             Dictionary of models specification
         df: Pandas DataFrame
             Dataset
-        
+
         Returns
         -------
         X: Numpy array of shape (n_objects x n_descriptor_values)
             Training values
         y: Numpy array of shape (n_objects x 1) or (n_objects x 30) for multilabel
-            Training labels 
-        
+            Training labels
+
         """
         if self.stack and not should_erase:
             logging.warn(f"self.stack wasn't empty - training would erase already trained models. If you want to erase them anyway, set should_erase=True")
             return
-        
+
         self.stack = []; self.mapping = []
         if should_shuffle_dataset:
             df = df.sample(frac=1)
-        
+
         X, y = self.prepare_data_for_training(model_dict, df)
         y_obj_id = df["object_id"].values
 
@@ -222,27 +227,29 @@ class LMI(BaseIndex):
         df_l1 = pd.DataFrame(np.array([predictions, y_obj_id]).T, columns=[f"{self.labels[0]}_pred", "object_id"])
         df_res = df.merge(df_l1, on="object_id")
         self.stack.append(model)
-        
-        for i, label in enumerate(self.labels[1:]):
+
+        model_specs = model_dict[list(model_dict.keys())[0]]
+
+        for i, label in enumerate(model_specs[1:]):
             group_cond = [f"{self.labels[j]}_pred" for j in range(i+1)]
-            groups = df_res[(~df_res[label].isna()) & (df_res[label] != na_label)].groupby(group_cond)
+            groups = df_res.groupby(group_cond)
             stack_l1, df_l1, mapping_l1 = self.train_level(df_res, groups, model_dict, level=i+1)
-            df_res = df_res.merge(df_l1[["object_id", f"{label}_pred"]], on=["object_id"], how="left")
+            df_res = df_res.merge(df_l1[["object_id", f"{self.labels[i+1]}_pred"]], on=["object_id"], how="left")
             self.mapping.append(mapping_l1)
             self.stack.append(stack_l1)
 
+        self.labels =  self.labels[:len(model_specs)]
         self.objects_in_buckets = self.get_buckets(df_res)
 
-        assert len(self.stack) == len(self.labels)
         cols = df_res.columns.tolist()
         cols = cols[-2:] + cols[:-2]
         return df_res[cols]
-    
+
     def train_level(self, df, groupby_df, model_dict, level=1):
         """ Train one LMI level
         1. Iterates the groups of the dataset. These groups are created based on groupby of the predictions on the
         2. Chooses the model to use for training
-        
+
         If the desired model is multilabel NN, target labels are composed of 30-NN as opposed to 1-NN.
 
         Parameters
@@ -251,14 +258,14 @@ class LMI(BaseIndex):
             Dictionary of models specification
         df: Pandas DataFrame
             Dataset
-        
+
         Returns
         -------
         X: Numpy array of shape (n_objects x n_descriptor_values)
             Training values
         y: Numpy array of shape (n_objects x 1) or (n_objects x 30) for multilabel
-            Training labels 
-        
+            Training labels
+
         """
         stack_l = []; preds_l = []; object_ids = []; mapping = []; self.encoders.append([])
         y_label = self.labels[level]
@@ -267,7 +274,7 @@ class LMI(BaseIndex):
             object_ids.extend(group["object_id"].values)
             X, y = self.prepare_data_for_training(model_dict, group, level=level)
             # assert X.shape[1] == 282 or X.shape[1] == 4096
-            
+
             if "RF" in model_dict:
                 model, predictions, encoder = self.classifier.train(model_dict["RF"][level], X, y, self.descriptor_values)
             elif "LogReg" in model_dict:
@@ -287,18 +294,18 @@ class LMI(BaseIndex):
             elif "Faiss" in model_dict:
                 model, predictions, encoder = self.classifier.train(model_dict["Faiss"][level], X, y, self.descriptor_values)
             self.encoders[-1].append(encoder)
-            
+
             if type(name) is float or type(name) is int:
                 mapping.append(tuple([int(name)]))
             else:
                 mapping.append(tuple([int(n) for n in name]))
             stack_l.append(model)
             preds_l.extend(predictions)
-            
+
         df_l = pd.DataFrame(np.array([preds_l, object_ids]).T, columns=[y_label+"_pred"] + ["object_id"])
         df_l = df.merge(df_l, on="object_id")
         return stack_l, df_l, mapping
-    
+
     def add_to_priority_queue(self, priority_q, predictions, level=1, parent_nodes=[]):
         """ Adds collected predictions to priority queue.
 
@@ -310,7 +317,7 @@ class LMI(BaseIndex):
             collected predictions
         level: int
             Level of the nodes
-        
+
         Returns
         -------
         Modified priority_q
@@ -321,9 +328,9 @@ class LMI(BaseIndex):
             parent_string += node[len("M.1."):] + "."
         for prediction in predictions:
             priority_q.append({f"{start}.1.{parent_string}" + str(prediction['value_l']): prediction['votes_perc']})
-        
+
         return priority_q
-        
+
     def collect_probs_for_node(self, node_label, query):
         """ Collects probabilities for a given model.
 
@@ -333,24 +340,18 @@ class LMI(BaseIndex):
             label of the node searched
         query: Int
             searched query
-        
+
         Returns
         -------
         predictions
         """
         level = len(node_label) - 2
         predictions = []
-
-        path_label = tuple([int(node_label[-i]) for i in range(1, level+1)])
-            
+        path_label = tuple([int(node_label[i]) for i in range(2, 2+level)])
         if path_label in self.mapping[level-1]:
             stack_index = self.mapping[level-1].index(path_label)
             model = self.stack[level][stack_index]
-
-            print(stack_index)
-            print(self.encoders)
-
-            predictions = self.classifier.predict(query, model, encoder=self.encoders[1][stack_index])
+            predictions = self.classifier.predict(query, model, encoder=None)
         else:
             logging.warn(f"{path_label} is not in self.mapping[{[level-1]}].")
         return predictions
@@ -364,7 +365,7 @@ class LMI(BaseIndex):
             Priority queue
         query: Int
             searched query
-        
+
         Returns
         -------
         priority_q
@@ -372,12 +373,12 @@ class LMI(BaseIndex):
         """
         popped = priority_q.pop(0)
         node = list(popped.keys())[0]
-        node_label = node.split('.')        
-        if node[0] == "C": 
+        node_label = node.split('.')
+        if node[0] == "C":
             if debug:
-                logging.info(f"L{len(node_label) - 2} found bucket {node}")  
+                logging.info(f"L{len(node_label) - 2} found bucket {node}")
             return priority_q, node
-        
+
         if debug:
             logging.info(f"Popped {node}")
 
@@ -385,13 +386,13 @@ class LMI(BaseIndex):
         priority_q = self.add_to_priority_queue(priority_q, predictions, len(node_label) - 1, [node])
         priority_q = sorted(priority_q, key=(lambda i: list(i.values())), reverse=True)
         if debug:
-            logging.info(f"L{len(node_label) - 1} added - PQ (Top 5): {priority_q[:5]}\n")    
-    
+            logging.info(f"L{len(node_label) - 1} added - PQ (Top 5): {priority_q[:5]}\n")
+
         return priority_q, node
-    
+
     def search(self, df_res, query_id, stop_cond_objects=None, debug=False):
         """ Runs the searching procedure.
-        
+
         For a given query (object from the trained dataset), searches the LMI space
         and return the visited nodes.
 
@@ -402,54 +403,49 @@ class LMI(BaseIndex):
         query_id: Int
             ID of the query searched
         stop_cond_objects: List
-            List of stop conditions: number of objects in the visited buckets, 
+            List of stop conditions: number of objects in the visited buckets,
                                      when the searching procedure should create a checkpoint.
         Returns
         -------
         Dict of:
         - `id` for node id (= `object_id`)
         - `time_checkpoints` time (in s) it took to find the corresponding checkpoints
-        - `popped_nodes_checkpoints` - the nodes that managed to be popped till their 
-                                       collective sum of objects did not overstep the corresponding 
+        - `popped_nodes_checkpoints` - the nodes that managed to be popped till their
+                                       collective sum of objects did not overstep the corresponding
                                        `stop_cond_objects` threshold
-        - `objects_checkpoints` - the actual sum of all found objects following `stop_cond_objects`. 
+        - `objects_checkpoints` - the actual sum of all found objects following `stop_cond_objects`.
                                   Is slightly higher than `stop_cond_objects`
         """
         s = time.time()
         time_checkpoints = []; popped_nodes_checkpoints = []; objects_checkpoints = []
-        
+
         query_id_orig = query_id
 
-        if "-" in str(query_id):
-            query_id = int(str(query_id).replace("-", "_"))
-        
-        query_row = df_res[(df_res['object_id'] == query_id)]         
-        query = query_row.drop(self.predict_drop, axis=1).values
-        
+        query_row = df_res[(df_res['object_id'] == query_id)]
+        query = query_row.drop(self.predict_drop, axis=1, errors='ignore').values
+
         predictions = self.classifier.predict(query, self.stack[0], self.encoders[0])
-             
-        priority_q = []        
+
+        priority_q = []
         priority_q = self.add_to_priority_queue(priority_q, predictions)
-        
+
         if debug: logging.info(f"Step 1: L1 added - PQ: {priority_q}\n")
 
         current_stop_cond_idx = 0
 
         popped_nodes = []
         iterations = 0; n_steps = 0
-               
-        self.objects_in_buckets = {(int(k[0]), int(k[1])):int(v) for k,v in self.objects_in_buckets.items()}
-        
+
         while len(priority_q) != 0:
             if stop_cond_objects != None and len(stop_cond_objects) == current_stop_cond_idx:
-                return {'id': int(query_id), 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}                          
-                
+                return {'id': query_id, 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'objects_checkpoints': objects_checkpoints}
+
             else:
                 priority_q, popped = self.process_node(priority_q, query, debug=debug)
                 if type(popped) is list:
                     popped_nodes.extend(popped)
                 else: popped_nodes.append(popped)
-                    
+
                 if stop_cond_objects is not None:
                     index = tuple([int(p) for p in popped.split('.')[2:]])
                     if len(index) == 1: index = index[0]
@@ -458,7 +454,7 @@ class LMI(BaseIndex):
                         n_steps += self.objects_in_buckets[index]
                     else:
                         n_steps += 0
-                    
+
                     if current_stop_cond_idx < len(stop_cond_objects) and stop_cond_objects[current_stop_cond_idx] <= n_steps:
                         time_checkpoint = time.time()
                         time_checkpoints.append(time_checkpoint-s)
@@ -466,5 +462,5 @@ class LMI(BaseIndex):
                         objects_checkpoints.append(n_steps)
                         current_stop_cond_idx += 1
             iterations += 1
-            
-        return {'id': int(query_id), 'steps': n_steps, 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'steps_checkpoints': objects_checkpoints}
+
+        return {'id': query_id, 'steps': n_steps, 'time_checkpoints': time_checkpoints, 'popped_nodes_checkpoints': popped_nodes_checkpoints, 'steps_checkpoints': objects_checkpoints}

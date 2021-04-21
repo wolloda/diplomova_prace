@@ -2,3 +2,14 @@
 2021-04-08 18:59:48 INFO: Buckets: [100, 100]
 2021-04-08 18:59:48 INFO: Total specs to train: 16
 2021-04-08 21:31:15 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 9086.518080642913 seconds (151.44196801071521 minutes)
+2021-04-15 07:31:25 INFO: Benchmark initialized
+2021-04-15 07:31:25 INFO: Buckets: [100, 100]
+2021-04-15 07:31:25 INFO: Total specs to train: 16
+2021-04-15 09:45:31 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 8046.119875639677 seconds (134.10199792732794 minutes)
+2021-04-15 19:26:37 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 34467.7128324653 seconds (574.4618805410884 minutes)
+2021-04-16 08:18:37 INFO: Benchmark initialized
+2021-04-16 08:18:37 INFO: Buckets: [100, 100]
+2021-04-16 08:18:37 INFO: Total specs to train: 16
+2021-04-16 10:34:26 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 8148.4560403861105 seconds (135.80760067310183 minutes)
+2021-04-16 20:17:13 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 34564.342236029916 seconds (576.0723706004986 minutes)
+2021-04-17 17:03:32 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 74114.68811641308 seconds (1235.244801940218 minutes)

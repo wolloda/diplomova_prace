@@ -41,7 +41,8 @@ class BaseIndex(object):
         
         self.is_profiset_or_mocap = True if ("profi" in PATH.lower() or "mocap" in PATH.lower()) else False
 
-        self.is_mindex = True if "mindex" in PATH.lower() else False
+        self.is_mindex = "mindex" in PATH.lower()
+
         if desc_values != -1:
             self.descriptor_values = desc_values
         else:
@@ -69,7 +70,8 @@ class BaseIndex(object):
         
         bucket_dict = {}
         for key, val in zip(groupbys.keys().values, groupbys.values):
-            bucket_dict[key] = val 
+            bucket_dict[tuple([int(k) for k in key])] = val
+
         
         return bucket_dict
     

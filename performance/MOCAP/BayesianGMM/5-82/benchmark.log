@@ -9569,3 +9569,11 @@ Name: 992, Length: 998, dtype: float64 with error index 0 is out of bounds for a
 2021-04-13 00:42:04 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 82, 'cov_type': 'diag', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1287.2311395388097 seconds (21.453852325646828 minutes)
 2021-04-13 01:04:02 INFO: Benchmark initialized
 2021-04-13 01:04:02 INFO: Buckets: [5, 82]
+2021-04-13 12:30:45 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 129233.6539060399 seconds (2153.8942317673313 minutes)
+2021-04-13 14:52:21 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries
+2021-04-16 03:06:17 INFO: Benchmark initialized
+2021-04-16 03:06:17 INFO: Buckets: [5, 82]
+2021-04-16 03:09:40 INFO: Benchmark initialized
+2021-04-16 03:09:40 INFO: Buckets: [5, 82]
+2021-04-17 14:53:21 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 5, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 82, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 128824.19650593959 seconds (2147.0699417656597 minutes)
+2021-04-17 17:17:16 ERROR: BayesianGMM `evaluate_knn_per_query` failed on 88 queries

@@ -9,7 +9,7 @@ class KMeansModel(BaseClassifier):
         """
         Trains a KMeans model.
         Expects model_dict to contain hyperparameters *comp* and *cov_type* (n. of components and covariance type)
-        
+
         Parameters
         -------
         kmeans_model: Dict
@@ -17,13 +17,13 @@ class KMeansModel(BaseClassifier):
         X: Numpy array
             Training values
         y: Numpy array
-            Training labels 
-        
+            Training labels
+
         Returns
         -------
         predictions: Numpy array
             Array of model predictions
-        
+
         encoder: LabelEncoder
             Mapping of actual labels to labels used in training
         """
@@ -33,18 +33,23 @@ class KMeansModel(BaseClassifier):
         max_iter = kmeans_model["max_iter"] if "max_iter" in kmeans_model else 100
 
         logging.info(f'Training KMeans model with values of shape {X.shape}: n. of clusters={kmeans_model["n_clusters"]} | initializations={n_init} | max iterations={max_iter}')
+        n_clusters = kmeans_model["n_clusters"]
         if X.shape[0] <= kmeans_model["n_clusters"]:
             previous_kmeans_clusters = kmeans_model["n_clusters"]
-            kmeans_model["n_clusters"] = X.shape[0] // 2
+            n_clusters = X.shape[0]
 
-            logging.warn(f"Reducing the number of components from {previous_kmeans_clusters} to {kmeans_model['n_clusters']} since the number of\
+            logging.warn(f"Reducing the number of components from {previous_kmeans_clusters} to {n_clusters} since the number of\
                            training samples ({X.shape[0]}) is less than {previous_kmeans_clusters}")
-        root = KMeans(n_clusters=kmeans_model["n_clusters"], n_init=n_init, max_iter=max_iter)
-        return super().train(root, X, y=None, descriptor_values = descriptor_values)
-    
+        root = KMeans(n_clusters=n_clusters, n_init=n_init, max_iter=max_iter)
+        return super().train_unsupervised(root, X)
+
     def predict(self, query, model, encoder, value="value_l"):
-        dist_distr = model.transform(query)[0]
-        dist_distr = max(dist_distr) - dist_distr
-        dist_distr += 1e-8
-        dist_distr /= sum(dist_distr)
-        return super().predict(dist_distr, encoder)
+        if model is not None:
+            dist_distr = model.transform(query)[0]
+            dist_distr = max(dist_distr) - dist_distr
+            dist_distr += 1e-8
+            dist_distr /= sum(dist_distr)
+            return super().predict(dist_distr, encoder)
+        else:
+            return [1]
+

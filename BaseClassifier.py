@@ -31,23 +31,28 @@ class BaseClassifier(object):
             Mapping of actual labels to labels used in training
         """
 
-        #print(X.shape[1], descriptor_values)
-        
         assert X.shape[1] == descriptor_values
-        #if not y:
         if y is None:
             return self.train_unsupervised(model, X)
         
         y, encoder = label_encode_data(y)
-        model.fit(X, y)
-        predictions = model.predict(X)
+        try:
+            model.fit(X, y)
+            predictions = model.predict(X)
+        except ValueError as e:
+            model = None
+            predictions = [0 for i in range(X.shape[0])]
         predictions = encoder.inverse_transform(predictions)
 
         return model, predictions, encoder
     
     def train_unsupervised(self, model, X):
-        model.fit(X)
-        predictions = model.predict(X)
+        try:
+            model.fit(X)
+            predictions = model.predict(X)
+         except ValueError as e:
+            model = None
+            predictions = [0 for i in range(X.shape[0])]
         return model, predictions, None
 
     def predict(self, prob_distr, encoder, value="value_l"):
@@ -58,5 +63,7 @@ class BaseClassifier(object):
             else:
                 classes_votes.append({value: i, "votes_perc": p})
 
+        shuffle(classes_votes)
         classes_votes = sorted(classes_votes, key = lambda i: i['votes_perc'], reverse=True)
         return classes_votes
+
