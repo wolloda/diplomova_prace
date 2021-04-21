@@ -7,3 +7,6 @@ __pycache__/
 Mtree-Cophir-100k/
 MTree/
 tags
+
+*.sh.o*
+*.sh.e*

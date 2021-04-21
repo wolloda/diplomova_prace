@@ -346,6 +346,10 @@ class LMI(BaseIndex):
         if path_label in self.mapping[level-1]:
             stack_index = self.mapping[level-1].index(path_label)
             model = self.stack[level][stack_index]
+
+            print(stack_index)
+            print(self.encoders)
+
             predictions = self.classifier.predict(query, model, encoder=self.encoders[1][stack_index])
         else:
             logging.warn(f"{path_label} is not in self.mapping[{[level-1]}].")
@@ -415,12 +419,12 @@ class LMI(BaseIndex):
         time_checkpoints = []; popped_nodes_checkpoints = []; objects_checkpoints = []
         
         query_id_orig = query_id
-        query_id = int(str(query_id).replace("-", "_"))
+
+        if "-" in str(query_id):
+            query_id = int(str(query_id).replace("-", "_"))
         
         query_row = df_res[(df_res['object_id'] == query_id)]         
         query = query_row.drop(self.predict_drop, axis=1).values
-        
-        
         
         predictions = self.classifier.predict(query, self.stack[0], self.encoders[0])
              

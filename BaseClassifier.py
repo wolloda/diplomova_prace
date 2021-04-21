@@ -31,6 +31,8 @@ class BaseClassifier(object):
             Mapping of actual labels to labels used in training
         """
 
+        #print(X.shape[1], descriptor_values)
+        
         assert X.shape[1] == descriptor_values
         #if not y:
         if y is None:

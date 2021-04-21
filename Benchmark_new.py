@@ -256,57 +256,59 @@ class Benchmark:
         training_specs = model_specs if model_specs else self.load_config(self.model) 
 
         for training_spec in training_specs:
-            self.logger.debug(training_spec)
-            spec = training_spec[self.model][0]
+            for model_rep in range(5):
+                self.logger.debug(training_spec)
+                spec = training_spec[self.model][0]
 
-            identifier = self.create_identifier(spec)
+                identifier = self.create_identifier(spec)
+                identifier += str(model_rep)
 
-            start = timer()
-            try:
-                df_result = self.li.train(self.df, training_spec, should_erase = True)
-                queries = get_sample_1k_objects(df_result, KNN_OBJECTS[self.dataset])
-
-                if self.dataset == DatasetDirs.MOCAP:
-                    df_result["object_id"] = df_result["object_id"].str.replace("-", "_").apply(int)
-
-            except Exception as e:
-                self.logger.error(f"Training_spec {training_spec} exception: {str(e)}")
-                continue
-
-            end = timer()
-            self.logger.info(f"{self.model} with training spec: {training_spec} trained on {self.dataset.value} in {end - start} seconds ({(end - start) / 60} minutes)")
-
-            checkpoint_count = len(object_checkpoints) 
-            query_count = len(queries)
-
-            model_times = [0] * checkpoint_count
-            model_recall = [0] * checkpoint_count
-
-            errors = []
-
-            for i in range(query_count):
-                search_result = self.li.search(df_result, queries.iloc[i]["object_id"], stop_cond_objects = object_checkpoints, debug = False)
-
-                time_checkpoints = search_result['time_checkpoints']
+                start = timer()
                 try:
-                    recall = evaluate_knn_per_query(search_result, df_result, knns)
+                    df_result = self.li.train(self.df, training_spec, should_erase = True)
+                    queries = get_sample_1k_objects(df_result, KNN_OBJECTS[self.dataset])
 
-                    for j in range(checkpoint_count):
-                        model_times[j] += time_checkpoints[j]
-                        model_recall[j] += recall[j]
+                    if self.dataset == DatasetDirs.MOCAP:
+                        df_result["object_id"] = df_result["object_id"].str.replace("-", "_").apply(int)
 
-                except IndexError as e:
-                    errors.append(i)
+                except Exception as e:
+                    self.logger.error(f"Training_spec {training_spec} exception: {str(e)}")
+                    continue
 
-            if errors:
-                self.logger.error(f"{self.model} `evaluate_knn_per_query` failed on {len(errors)} queries")
+                end = timer()
+                self.logger.info(f"{self.model} with training spec: {training_spec} trained on {self.dataset.value} in {end - start} seconds ({(end - start) / 60} minutes)")
 
-            model_times = list(map(lambda x: x / (query_count - len(errors)), model_times))
-            model_recall = list(map(lambda x: x / (query_count - len(errors)), model_recall))
+                checkpoint_count = len(object_checkpoints) 
+                query_count = len(queries)
 
-            final_results[identifier] = {"model_times": model_times, "model_recall": model_recall}
+                model_times = [0] * checkpoint_count
+                model_recall = [0] * checkpoint_count
 
-            with open(f"{self.destination}/{identifier}.csv", 'w') as f:
-                f.write("model_times,model_recall\n")
-                for i in range(checkpoint_count):
-                    f.write("%f,%f\n"%(model_times[i], model_recall[i]))
+                errors = []
+
+                for i in range(query_count):
+                    search_result = self.li.search(df_result, queries.iloc[i]["object_id"], stop_cond_objects = object_checkpoints, debug = False)
+
+                    time_checkpoints = search_result['time_checkpoints']
+                    try:
+                        recall = evaluate_knn_per_query(search_result, df_result, knns)
+
+                        for j in range(checkpoint_count):
+                            model_times[j] += time_checkpoints[j]
+                            model_recall[j] += recall[j]
+                    except IndexError as e:
+                        #self.logger.error(f"{self.model} `evaluate_knn_per_query` failed on query {queries[i]} with error {str(e)}")
+                        errors.append(i)
+
+                if errors:
+                    self.logger.error(f"{self.model} `evaluate_knn_per_query` failed on {len(errors)} queries")
+
+                model_times = list(map(lambda x: x / (query_count - len(errors)), model_times))
+                model_recall = list(map(lambda x: x / (query_count - len(errors)), model_recall))
+
+                final_results[identifier] = {"model_times": model_times, "model_recall": model_recall}
+
+                with open(f"{self.destination}/{identifier}.csv", 'w') as f:
+                    f.write("model_times,model_recall\n")
+                    for i in range(checkpoint_count):
+                        f.write("%f,%f\n"%(model_times[i], model_recall[i]))

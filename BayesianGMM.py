@@ -36,7 +36,7 @@ class BayesianGaussianMixtureModel(BaseClassifier):
         init_params = bayesian_gmm["init_params"] if "init_params" in bayesian_gmm else 'kmeans'
         weight_concentration_prior_type = bayesian_gmm["weight_concentration_prior_type"] if "init_params" in bayesian_gmm else 'dirichlet_process'
 
-        logging.info(f'Training GMM model with values of shape {X.shape}: n. of clusters={bayesian_gmm["comp"]} | covariance type={bayesian_gmm["cov_type"]} | max_iter={max_iter} | init_params={init_params} | weight_concentration_prior_type={weight_concentration_prior_type}')
+        logging.info(f'Training BayesianGMM model with values of shape {X.shape}: n. of clusters={bayesian_gmm["comp"]} | covariance type={bayesian_gmm["cov_type"]} | max_iter={max_iter} | init_params={init_params} | weight_concentration_prior_type={weight_concentration_prior_type}')
         if X.shape[0] <= bayesian_gmm["comp"]:
             previous_bayesian_gmm_comp = bayesian_gmm["comp"]
             bayesian_gmm["comp"] = X.shape[0] // 2
