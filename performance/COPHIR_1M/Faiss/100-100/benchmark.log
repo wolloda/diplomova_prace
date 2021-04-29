@@ -13,3 +13,9 @@
 2021-04-16 10:34:26 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 8148.4560403861105 seconds (135.80760067310183 minutes)
 2021-04-16 20:17:13 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 10}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 34564.342236029916 seconds (576.0723706004986 minutes)
 2021-04-17 17:03:32 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 15}}, {'n_clusters': 100, 'n_init': 5, 'LogReg': {'ep': 15}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 74114.68811641308 seconds (1235.244801940218 minutes)
+2021-04-25 02:02:43 INFO: Benchmark initialized
+2021-04-25 02:02:43 INFO: Buckets: [100, 100]
+2021-04-25 04:24:34 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 10, 'LogReg': {'ep': 5}}, {'n_clusters': 100, 'n_init': 10, 'LogReg': {'ep': 5}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 8511.2348850267 seconds (141.853914750445 minutes)
+2021-04-28 01:22:54 INFO: Benchmark initialized
+2021-04-28 01:22:54 INFO: Buckets: [100, 100]
+2021-04-29 01:51:45 INFO: Faiss with training spec: {'Faiss': [{'n_clusters': 100, 'n_init': 20, 'LogReg': {'ep': 20}}, {'n_clusters': 100, 'n_init': 20, 'LogReg': {'ep': 20}}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 88130.64274932723 seconds (1468.8440458221205 minutes)

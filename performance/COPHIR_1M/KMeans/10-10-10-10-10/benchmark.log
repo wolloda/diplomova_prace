@@ -1,0 +1,4 @@
+2021-04-22 11:19:49 INFO: Benchmark initialized
+2021-04-22 11:19:49 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-04-22 11:19:49 INFO: Total specs to train: 9
+2021-04-22 11:25:32 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 10, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 10, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 10, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 10, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 10, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 342.8709226474166 seconds (5.7145153774569435 minutes)
