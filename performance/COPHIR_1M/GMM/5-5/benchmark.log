@@ -1,0 +1,5 @@
+2021-05-05 14:00:17 INFO: Benchmark initialized
+2021-05-05 14:00:17 INFO: Buckets: [5, 5]
+2021-05-05 14:00:18 INFO: Total specs to train: 24
+2021-05-05 14:02:11 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 113.50466410070658 seconds (1.891744401678443 minutes)
+2021-05-05 14:03:41 INFO: GMM with training spec: {'GMM': [{'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}, {'comp': 5, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 16.52050532400608 seconds (0.27534175540010136 minutes)

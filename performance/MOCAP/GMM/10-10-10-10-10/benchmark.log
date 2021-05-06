@@ -1,0 +1,4 @@
+2021-04-25 04:17:15 INFO: Benchmark initialized
+2021-04-25 04:17:15 INFO: Buckets: [10, 10, 10, 10, 10]
+2021-04-25 04:17:15 INFO: Total specs to train: 24
+2021-04-25 04:41:05 INFO: GMM with training spec: {'GMM': [{'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}, {'comp': 10, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1429.17252372019 seconds (23.819542062003165 minutes)

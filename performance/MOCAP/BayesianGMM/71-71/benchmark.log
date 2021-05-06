@@ -1116,3 +1116,59 @@ inutes)
 2021-04-16 03:06:36 INFO: Buckets: [71, 71]
 2021-04-16 03:08:07 INFO: Benchmark initialized
 2021-04-16 03:08:07 INFO: Buckets: [71, 71]
+2021-04-29 04:25:14 INFO: Benchmark initialized
+2021-04-29 04:25:14 INFO: Buckets: [71, 71]
+2021-04-29 06:51:49 INFO: Benchmark initialized
+2021-04-29 06:51:49 INFO: Buckets: [71, 71]
+2021-04-29 07:08:55 INFO: Benchmark initialized
+2021-04-29 07:08:55 INFO: Buckets: [71, 71]
+2021-04-29 08:19:49 INFO: Benchmark initialized
+2021-04-29 08:19:49 INFO: Buckets: [71, 71]
+2021-04-29 08:54:07 INFO: Benchmark initialized
+2021-04-29 08:54:07 INFO: Buckets: [71, 71]
+2021-04-29 12:35:06 INFO: Benchmark initialized
+2021-04-29 12:35:06 INFO: Buckets: [71, 71]
+2021-04-29 12:40:10 INFO: Benchmark initialized
+2021-04-29 12:40:10 INFO: Buckets: [71, 71]
+2021-04-29 12:40:46 INFO: Benchmark initialized
+2021-04-29 12:40:46 INFO: Buckets: [71, 71]
+2021-04-29 12:41:34 INFO: Benchmark initialized
+2021-04-29 12:41:34 INFO: Buckets: [71, 71]
+2021-04-29 12:49:30 INFO: Benchmark initialized
+2021-04-29 12:49:30 INFO: Buckets: [71, 71]
+2021-04-29 12:54:27 INFO: Benchmark initialized
+2021-04-29 12:54:27 INFO: Buckets: [71, 71]
+2021-04-29 12:54:51 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 796.0679802719969 seconds (13.267799671199949 minutes)
+2021-04-29 12:58:13 INFO: Benchmark initialized
+2021-04-29 12:58:13 INFO: Buckets: [71, 71]
+2021-04-29 12:58:14 INFO: Benchmark initialized
+2021-04-29 12:58:14 INFO: Buckets: [71, 71]
+2021-04-29 12:58:45 INFO: Benchmark initialized
+2021-04-29 12:58:45 INFO: Buckets: [71, 71]
+2021-05-03 14:05:16 INFO: Benchmark initialized
+2021-05-03 14:05:16 INFO: Buckets: [71, 71]
+2021-05-03 14:05:32 INFO: Benchmark initialized
+2021-05-03 14:05:32 INFO: Buckets: [71, 71]
+2021-05-03 14:27:04 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1313.674454499036 seconds (21.894574241650602 minutes)
+2021-05-03 14:44:49 INFO: Benchmark initialized
+2021-05-03 14:44:49 INFO: Buckets: [71, 71]
+2021-05-03 15:22:35 INFO: Benchmark initialized
+2021-05-03 15:22:35 INFO: Buckets: [71, 71]
+2021-05-03 16:08:47 INFO: Benchmark initialized
+2021-05-03 16:08:47 INFO: Buckets: [71, 71]
+2021-05-03 19:31:05 INFO: Benchmark initialized
+2021-05-03 19:31:05 INFO: Buckets: [71, 71]
+2021-05-03 20:49:00 INFO: Benchmark initialized
+2021-05-03 20:49:00 INFO: Buckets: [71, 71]
+2021-05-03 20:51:05 INFO: Benchmark initialized
+2021-05-03 20:51:05 INFO: Buckets: [71, 71]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          2021-05-05 09:52:31 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 133285.86764085514 seconds (2221.4311273475855 minutes)
+2021-05-05 10:01:12 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 133932.38534310192 seconds (2232.206422385032 minutes)
+2021-05-05 14:06:50 INFO: Benchmark initialized
+2021-05-05 14:06:50 INFO: Buckets: [71, 71]
+2021-05-05 14:08:57 INFO: Benchmark initialized
+2021-05-05 14:08:57 INFO: Buckets: [71, 71]
+2021-05-05 14:30:59 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'spherical', 'max_iter': 1, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 1321.24764931947 seconds (22.0207941553245 minutes)
+2021-05-05 20:02:09 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}, {'comp': 71, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_process'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 165876.78460952098 seconds (2764.6130768253497 minutes)
+2021-05-05 22:56:13 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 71, 'cov_type': 'tied', 'max_iter': 2, 'init_params': 'random', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 162590.43277598498 seconds (2709.8405462664164 minutes)
+2021-05-06 11:50:21 INFO: BayesianGMM with training spec: {'BayesianGMM': [{'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}, {'comp': 71, 'cov_type': 'tied', 'max_iter': 1, 'init_params': 'kmeans', 'weight_concentration_prior_type': 'dirichlet_distribution'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 231555.9684080272 seconds (3859.266140133787 minutes)
