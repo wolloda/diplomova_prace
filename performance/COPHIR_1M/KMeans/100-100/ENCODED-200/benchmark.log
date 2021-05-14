@@ -1,0 +1,10 @@
+2021-05-14 07:56:45 INFO: Benchmark initialized
+2021-05-14 08:11:39 INFO: Autoencoder from 282 -> 200 trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 893.5231587206945 seconds (14.892052645344908 minutes)
+2021-05-14 08:12:04 INFO: Buckets: [100, 100]
+2021-05-14 08:12:04 INFO: Total specs to train: 9
+2021-05-14 08:18:18 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 374.58445878326893 seconds (6.243074313054482 minutes)
+2021-05-14 08:52:45 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 5, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 5, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 1802.1099429484457 seconds (30.035165715807427 minutes)
+2021-05-14 09:56:04 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 10, 'max_iter': 5}, {'n_clusters': 100, 'n_init': 10, 'max_iter': 5}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 3523.5625409297645 seconds (58.72604234882941 minutes)
+2021-05-14 10:05:45 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 1, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 1, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 340.1562935644761 seconds (5.669271559407934 minutes)
+2021-05-14 10:39:04 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 5, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 5, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 1770.7154026413336 seconds (29.51192337735556 minutes)
+2021-05-14 11:48:50 INFO: KMeans with training spec: {'KMeans': [{'n_clusters': 100, 'n_init': 10, 'max_iter': 10}, {'n_clusters': 100, 'n_init': 10, 'max_iter': 10}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M in 3917.401508334093 seconds (65.29002513890154 minutes)
