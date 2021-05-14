@@ -9,7 +9,7 @@ def guess_the_labels(df_res):
     -------
     df_res: DataFrame
         Trained LMI DataFrame
-    
+
     Returns
     -------
     labels: List
@@ -22,7 +22,7 @@ def guess_the_labels(df_res):
         while f"L{i}" in df_res.columns:
             labels.append(f"L{i}")
             i += 1
-    return labels
+    return sorted(labels)
 
 def knn_evaluate(popped, query_id, df_res, knns, debug=False):
     """ Goes over the overlap of found buckets and target buckets of the ground-truth knns,
@@ -38,7 +38,7 @@ def knn_evaluate(popped, query_id, df_res, knns, debug=False):
         Trained LMI DataFrame
     knns: Dict
         Buckets of the query's knns
-    
+
     Returns
     -------
     labels: List
@@ -67,7 +67,7 @@ def get_knn_buckets_for_query(df_res, query, gt_knn, labels=None):
         Query's knns
     labels: List
         List of bucket labels
-    
+
     Returns
     -------
     d: Dict
@@ -76,8 +76,11 @@ def get_knn_buckets_for_query(df_res, query, gt_knn, labels=None):
     if not labels:
         labels = guess_the_labels(df_res)
 
+    if isinstance(query, np.float64) or type(query) == float:
+        query = int(query)
+
     knns = gt_knn[str(query)]
-        
+
     d = {}
     for k in knns.keys():
         bucket = "C.1." + "".join([f"{int(k)}." for k in df_res[df_res["object_id"] == int(k)][labels].values[0] if str(k) != "nan"])[:-1]
@@ -100,7 +103,7 @@ def evaluate_knn_per_query(res, df_res, gt_knns, labels=None, debug=True):
         All the queries' knns
     labels: List
         List of bucket labels
-    
+
     Returns
     -------
     knn_results_per_query: List
@@ -111,7 +114,7 @@ def evaluate_knn_per_query(res, df_res, gt_knns, labels=None, debug=True):
     if not labels:
         labels = guess_the_labels(df_res)
     query = res['id']
-    
+
     knns = get_knn_buckets_for_query(df_res, query, gt_knns, labels)
 
     knn_results_per_query = []
@@ -132,7 +135,7 @@ def evaluate_knn(gt_knns, results, df_res, labels=None, object_labels=[500,1000,
         All the queries' knns
     labels: List
         List of bucket labels
-    
+
     Returns
     -------
     knn_results: List
@@ -157,3 +160,4 @@ def evaluate_knn(gt_knns, results, df_res, labels=None, object_labels=[500,1000,
     print([knn_results[:, i].mean() for i in range(knn_results.shape[1])])
 
     return knn_results, time_results, steps_results
+

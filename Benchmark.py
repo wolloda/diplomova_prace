@@ -50,11 +50,13 @@ class Benchmark:
         self.logger = self.get_logger()
         self.logger.info("Benchmark initialized")
 
+        self.logger.info(f"Buckets (before training AE): {self.buckets}")
+
         if (descriptors != DEFAULT_DESCRIPTORS[dataset]):
             self.logger.debug("Number of output columns differs from number of columns in dataset -> training an encoder")
             self.df = self.get_encoded_df(descriptors)
 
-        self.logger.info(f"Buckets: {self.buckets}")
+        self.logger.info(f"Buckets (after training AE): {self.buckets}")
 
     def prepare_dataset(self, dataset, descriptors, normalize = True):
         DATA_LOCATION = "/storage/brno6/home/tslaninakova/learned-indexes"
@@ -157,7 +159,7 @@ class Benchmark:
         if model == "GMM":
             covariance_types = ['spherical', 'diag', 'tied', 'full']
             max_iter = [1, 2, 5]
-            init_params = ['kmeans', 'random']
+            init_params = ['kmeans']
 
             for covariance_type in covariance_types:
                 for iterations in max_iter:
@@ -171,7 +173,7 @@ class Benchmark:
         elif model == "BayesianGMM":
             covariance_types = ['spherical', 'tied', 'diag', 'full']
             max_iter = [1, 2]
-            init_params = ['kmeans', 'random']
+            init_params = ['kmeans']
             weight_concentration_prior_types = ['dirichlet_process', 'dirichlet_distribution']
 
             for covariance_type in covariance_types:
@@ -286,7 +288,6 @@ class Benchmark:
 
             for i in range(query_count):
                 search_result = self.li.search(df_result, queries.iloc[i]["object_id"], stop_cond_objects = object_checkpoints, debug = False)
-
                 time_checkpoints = search_result['time_checkpoints']
                 try:
                     recall = evaluate_knn_per_query(search_result, df_result, knns)
@@ -297,9 +298,14 @@ class Benchmark:
 
                 except IndexError as e:
                     errors.append(i)
+                except KeyError as e:
+                    errors.append(i)
+
 
             if errors:
                 self.logger.error(f"{self.model} `evaluate_knn_per_query` failed on {len(errors)} queries")
+                if len(errors) == query_count:
+                    continue
 
             model_times = list(map(lambda x: x / (query_count - len(errors)), model_times))
             model_recall = list(map(lambda x: x / (query_count - len(errors)), model_recall))

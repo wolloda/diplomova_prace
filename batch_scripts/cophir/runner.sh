@@ -1,0 +1,13 @@
+qsub faiss_wide.sh
+qsub faiss_wide_1.sh
+qsub faiss_wide_2.sh
+qsub faiss_wide_3.sh
+qsub faiss_wide_4.sh
+qsub faiss_wide_5.sh
+qsub faiss_wide_6.sh
+qsub faiss_wide_7.sh
+qsub faiss_wide_8.sh
+qsub faiss_wide_9.sh
+qsub faiss_wide_10.sh
+qsub faiss_wide_11.sh
+qsub faiss_wide_12.sh

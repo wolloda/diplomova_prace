@@ -1,0 +1,150 @@
+2021-04-08 01:17:01.790868: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-04-08 01:17:01.802322: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: /software/cuda/10.1/cudnn/7.6.4/lib64:/software/cuda/10.1/lib64:/software/python-3.6.2/gcc/lib
+2021-04-08 01:17:01.802375: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+08-04-21 01:17 INFO: Loading faiss.
+08-04-21 01:28 INFO: Loaded dataset of shape: (354902, 4099)
+08-04-21 01:28 INFO: Dataset /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap loaded
+2021-04-08 01:28:26 INFO: Benchmark initialized
+08-04-21 01:28 INFO: Benchmark initialized
+2021-04-08 01:28:26 INFO: Buckets: [8, 8, 8, 8, 8]
+08-04-21 01:28 INFO: Buckets: [8, 8, 8, 8, 8]
+08-04-21 01:28 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:34 INFO: Training level 1
+08-04-21 01:34 INFO: Training GMM model with values of shape (13878, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:34 INFO: Training GMM model with values of shape (47219, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:35 INFO: Training GMM model with values of shape (41458, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:36 INFO: Training GMM model with values of shape (68121, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:37 INFO: Training GMM model with values of shape (50338, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:38 INFO: Training GMM model with values of shape (45919, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:39 INFO: Training GMM model with values of shape (37636, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:39 INFO: Training GMM model with values of shape (50333, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+2021-04-08 01:40:37 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 730.1727071069181 seconds (12.169545118448635 minutes)
+08-04-21 01:40 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 730.1727071069181 seconds (12.169545118448635 minutes)
+2021-04-08 01:50:52 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 01:50 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 01:51 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:56 INFO: Training level 1
+08-04-21 01:56 INFO: Training GMM model with values of shape (51076, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:58 INFO: Training GMM model with values of shape (51194, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:58 INFO: Training GMM model with values of shape (20659, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 01:59 INFO: Training GMM model with values of shape (46655, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:00 INFO: Training GMM model with values of shape (63638, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:00 INFO: Training GMM model with values of shape (40434, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:01 INFO: Training GMM model with values of shape (51199, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:02 INFO: Training GMM model with values of shape (30047, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+2021-04-08 02:02:50 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 718.1489965803921 seconds (11.969149943006535 minutes)
+08-04-21 02:02 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 718.1489965803921 seconds (11.969149943006535 minutes)
+2021-04-08 02:13:00 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:13 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:13 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:19 INFO: Training level 1
+08-04-21 02:19 INFO: Training GMM model with values of shape (37519, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:20 INFO: Training GMM model with values of shape (39477, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:20 INFO: Training GMM model with values of shape (69366, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:22 INFO: Training GMM model with values of shape (44663, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:22 INFO: Training GMM model with values of shape (56769, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:23 INFO: Training GMM model with values of shape (43917, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:24 INFO: Training GMM model with values of shape (49342, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:25 INFO: Training GMM model with values of shape (13849, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+2021-04-08 02:25:33 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 752.3656755536795 seconds (12.539427925894659 minutes)
+08-04-21 02:25 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 752.3656755536795 seconds (12.539427925894659 minutes)
+2021-04-08 02:35:41 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:35 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:35 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:40 INFO: Training level 1
+08-04-21 02:40 INFO: Training GMM model with values of shape (44496, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:41 INFO: Training GMM model with values of shape (49733, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:42 INFO: Training GMM model with values of shape (39385, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:43 INFO: Training GMM model with values of shape (64275, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:44 INFO: Training GMM model with values of shape (29449, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:44 INFO: Training GMM model with values of shape (20545, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:44 INFO: Training GMM model with values of shape (55426, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 02:45 INFO: Training GMM model with values of shape (51593, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+2021-04-08 02:46:30 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 648.0882036238909 seconds (10.80147006039818 minutes)
+08-04-21 02:46 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 648.0882036238909 seconds (10.80147006039818 minutes)
+2021-04-08 02:56:43 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 02:56 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:01 INFO: Training level 1
+08-04-21 03:01 INFO: Training GMM model with values of shape (49660, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:02 INFO: Training GMM model with values of shape (30123, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:02 INFO: Training GMM model with values of shape (42381, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:03 INFO: Training GMM model with values of shape (57880, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:04 INFO: Training GMM model with values of shape (48568, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:04 INFO: Training GMM model with values of shape (20628, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:04 INFO: Training GMM model with values of shape (25343, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+08-04-21 03:05 INFO: Training GMM model with values of shape (80319, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=kmeans
+2021-04-08 03:06:34 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 590.369697060436 seconds (9.839494951007266 minutes)
+08-04-21 03:06 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'kmeans'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 590.369697060436 seconds (9.839494951007266 minutes)
+2021-04-08 03:16:57 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:16 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:17 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:18 INFO: Training level 1
+08-04-21 03:18 INFO: Training GMM model with values of shape (34803, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:18 INFO: Training GMM model with values of shape (63763, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:18 INFO: Training GMM model with values of shape (40393, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:19 INFO: Training GMM model with values of shape (41103, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:19 INFO: Training GMM model with values of shape (42541, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:19 INFO: Training GMM model with values of shape (41523, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:19 INFO: Training GMM model with values of shape (55821, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:19 INFO: Training GMM model with values of shape (34955, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+2021-04-08 03:19:57 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 179.79543074034154 seconds (2.9965905123390257 minutes)
+08-04-21 03:19 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 179.79543074034154 seconds (2.9965905123390257 minutes)
+2021-04-08 03:30:19 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:30 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:30 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:31 INFO: Training level 1
+08-04-21 03:31 INFO: Training GMM model with values of shape (59304, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (20376, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (33180, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (48714, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (54532, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (27217, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (67454, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:32 INFO: Training GMM model with values of shape (44125, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+2021-04-08 03:33:17 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 177.33194274827838 seconds (2.955532379137973 minutes)
+08-04-21 03:33 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 177.33194274827838 seconds (2.955532379137973 minutes)
+2021-04-08 03:43:33 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:43 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:43 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:45 INFO: Training level 1
+08-04-21 03:45 INFO: Training GMM model with values of shape (36265, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:45 INFO: Training GMM model with values of shape (34644, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:45 INFO: Training GMM model with values of shape (53148, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:45 INFO: Training GMM model with values of shape (93185, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:45 INFO: Training GMM model with values of shape (24408, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:46 INFO: Training GMM model with values of shape (17585, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:46 INFO: Training GMM model with values of shape (45252, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:46 INFO: Training GMM model with values of shape (50415, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+2021-04-08 03:46:39 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 185.6535275168717 seconds (3.0942254586145284 minutes)
+08-04-21 03:46 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 185.6535275168717 seconds (3.0942254586145284 minutes)
+2021-04-08 03:56:55 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:56 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 03:57 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:58 INFO: Training level 1
+08-04-21 03:58 INFO: Training GMM model with values of shape (49289, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:58 INFO: Training GMM model with values of shape (48158, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:58 INFO: Training GMM model with values of shape (44535, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:58 INFO: Training GMM model with values of shape (41578, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:59 INFO: Training GMM model with values of shape (70433, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:59 INFO: Training GMM model with values of shape (38089, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:59 INFO: Training GMM model with values of shape (30154, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 03:59 INFO: Training GMM model with values of shape (32666, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+2021-04-08 03:59:51 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 176.00777172110975 seconds (2.9334628620184957 minutes)
+08-04-21 03:59 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 176.00777172110975 seconds (2.9334628620184957 minutes)
+2021-04-08 04:10:11 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 04:10 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 04:10 INFO: Training GMM model with values of shape (354902, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:11 INFO: Training level 1
+08-04-21 04:11 INFO: Training GMM model with values of shape (38659, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:11 INFO: Training GMM model with values of shape (42368, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:11 INFO: Training GMM model with values of shape (45235, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:12 INFO: Training GMM model with values of shape (41190, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:12 INFO: Training GMM model with values of shape (47909, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:12 INFO: Training GMM model with values of shape (57099, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:12 INFO: Training GMM model with values of shape (53461, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+08-04-21 04:12 INFO: Training GMM model with values of shape (28981, 4096): n. of clusters=8 | covariance type=spherical | max iterations=2 | initial parameters=random
+2021-04-08 04:13:05 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 174.43774118833244 seconds (2.9072956864722075 minutes)
+08-04-21 04:13 INFO: GMM with training spec: {'GMM': [{'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}, {'comp': 8, 'cov_type': 'spherical', 'max_iter': 2, 'init_params': 'random'}]} trained on /storage/brno6/home/tslaninakova/learned-indexes/MTree1M-mocap in 174.43774118833244 seconds (2.9072956864722075 minutes)
+2021-04-08 04:23:19 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries
+08-04-21 04:23 ERROR: GMM `evaluate_knn_per_query` failed on 88 queries

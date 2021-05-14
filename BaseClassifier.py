@@ -5,6 +5,9 @@ from random import shuffle
 import logging
 logging.basicConfig(datefmt='%d-%m-%y %H:%M', format='%(asctime)-15s%(levelname)s: %(message)s', level=logging.INFO)
 
+from sklearn.tree import DecisionTreeClassifier
+
+
 class BaseClassifier(object):
 
     def __init__(self):
@@ -12,29 +15,30 @@ class BaseClassifier(object):
 
     def train(self, model, X, y, descriptor_values):
         """ Encodes the data for training, trains a scikit-learn classifier and collects predictions
-        
+
         Parameters
         -------
-        mode: 
+        mode:
             Dictionary of model specification
         X: Numpy array
             Training values
         y: Numpy array
-            Training labels 
-        
+            Training labels
+
         Returns
         -------
         predictions: Numpy array
             Array of model predictions
-        
+
         encoder: LabelEncoder
             Mapping of actual labels to labels used in training
         """
 
         assert X.shape[1] == descriptor_values
+        #if not y:
         if y is None:
             return self.train_unsupervised(model, X)
-        
+
         y, encoder = label_encode_data(y)
         try:
             model.fit(X, y)
@@ -45,12 +49,12 @@ class BaseClassifier(object):
         predictions = encoder.inverse_transform(predictions)
 
         return model, predictions, encoder
-    
+
     def train_unsupervised(self, model, X):
         try:
             model.fit(X)
             predictions = model.predict(X)
-         except ValueError as e:
+        except ValueError as e:
             model = None
             predictions = [0 for i in range(X.shape[0])]
         return model, predictions, None
